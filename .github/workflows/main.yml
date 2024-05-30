@@ -16,9 +16,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+    
+      - name: Get Versions
+        id: versions
+        run: |
+          VERSION_NUMBER=$(grep -oP '(?<=public $version ").*(?=")'  meari.capabilities.php)
+          echo "VERSION_NUMBER=${VERSION_NUMBER}" >> $GITHUB_ENV
 
       - name: Release
-        uses: cycjimmy/semantic-release-action@v4
+        uses: softprops/action-gh-release@v1
+        with:
+          files: meari.capabilities.php
+          tag_name: "v${{ env.VERSION_NUMBER }}"
+          name: "Release v${{ env.VERSION_NUMBER }}"
+          body: "Version: ${{ env.VERSION_NUMBER }}"
+          generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
