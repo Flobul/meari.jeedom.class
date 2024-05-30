@@ -20,7 +20,7 @@ jobs:
       - name: Get Versions
         id: versions
         run: |
-          VERSION_NUMBER=$(grep -oP '(?<=public $version ").*(?=")'  meari.capabilities.php)
+          VERSION_NUMBER=$(grep -oP '(?<=public \$version = ").*(?=")'  meari.capabilities.php)
           echo "VERSION_NUMBER=${VERSION_NUMBER}" >> $GITHUB_ENV
 
       - name: Release
