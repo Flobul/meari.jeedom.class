@@ -409,13 +409,13 @@ class meari_capabilities
                     "type" => "info",
                     "subType" => "numeric",
                     "isHistorize" => 1,
-                    "name" => __("Sensibilité de détection de bruit", __FILE__)
+                    "name" => __("Sensibilité de détection du bruit", __FILE__)
                 ),
                 array(
                     "logicalId"  => "soundDetSensitivity::select",
                     "type" => "action",
                     "subType" => "select",
-                    "name" => __("Changer la sensibilité de détection de bruit", __FILE__),
+                    "name" => __("Changer la sensibilité de détection du bruit", __FILE__),
                     "configuration" => array(
                         "minValue" => 0,
                         "maxValue" => 2,
@@ -737,7 +737,7 @@ class meari_capabilities
                 "logicalId"  => "chimeProRingVolume",
                 "type" => "info",
                 "subType" => "numeric",
-                "name" => __("chimeProRingVolume", __FILE__),
+                "name" => __("Volume de la sonnerie du carillon pro", __FILE__),
                 "unite" => "%",
                 "configuration" => array(
                     "minValue" => 0,
