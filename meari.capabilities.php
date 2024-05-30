@@ -1,6 +1,7 @@
 <?php
 class meari_capabilities
 {
+    public $version = '1.000';
     public $enums;
 
     public function __construct()
