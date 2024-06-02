@@ -1,8 +1,10 @@
 <?php
 class meari_capabilities
 {
-    public $version = "1.000";
+    public static $version = "1.001";
     public $enums;
+    public $apps;
+    public $errors;
 
     public function __construct()
     {
@@ -256,7 +258,7 @@ class meari_capabilities
                     "logicalId"  => "sdRecordType",
                     "type" => "info",
                     "subType" => "numeric",
-                "isHistorize" => 1,
+                    "isHistorize" => 1,
                     "name" => __("Mode d'enregistrement sur carte SD", __FILE__)
                 ),
                 array(
@@ -2537,7 +2539,7 @@ class meari_capabilities
                 "subType" => "string",
                 "isHistorize" => 0,
                 "name" => __("Messages d'erreur", __FILE__)
-            ),   
+            ),
             "items" => array(
                 "logicalId"  => "mqttIotFirstKey",
                 "type" => "info",
@@ -2550,6 +2552,216 @@ class meari_capabilities
                 "subType" => "string",
                 "name" => __("mqttIotThirdKey", __FILE__)
             )
+        );
+
+        $this->apps = array(
+            "CloudEdge" => array(
+                "BRAND"            => "8",
+                "APP_VERSION"      => "5.4.2",
+                "APP_VERSION_CODE" => "176",
+                "SDK_VERSION"      => "5.4.0.2024.02.26",
+                "USERAGENT"        => "Meari/5.4.2 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "Arenti" => array(
+                "BRAND"            => "39",
+                "APP_VERSION"      => "4.2.1",
+                "APP_VERSION_CODE" => "112",
+                "SDK_VERSION"      => "5.3.0.2023.10.23",
+                "USERAGENT"        => "Arenti/4.2.1 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "isiwi" => array(
+                "BRAND"            => "51",
+                "APP_VERSION"      => "5.2.3",
+                "APP_VERSION_CODE" => "1",
+                "SDK_VERSION"      => "4.4.0.2022.07.22",
+                "USERAGENT"        => "IS/5.2.3 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "ZUMIMALL" => array(
+                "BRAND"            => "55",
+                "APP_VERSION"      => "5.3.3",
+                "APP_VERSION_CODE" => "1",
+                "SDK_VERSION"      => "5.3.0.2023.10.23",
+                "USERAGENT"        => "ZM/5.3.3 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "VacosSmart" => array(
+                "BRAND"            => "62",
+                "APP_VERSION"      => "2.4.5",
+                "APP_VERSION_CODE" => "1",
+                "SDK_VERSION"      => "3.1.0.2021.3.11",
+                "USERAGENT"        => "VacosSmart/2.4.5 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "COOAU" => array(
+                "BRAND"            => "65",
+                "APP_VERSION"      => "5.2.2",
+                "APP_VERSION_CODE" => "111",
+                "SDK_VERSION"      => "4.4.0.2022.07.22",
+                "USERAGENT"        => "COO/5.2.2 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "Baby Watch Plus" => array(
+                "BRAND"            => "67",
+                "APP_VERSION"      => "4.2.1",
+                "APP_VERSION_CODE" => "2",
+                "SDK_VERSION"      => "3.1.0.2021.3.11",
+                "USERAGENT"        => "Bab/4.2.1 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "My Uniden +" => array(
+                "BRAND"            => "75",
+                "APP_VERSION"      => "5.4.1",
+                "APP_VERSION_CODE" => "1",
+                "SDK_VERSION"      => "5.4.0.2024.02.26",
+                "USERAGENT"        => "BF/5.4.1 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "CloudPlus" => array(
+                "BRAND"            => "77",
+                "APP_VERSION"      => "5.2.3",
+                "APP_VERSION_CODE" => "2",
+                "SDK_VERSION"      => "4.4.0.2022.07.22",
+                "USERAGENT"        => "Cln/5.2.3 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "Clouddot" => array(
+                "BRAND"            => "80",
+                "APP_VERSION"      => "5.2.1",
+                "APP_VERSION_CODE" => "13",
+                "SDK_VERSION"      => "4.4.0.2022.07.22",
+                "USERAGENT"        => "Cln/5.2.1 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "ieGeek Cam" => array(
+                "BRAND"            => "81",
+                "APP_VERSION"      => "5.3.0",
+                "APP_VERSION_CODE" => "152",
+                "SDK_VERSION"      => "5.3.0.2023.10.23",
+                "USERAGENT"        => "ieG/5.3.0 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "Cococam" => array(
+                "BRAND"            => "82",
+                "APP_VERSION"      => "5.3.2",
+                "APP_VERSION_CODE" => "151",
+                "SDK_VERSION"      => "5.3.0.2023.10.23",
+                "USERAGENT"        => "Coc/5.3.2 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "ANRAN" => array(
+                "BRAND"            => "84",
+                "APP_VERSION"      => "5.2.4",
+                "APP_VERSION_CODE" => "1",
+                "SDK_VERSION"      => "4.4.0.2022.07.22",
+                "USERAGENT"        => "An/5.2.4 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "Elemage Cam" => array(
+                "BRAND"            => "92",
+                "APP_VERSION"      => "5.3.0",
+                "APP_VERSION_CODE" => "1",
+                "SDK_VERSION"      => "5.3.0.2023.10.23",
+                "USERAGENT"        => "ELE/5.3.0 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "WGV" => array(
+                "BRAND"            => "96",
+                "APP_VERSION"      => "5.2.3",
+                "APP_VERSION_CODE" => "1",
+                "SDK_VERSION"      => "4.4.0.2022.07.22",
+                "USERAGENT"        => "WGV/5.2.3 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "Mubview" => array(
+                "BRAND"            => "97",
+                "APP_VERSION"      => "5.3.3",
+                "APP_VERSION_CODE" => "1",
+                "SDK_VERSION"      => "5.3.0.2023.10.23",
+                "USERAGENT"        => "MV/5.3.3 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "Morecam" => array(
+                "BRAND"            => "98",
+                "APP_VERSION"      => "5.3.2",
+                "APP_VERSION_CODE" => "1",
+                "SDK_VERSION"      => "5.3.0.2023.10.23",
+                "USERAGENT"        => "MC/5.3.2 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "SV3C Cloud" => array(
+                "BRAND"            => "100",
+                "APP_VERSION"      => "5.2.3",
+                "APP_VERSION_CODE" => "2",
+                "SDK_VERSION"      => "4.4.0.2022.07.22",
+                "USERAGENT"        => "SVC/5.2.3 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "BoifunCam" => array(
+                "BRAND"            => "104",
+                "APP_VERSION"      => "5.2.2",
+                "APP_VERSION_CODE" => "1",
+                "SDK_VERSION"      => "4.4.0.2022.07.22",
+                "USERAGENT"        => "BOI/5.2.2 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "Safeview" => array(
+                "BRAND"            => "107",
+                "APP_VERSION"      => "5.3.1",
+                "APP_VERSION_CODE" => "2",
+                "SDK_VERSION"      => "5.3.0.2023.10.23",
+                "USERAGENT"        => "SVC/5.3.1 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "DingLink" => array(
+                "BRAND"            => "108",
+                "APP_VERSION"      => "1.0.0",
+                "APP_VERSION_CODE" => "2",
+                "SDK_VERSION"      => "4.4.0.2022.07.22",
+                "USERAGENT"        => "DLK/1.0.0 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "Topcony" => array(
+                "BRAND"            => "114",
+                "APP_VERSION"      => "1.0.0",
+                "APP_VERSION_CODE" => "2",
+                "SDK_VERSION"      => "4.4.0.2022.07.22",
+                "USERAGENT"        => "TC/1.0.0 (iPhone; iOS 17.4.1; Scale/2.00)"
+            ),
+            "Yes iHome" => array(
+                "BRAND"            => "119",
+                "APP_VERSION"      => "5.1.1",
+                "APP_VERSION_CODE" => "1",
+                "SDK_VERSION"      => "4.4.0.2022.07.22",
+                "USERAGENT"        => "YH/5.1.1 (iPhone; iOS 17.4.1; Scale/2.00)"
+            )
+        );
+
+        $this->errors = array(
+            '1001' => __('Succès', __FILE__),
+            '1002' => __('Le traitement du serveur a échoué, veuillez réessayer plus tard', __FILE__),
+            '1003' => __('Le paramètre est vide', __FILE__),
+            '1004' => __('Le code de vérification a été envoyé', __FILE__),
+            '1005' => __('Erreur système', __FILE__),
+            '1006' => __('Erreur de base de données', __FILE__),
+            '1007' => __('Les données n\'existent pas', __FILE__),
+            '1008' => __('Le code de vérification est erroné', __FILE__),
+            '1009' => __('Le code de vérification a expiré', __FILE__),
+            '1010' => __('Vous êtes déjà amis', __FILE__),
+            '1011' => __('En attente de traitement', __FILE__),
+            '1012' => __('Traitement OK', __FILE__),
+            '1013' => __('L\'appareil existe déjà', __FILE__),
+            '1014' => __('Vous avez des messages non lus', __FILE__),
+            '1015' => __('Vous n\'avez aucun message non lu', __FILE__),
+            '1016' => __('Partager', __FILE__),
+            '1017' => __('Mot de passe incorrect', __FILE__),
+            '1018' => __('Ce compte n\'existe pas', __FILE__),
+            '1019' => __('Ce compte est déjà enregistré', __FILE__),
+            '1020' => __('Le mot de passe est correct', __FILE__),
+            '1021' => __('L\'appareil est partagé avec vous !', __FILE__),
+            '1022' => __('Vous ne pouvez pas vous ajouter vous-même', __FILE__),
+            '1023' => __('Votre compte est connecté à un autre endroit. Pour assurer la sécurité de votre compte, veuillez vous reconnecter !', __FILE__),
+            '1024' => __('Cet ami vous a ajouté. Veuillez vérifier la liste de messages de vos amis', __FILE__),
+            '1025' => __('Erreur de données d\'argent', __FILE__),
+            '1026' => __('La commande a expiré', __FILE__),
+            '1027' => __('Erreur de données de commande', __FILE__),
+            '1028' => __('Impayé', __FILE__),
+            '1029' => __('En période d\'essai', __FILE__),
+            '1030' => __('L\'appareil n\'est pas reconnu', __FILE__),
+            '1031' => __('La boîte aux lettres n\'existe pas', __FILE__),
+            '1032' => __('Association de caméra à NVR, prise en charge maximale de 8 canaux pour chaque NVR', __FILE__),
+            '1033' => __('Vous n\'avez pas la permission', __FILE__),
+            '1035' => __('L\'appareil est hors ligne', __FILE__),
+            '1036' => __('L\'appareil est en ligne', __FILE__),
+            '1037' => __('Le code QR est invalide, veuillez le récupérer à nouveau', __FILE__),
+            '1039' => __('Opération trop fréquente, veuillez réessayer après 60 secondes', __FILE__),
+            '1040' => __('Ce n\'est pas votre ami', __FILE__),
+            '1048' => __('Ce compte est déjà enregistré dans', __FILE__),
+            '1050' => __('L\'appareil a été désactivé', __FILE__),
+            '1051' => __('La commande a été payée, ne répétez pas le paiement', __FILE__),
+            '1052' => __('Échec du paiement', __FILE__),
+            '1057' => __('Les informations de l\'équipement ne sont pas certifiées', __FILE__),
         );
     }
 }
