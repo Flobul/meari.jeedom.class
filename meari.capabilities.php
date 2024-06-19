@@ -840,7 +840,7 @@ class meari_capabilities
                     "logicalId"  => "PirDetSensitivity",
                     "type" => "info",
                     "subType" => "numeric",
-                    "name" => __("Sensibilité du détecteur de mouvement", __FILE__),
+                    "name" => __("Sensibilité de détection de mouvement", __FILE__),
                     "configuration" => array(
                         "minValue" => 1,
                         "maxValue" => 5
@@ -850,7 +850,7 @@ class meari_capabilities
                     "logicalId"  => "PirDetSensitivity::slider",
                     "type" => "action",
                     "subType" => "slider",
-                    "name" => __("Régler la sensibilité du détecteur de mouvement", __FILE__),
+                    "name" => __("Régler la sensibilité de détection de mouvement", __FILE__),
                     "configuration" => array(
                         "updateCmdToValue" => "#slider#",
                         "minValue" => 1,
@@ -1468,10 +1468,24 @@ class meari_capabilities
                 ),
             ),
             "201" => array(
-                "logicalId"  => "pirJim",
-                "type" => "info",
-                "subType" => "string",
-                "name" => __("pirJim", __FILE__)
+                array(
+                    "logicalId"  => "pirJim",
+                    "type" => "info",
+                    "subType" => "string",
+                    "name" => __("Mode de fonctionnement", __FILE__)
+                ),
+                array(
+                    "logicalId"  => "pirJim::select",
+                    "type" => "action",
+                    "subType" => "select",
+                    "name" => __("Changer le mode de fonctionnement", __FILE__),
+                    "configuration" => array(
+                        "minValue" => 0,
+                        "maxValue" => 2,
+                        "listValue" => "0|Mode économie d'énergie;1|Mode performance;2|Mode personalisé",
+                        "updateCmdToValue" => "#select#"
+                    )
+                )
             ),
             "202" => array(
                 array(
@@ -1481,21 +1495,15 @@ class meari_capabilities
                     "name" => __("Anti-scintillement", __FILE__)
                 ),
                 array(
-                    "logicalId"  => "noFlk::on",
+                    "logicalId"  => "noFlk::select",
                     "type" => "action",
-                    "subType" => "other",
-                    "name" => __("Anti-scintillement ON", __FILE__),
+                    "subType" => "select",
+                    "name" => __("Changer la fréquence anti-scintillement", __FILE__),
                     "configuration" => array(
-                        "updateCmdToValue" => 1
-                    )
-                ),
-                array(
-                    "logicalId"  => "noFlk::off",
-                    "type" => "action",
-                    "subType" => "other",
-                    "name" => __("Anti-scintillement OFF", __FILE__),
-                    "configuration" => array(
-                        "updateCmdToValue" => 0
+                        "minValue" => 1,
+                        "maxValue" => 2,
+                        "listValue" => "1|50;2|60Hz;",
+                        "updateCmdToValue" => "#select#"
                     )
                 )
             ),
