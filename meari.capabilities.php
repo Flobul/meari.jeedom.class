@@ -1,7 +1,7 @@
 <?php
 class meari_capabilities
 {
-    public static $version = "1.001";
+    public static $version = "1.002";
     public $enums;
     public $apps;
     public $errors;
@@ -2600,10 +2600,10 @@ class meari_capabilities
             ),
             "COOAU" => array(
                 "BRAND"            => "65",
-                "APP_VERSION"      => "5.2.2",
-                "APP_VERSION_CODE" => "111",
-                "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "COO/5.2.2 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "APP_VERSION"      => "5.4.0",
+                "APP_VERSION_CODE" => "158",
+                "SDK_VERSION"      => "5.4.0.2024.02.26",
+                "USERAGENT"        => "COO/5.4.0 (iPhone; iOS 17.4.1; Scale/2.00)"
             ),
             "Baby Watch Plus" => array(
                 "BRAND"            => "67",
@@ -2626,7 +2626,7 @@ class meari_capabilities
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
                 "USERAGENT"        => "Cln/5.2.3 (iPhone; iOS 17.4.1; Scale/2.00)"
             ),
-            "Clouddot" => array(
+            "Cloudot" => array(
                 "BRAND"            => "80",
                 "APP_VERSION"      => "5.2.1",
                 "APP_VERSION_CODE" => "13",
@@ -2642,17 +2642,17 @@ class meari_capabilities
             ),
             "Cococam" => array(
                 "BRAND"            => "82",
-                "APP_VERSION"      => "5.3.2",
-                "APP_VERSION_CODE" => "151",
+                "APP_VERSION"      => "5.3.3",
+                "APP_VERSION_CODE" => "155",
                 "SDK_VERSION"      => "5.3.0.2023.10.23",
-                "USERAGENT"        => "Coc/5.3.2 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "Coc/5.3.3 (iPhone; iOS 17.4.1; Scale/2.00)"
             ),
             "ANRAN" => array(
                 "BRAND"            => "84",
-                "APP_VERSION"      => "5.2.4",
-                "APP_VERSION_CODE" => "1",
-                "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "An/5.2.4 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "APP_VERSION"      => "5.3.0",
+                "APP_VERSION_CODE" => "2024060709",
+                "SDK_VERSION"      => "5.3.0.2023.10.23",
+                "USERAGENT"        => "An/5.3.0 (iPhone; iOS 17.4.1; Scale/2.00)"
             ),
             "Elemage Cam" => array(
                 "BRAND"            => "92",
@@ -2677,10 +2677,10 @@ class meari_capabilities
             ),
             "Morecam" => array(
                 "BRAND"            => "98",
-                "APP_VERSION"      => "5.3.2",
-                "APP_VERSION_CODE" => "1",
-                "SDK_VERSION"      => "5.3.0.2023.10.23",
-                "USERAGENT"        => "MC/5.3.2 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "APP_VERSION"      => "5.4.2",
+                "APP_VERSION_CODE" => "2024061511",
+                "SDK_VERSION"      => "5.4.0.2024.02.26",
+                "USERAGENT"        => "MC/5.4.2 (iPhone; iOS 17.4.1; Scale/2.00)"
             ),
             "SV3C Cloud" => array(
                 "BRAND"            => "100",
@@ -2691,10 +2691,10 @@ class meari_capabilities
             ),
             "BoifunCam" => array(
                 "BRAND"            => "104",
-                "APP_VERSION"      => "5.2.2",
-                "APP_VERSION_CODE" => "1",
-                "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "BOI/5.2.2 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "APP_VERSION"      => "5.4.0",
+                "APP_VERSION_CODE" => "2024061112",
+                "SDK_VERSION"      => "5.4.0.2024.02.26",
+                "USERAGENT"        => "BOI/5.4.0 (iPhone; iOS 17.4.1; Scale/2.00)"
             ),
             "Safeview" => array(
                 "BRAND"            => "107",
