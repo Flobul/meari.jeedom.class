@@ -20,13 +20,13 @@ jobs:
       - name: Get Versions
         id: versions
         run: |
-          VERSION_NUMBER=$(grep -oP '(?<=public static \$version = ").*(?=")'  meari.capabilities.php)
+          VERSION_NUMBER=$(grep -oP '(?<=public static \$version = ").*(?=")'  src/meari.capabilities.php)
           echo "VERSION_NUMBER=${VERSION_NUMBER}" >> $GITHUB_ENV
 
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: meari.capabilities.php
+          files: src/meari.capabilities.php
           tag_name: "v${{ env.VERSION_NUMBER }}"
           name: "Release v${{ env.VERSION_NUMBER }}"
           body: "Version: ${{ env.VERSION_NUMBER }}"
