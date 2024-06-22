@@ -1,0 +1,13 @@
+{
+    "name": "flobul/meari.jeedom.class",
+    "description": "Jeedom Meari class",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Flobul"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "meari_capabilities" : "src/" }
+    }
+}
