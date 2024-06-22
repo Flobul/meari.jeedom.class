@@ -8,8 +8,6 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "Meari\\": "src/"
-        }
+        "psr-4": { "Flobul\\Meari\\" : "src/" }
     }
 }
