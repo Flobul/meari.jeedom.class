@@ -1,5 +1,5 @@
 <?php
-class meari_capabilities
+trait Capabilities
 {
     public static $version = "1.002";
     public $enums;
