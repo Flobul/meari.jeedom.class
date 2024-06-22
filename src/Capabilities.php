@@ -4,7 +4,7 @@ namespace Flobul\Meari;
 
 class Capabilities
 {
-    public static $version = "1.003";
+    public static $version = "1.004";
     public $enums;
     public $apps;
     public $errors;
@@ -849,7 +849,7 @@ class Capabilities
                     "logicalId"  => "PirDetSensitivity",
                     "type" => "info",
                     "subType" => "numeric",
-                    "name" => __("Sensibilité de détection de mouvement", __FILE__),
+                    "name" => __("Sensibilité du détecteur de mouvement", __FILE__),
                     "configuration" => array(
                         "minValue" => 1,
                         "maxValue" => 5
@@ -859,7 +859,7 @@ class Capabilities
                     "logicalId"  => "PirDetSensitivity::slider",
                     "type" => "action",
                     "subType" => "slider",
-                    "name" => __("Régler la sensibilité de détection de mouvement", __FILE__),
+                    "name" => __("Régler la sensibilité du détecteur de mouvement", __FILE__),
                     "configuration" => array(
                         "updateCmdToValue" => "#slider#",
                         "minValue" => 1,
