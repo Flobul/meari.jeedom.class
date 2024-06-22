@@ -8,11 +8,8 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "meari_capabilities": "src/"
-        },
         "psr-4": {
-            "meari_capabilities\\": "src/"
-        }
+            "Meari\\": "src/"
+        },
     }
 }
