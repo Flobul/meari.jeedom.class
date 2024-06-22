@@ -1,5 +1,8 @@
 <?php
-trait Capabilities
+
+namespace Flobul\Meari;
+
+class Capabilities
 {
     public static $version = "1.002";
     public $enums;
