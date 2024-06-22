@@ -4,7 +4,7 @@ namespace Flobul\Meari;
 
 class Capabilities
 {
-    public static $version = "1.002";
+    public static $version = "1.003";
     public $enums;
     public $apps;
     public $errors;
@@ -732,6 +732,12 @@ class Capabilities
                 "subType" => "binary",
                 "isHistorize" => 1,
                 "name" => __("État de mise à jour", __FILE__)
+            ),
+            "130" => array(
+                "logicalId"  => "pushUrl",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("Flux RTMP", __FILE__)
             ),
             "131" => array(
                 "logicalId"  => "chimeProRingUri",
@@ -1812,6 +1818,12 @@ class Capabilities
                         )
                     )
                 )
+            ),
+            "234" => array(
+                "logicalId"  => "AIdetect",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("Détection IA", __FILE__)
             ),
             "235" => array(
                 "logicalId"  => "uploadVideo",
