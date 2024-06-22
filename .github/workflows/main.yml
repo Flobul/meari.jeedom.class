@@ -16,17 +16,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-    
+
       - name: Get Versions
         id: versions
         run: |
-          VERSION_NUMBER=$(grep -oP '(?<=public static \$version = ").*(?=")'  src/meari.capabilities.php)
+          VERSION_NUMBER=$(grep -oP '(?<=public static \$version = ").*(?=")'  src/Capabilities.php)
           echo "VERSION_NUMBER=${VERSION_NUMBER}" >> $GITHUB_ENV
 
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: src/meari.capabilities.php
+          files: src/Capabilities.php
           tag_name: "v${{ env.VERSION_NUMBER }}"
           name: "Release v${{ env.VERSION_NUMBER }}"
           body: "Version: ${{ env.VERSION_NUMBER }}"
