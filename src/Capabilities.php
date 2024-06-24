@@ -1426,8 +1426,8 @@ class Capabilities
                     "subType" => "string",
                     "name" => __("Couleur de la lumière", __FILE__),
                     "configuration" => array(
-                        "calculation" => "cloudedge::RGBtoHTML('%s')",
-                        "calculationBack" => "cloudedge::HTMLtoRGB('%s')"
+                        "calculation" => "RGBtoHTML('%s')",
+                        "calculationBack" => "HTMLtoRGB('%s')"
                     ),
                 ),
                 array(
@@ -1437,7 +1437,7 @@ class Capabilities
                     "name" => __("Règlage de couleur de la lumière", __FILE__),
                     "configuration" => array(
                         "updateCmdToValue" => "#color#",
-                        "calculationBack" => "cloudedge::HTMLtoRGB('%s')"
+                        "calculationBack" => "HTMLtoRGB('%s')"
                     ),
                     "template" => array(
                         "dashboard" => "core::picker",
