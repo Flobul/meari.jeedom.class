@@ -4,7 +4,7 @@ namespace Flobul\Meari;
 
 class Capabilities
 {
-    public static $version = "1.005";
+    public static $version = "1.006";
     public $enums;
     public $apps;
     public $errors;
@@ -49,6 +49,12 @@ class Capabilities
                 "subType" => "numeric",
                 "isHistorize" => 1,
                 "name" => __("Rafraîchir la liste des visages", __FILE__)
+            ),
+            "21" => array(
+                "logicalId" => "safePwd",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("safePwd", __FILE__)
             ),
             "50" => array(
                 "logicalId"  => "serialNumber",
@@ -191,6 +197,18 @@ class Capabilities
                 "subType" => "numeric",
                 "isHistorize" => 1,
                 "name" => __("nvrNeutralQrCodeKey", __FILE__)
+            ),
+            "69" => array(
+                "logicalId"  => "mediaQuantity",
+                "type" => "info",
+                "subType" => "numeric",
+                "name" => __("mediaQuantity", __FILE__)
+            ),
+            "70" => array(
+                "logicalId"  => "afterSale",
+                "type" => "info",
+                "subType" => "numeric",
+                "name" => __("afterSale", __FILE__)
             ),
             "100" => array(
                 "logicalId"  => "wifiName",
@@ -1294,6 +1312,12 @@ class Capabilities
                 "isHistorize" => 1,
                 "name" => __("flightLinkSirenEnable", __FILE__)
             ),
+            "190" => array(
+                "logicalId"  => "osdEnable",
+                "type" => "info",
+                "subType" => "binary",
+                "name" => __("osdEnable", __FILE__)
+            ),
             "191" => array(
                 array(
                     "logicalId"  => "logoSwitch",
@@ -1330,6 +1354,12 @@ class Capabilities
                     "calculationBack" => "base64_encode('%s')"
                 ),
             ),
+            "194" => array(
+                  "logicalId"  => "relay_enable",
+                  "type" => "info",
+                  "subType" => "string",
+                  "name" => __("Relais activé", __FILE__)
+              ),
             "195" => array(
                 array(
                     "logicalId"  => "abnormalNoiseEnable",
@@ -1831,6 +1861,18 @@ class Capabilities
                 "subType" => "numeric",
                 "name" => __("uploadVideo", __FILE__)
             ),
+            "235" => array(
+                "logicalId"  => "petThrowWarning",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("petThrowWarning", __FILE__)
+            ),
+            "238" => array(
+                "logicalId"  => "infraredLight",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("Lumière infrarouge", __FILE__)
+            ),
             "241" => array(
                 array(
                     "logicalId"  => "tempHumidityEnable",
@@ -2022,6 +2064,48 @@ class Capabilities
                     "generic_type" => "HUMIDITY"
                 ),
             ),
+            "263" => array(
+                "logicalId"  => "petAlarm",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("petAlarm", __FILE__)
+            ),
+            "264" => array(
+                "logicalId"  => "petAlarmEnable",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("petAlarmEnable", __FILE__)
+            ),
+            "266" => array(
+                "logicalId"  => "lowThreshold",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("lowThreshold", __FILE__)
+            ),
+            "267" => array(
+                "logicalId"  => "fullTimeFrameRate",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("fullTimeFrameRate", __FILE__)
+            ),
+            "272" => array(
+                "logicalId"  => "aovRecordDelay",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("aovRecordDelay", __FILE__)
+            ),
+            "274" => array(
+                "logicalId"  => "aovNightMode",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("aovNightMode", __FILE__)
+            ),
+            "275" => array(
+                "logicalId"  => "aovWorkMode",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("aovWorkMode", __FILE__)
+            ),
             "275" => array(
                 array(
                     "logicalId"  => "aovWorkMode",
@@ -2103,10 +2187,18 @@ class Capabilities
                 "name" => __("Mise à jour OTA", __FILE__)
             ),
             "806" => array(
-                "logicalId"  => "formatSdcard",
-                "type" => "info",
-                "subType" => "numeric",
-                "name" => __("Formater la carte SD", __FILE__)
+                array(
+                    "logicalId"  => "formatSdcard",
+                    "type" => "info",
+                    "subType" => "numeric",
+                    "name" => __("Carte SD formatée", __FILE__)
+                ),
+                array(
+                    "logicalId"  => "formatSdcard::",
+                    "type" => "action",
+                    "subType" => "other",
+                    "name" => __("Formater une carte SD", __FILE__)
+                )
             ),
             "807" => array(
                 array(
@@ -2257,6 +2349,12 @@ class Capabilities
                 "subType" => "numeric",
                 "name" => __("flightSirenSwitch", __FILE__)
             ),
+            "824" => array(
+                "logicalId"  => "relay_status",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("État du relais", __FILE__)
+            ),
             "825" => array(
                 "logicalId"  => "allAlarms",
                 "type" => "info",
@@ -2401,6 +2499,30 @@ class Capabilities
                     )
                 )
             ),
+            "843" => array(
+                "logicalId"  => "petSoundSet",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("petSoundSet", __FILE__)
+            ),
+            "844" => array(
+                "logicalId"  => "petFeedCall",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("petFeedCall", __FILE__)
+            ),
+            "845" => array(
+                "logicalId"  => "petFeed",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("petFeed", __FILE__)
+            ),
+            "846" => array(
+                "logicalId"  => "jingleAutoAddDevice",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("jingleAutoAddDevice", __FILE__)
+            ),
             "847" => array(
                 array(
                     "logicalId"  => "ptzCalibration",
@@ -2414,6 +2536,24 @@ class Capabilities
                     "subType" => "other",
                     "name" => __("Lancer une correction PTZ", __FILE__)
                 )
+            ),
+            "849" => array(
+                "logicalId"  => "cameraLinkage",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("cameraLinkage", __FILE__)
+            ),
+            "850" => array(
+                "logicalId"  => "petFeed2",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("petFeed2", __FILE__)
+            ),
+            "851" => array(
+                "logicalId"  => "cameraControl",
+                "type" => "info",
+                "subType" => "string",
+                "name" => __("cameraControl", __FILE__)
             ),
             "1001" => array(
                 "logicalId"  => "OTAUpgradeDownload",
@@ -2563,6 +2703,52 @@ class Capabilities
                 "isHistorize" => 0,
                 "name" => __("Messages d'erreur", __FILE__)
             ),
+            "1028" => array(
+                "logicalId"  => "deviceConfigErrorCode",
+                "type" => "info",
+                "subType" => "string",
+                "isHistorize" => 0,
+                "name" => __("Code d'erreur de configuration de l'appareil", __FILE__)
+            ),
+            "1030" => array(
+                "logicalId"  => "wifiConnectState",
+                "type" => "info",
+                "subType" => "string",
+                "isHistorize" => 0,
+                "name" => __("État de connexion WiFi", __FILE__)
+            ),
+            "1031" => array(
+                array(
+                    "logicalId"  => "deviceResetStatus",
+                    "type" => "info",
+                    "subType" => "string",
+                    "isHistorize" => 0,
+                    "name" => __("État de réinitialisation de l'appareil", __FILE__)
+                ),
+                array(
+                    "logicalId"  => "deviceResetStatus::",
+                    "type" => "action",
+                    "subType" => "other",
+                    "name" => __("Lancer une initilisation", __FILE__),
+                    "configuration" => array(
+                        "noValueToTransmit" => 1
+                    )
+                )
+            ),
+            "1032" => array(
+                "logicalId"  => "deviceWifiInfo",
+                "type" => "info",
+                "subType" => "string",
+                "isHistorize" => 0,
+                "name" => __("Informations sur le WiFi de l'appareil", __FILE__)
+            ),
+            "1034" => array(
+                "logicalId"  => "ptzInfo",
+                "type" => "info",
+                "subType" => "string",
+                "isHistorize" => 0,
+                "name" => __("Informations PTZ", __FILE__)
+            ),
             "items" => array(
                 "logicalId"  => "mqttIotFirstKey",
                 "type" => "info",
@@ -2583,161 +2769,161 @@ class Capabilities
                 "APP_VERSION"      => "5.4.2",
                 "APP_VERSION_CODE" => "176",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "Meari/5.4.2 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "Meari/5.4.2 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Arenti" => array(
                 "BRAND"            => "39",
                 "APP_VERSION"      => "4.2.1",
                 "APP_VERSION_CODE" => "112",
                 "SDK_VERSION"      => "5.3.0.2023.10.23",
-                "USERAGENT"        => "Arenti/4.2.1 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "Arenti/4.2.1 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "isiwi" => array(
                 "BRAND"            => "51",
-                "APP_VERSION"      => "5.2.3",
-                "APP_VERSION_CODE" => "1",
-                "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "IS/5.2.3 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "APP_VERSION"      => "5.4.1",
+                "APP_VERSION_CODE" => "2024061817",
+                "SDK_VERSION"      => "5.4.0.2024.02.26",
+                "USERAGENT"        => "IS/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "ZUMIMALL" => array(
                 "BRAND"            => "55",
                 "APP_VERSION"      => "5.3.3",
                 "APP_VERSION_CODE" => "1",
                 "SDK_VERSION"      => "5.3.0.2023.10.23",
-                "USERAGENT"        => "ZM/5.3.3 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "ZM/5.3.3 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "VacosSmart" => array(
                 "BRAND"            => "62",
                 "APP_VERSION"      => "2.4.5",
                 "APP_VERSION_CODE" => "1",
                 "SDK_VERSION"      => "3.1.0.2021.3.11",
-                "USERAGENT"        => "VacosSmart/2.4.5 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "VacosSmart/2.4.5 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "COOAU" => array(
                 "BRAND"            => "65",
                 "APP_VERSION"      => "5.4.0",
                 "APP_VERSION_CODE" => "158",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "COO/5.4.0 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "COO/5.4.0 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Baby Watch Plus" => array(
                 "BRAND"            => "67",
                 "APP_VERSION"      => "4.2.1",
                 "APP_VERSION_CODE" => "2",
                 "SDK_VERSION"      => "3.1.0.2021.3.11",
-                "USERAGENT"        => "Bab/4.2.1 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "Bab/4.2.1 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "My Uniden +" => array(
                 "BRAND"            => "75",
                 "APP_VERSION"      => "5.4.1",
                 "APP_VERSION_CODE" => "1",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "BF/5.4.1 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "BF/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "CloudPlus" => array(
                 "BRAND"            => "77",
                 "APP_VERSION"      => "5.2.3",
                 "APP_VERSION_CODE" => "2",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "Cln/5.2.3 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "Cln/5.2.3 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Cloudot" => array(
                 "BRAND"            => "80",
                 "APP_VERSION"      => "5.2.1",
                 "APP_VERSION_CODE" => "13",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "Cln/5.2.1 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "Cln/5.2.1 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "ieGeek Cam" => array(
                 "BRAND"            => "81",
                 "APP_VERSION"      => "5.3.0",
                 "APP_VERSION_CODE" => "152",
                 "SDK_VERSION"      => "5.3.0.2023.10.23",
-                "USERAGENT"        => "ieG/5.3.0 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "ieG/5.3.0 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Cococam" => array(
                 "BRAND"            => "82",
                 "APP_VERSION"      => "5.3.3",
                 "APP_VERSION_CODE" => "155",
                 "SDK_VERSION"      => "5.3.0.2023.10.23",
-                "USERAGENT"        => "Coc/5.3.3 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "Coc/5.3.3 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "ANRAN" => array(
                 "BRAND"            => "84",
                 "APP_VERSION"      => "5.3.0",
                 "APP_VERSION_CODE" => "2024060709",
                 "SDK_VERSION"      => "5.3.0.2023.10.23",
-                "USERAGENT"        => "An/5.3.0 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "An/5.3.0 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Elemage Cam" => array(
                 "BRAND"            => "92",
                 "APP_VERSION"      => "5.3.0",
                 "APP_VERSION_CODE" => "1",
                 "SDK_VERSION"      => "5.3.0.2023.10.23",
-                "USERAGENT"        => "ELE/5.3.0 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "ELE/5.3.0 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "WGV" => array(
                 "BRAND"            => "96",
                 "APP_VERSION"      => "5.2.3",
                 "APP_VERSION_CODE" => "1",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "WGV/5.2.3 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "WGV/5.2.3 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Mubview" => array(
                 "BRAND"            => "97",
                 "APP_VERSION"      => "5.3.3",
                 "APP_VERSION_CODE" => "1",
                 "SDK_VERSION"      => "5.3.0.2023.10.23",
-                "USERAGENT"        => "MV/5.3.3 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "MV/5.3.3 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Morecam" => array(
                 "BRAND"            => "98",
                 "APP_VERSION"      => "5.4.2",
                 "APP_VERSION_CODE" => "2024061511",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "MC/5.4.2 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "MC/5.4.2 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "SV3C Cloud" => array(
                 "BRAND"            => "100",
                 "APP_VERSION"      => "5.2.3",
                 "APP_VERSION_CODE" => "2",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "SVC/5.2.3 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "SVC/5.2.3 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "BoifunCam" => array(
                 "BRAND"            => "104",
                 "APP_VERSION"      => "5.4.0",
                 "APP_VERSION_CODE" => "2024061112",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "BOI/5.4.0 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "BOI/5.4.0 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Safeview" => array(
                 "BRAND"            => "107",
                 "APP_VERSION"      => "5.3.1",
                 "APP_VERSION_CODE" => "2",
                 "SDK_VERSION"      => "5.3.0.2023.10.23",
-                "USERAGENT"        => "SVC/5.3.1 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "SVC/5.3.1 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "DingLink" => array(
                 "BRAND"            => "108",
                 "APP_VERSION"      => "1.0.0",
                 "APP_VERSION_CODE" => "2",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "DLK/1.0.0 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "DLK/1.0.0 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Topcony" => array(
                 "BRAND"            => "114",
                 "APP_VERSION"      => "1.0.0",
                 "APP_VERSION_CODE" => "2",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "TC/1.0.0 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "TC/1.0.0 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Yes iHome" => array(
                 "BRAND"            => "119",
                 "APP_VERSION"      => "5.1.1",
                 "APP_VERSION_CODE" => "1",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "YH/5.1.1 (iPhone; iOS 17.4.1; Scale/2.00)"
+                "USERAGENT"        => "YH/5.1.1 (iPhone; iOS 17.5.1; Scale/2.00)"
             )
         );
 
