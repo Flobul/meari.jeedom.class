@@ -2766,10 +2766,10 @@ class Capabilities
         $this->apps = array(
             "CloudEdge" => array(
                 "BRAND"            => "8",
-                "APP_VERSION"      => "5.4.2",
-                "APP_VERSION_CODE" => "176",
+                "APP_VERSION"      => "5.5.1",
+                "APP_VERSION_CODE" => "183",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "Meari/5.4.2 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "USERAGENT"        => "Meari/5.5.1 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Arenti" => array(
                 "BRAND"            => "39",
@@ -2899,10 +2899,10 @@ class Capabilities
             ),
             "Safeview" => array(
                 "BRAND"            => "107",
-                "APP_VERSION"      => "5.3.1",
-                "APP_VERSION_CODE" => "2",
-                "SDK_VERSION"      => "5.3.0.2023.10.23",
-                "USERAGENT"        => "SVC/5.3.1 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION"      => "5.4.1",
+                "APP_VERSION_CODE" => "2024062616",
+                "SDK_VERSION"      => "5.4.0.2024.02.26",
+                "USERAGENT"        => "SVC/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "DingLink" => array(
                 "BRAND"            => "108",
