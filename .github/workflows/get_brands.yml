@@ -13,12 +13,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - run: ${GITHUB_WORKSPACE}/meari.brand_search.sh          
+      - run: echo "BRANDS=$(${GITHUB_WORKSPACE}/meari.brand_search.sh)" >> $GITHUB_ENV        
 
       - uses: peter-evans/create-pull-request@v6
         with:
           branch: newBrand
           delete-branch: true
           title: "Update brand list"
-          body: "New brand added"
+          body: "New brand added: ${{ env.BRANDS }}"
           commit-message: "Auto add brand workflow"
