@@ -1,11 +1,11 @@
-name: Get new brands
+name: "Get new brands"
 
 on:
   workflow_dispatch
   
 jobs:
   build:
-    name: Build
+    name: "Build"
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -13,12 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Search brands
+      - name: "Search brands"
         run: | 
           echo "BRANDS=$(${GITHUB_WORKSPACE}/meari.brand_search.sh)" >> $GITHUB_ENV
-          echo "${BRANDS}" > ${GITHUB_WORKSPACE}/src/new_brands.json
 
-      - name: Print brands
+      - name: "Print brands"
         run: | 
           cat ${GITHUB_WORKSPACE}/src/new_brands.json
 
