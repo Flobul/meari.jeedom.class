@@ -11,16 +11,11 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: "Get brands now..."
-        shell: sh
-        run: |
-          ${GITHUB_WORKSPACE}/meari.brand_search.sh          
+      - run: ${GITHUB_WORKSPACE}/meari.brand_search.sh          
 
-      - name: "Create Pull Request to plugin..."
-        uses: peter-evans/create-pull-request@v6
+      - uses: peter-evans/create-pull-request@v6
         with:
           path: 'src'
           branch: newBrand
