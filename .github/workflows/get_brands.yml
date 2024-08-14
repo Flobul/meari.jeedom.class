@@ -14,7 +14,8 @@ jobs:
       - name: "Get brands now..."
         shell: bash
         run: |
-          bash ./meari.brand_search.sh
+          echo ${{ github.action_path }}
+          bash ${{ github.action_path }}/meari.brand_search.sh
     
       - name: "Create Pull Request to plugin..."
         uses: peter-evans/create-pull-request@v6
