@@ -4,36 +4,26 @@ Description: 'Action to get new brands'
 on:
   workflow_dispatch:
   
-runs:
-  using: "composite"
-  steps:
-    # Checks-out plugin repository under $GITHUB_WORKSPACE
-    - name: "Checkout plugin files"
-      uses: actions/checkout@v4
-      with:
-        path: 'plugin'
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
-    - name: "Checkout jeedom/core for default translations"
-      uses: actions/checkout@v4
-      with:
-        repository: 'jeedom/core'
-        ref: 'alpha'
-        path: 'jeedom_core'
-
-    - name: "Get brands now..."
-      shell: bash
-      run: |
-        bash ${{ github.action_path }}/meari.brand_search.sh
-
-    - name: "Create Pull Request to plugin..."
-      uses: peter-evans/create-pull-request@v6
-      with:
-        path: 'plugin'
-        branch: newBrand
-        delete-branch: true
-        add-paths: |
-          core/i18n/*.json
-          plugin_info/info.json
-        title: "Update brand list"
-        body: "New brand added"
-        commit-message: "Auto add brand workflow"
+      steps:
+        # Checks-out plugin repository under $GITHUB_WORKSPACE
+        - name: "Get brands now..."
+          shell: bash
+          run: |
+            bash ${{ github.action_path }}/meari.brand_search.sh
+    
+        - name: "Create Pull Request to plugin..."
+          uses: peter-evans/create-pull-request@v6
+          with:
+            path: 'plugin'
+            branch: newBrand
+            delete-branch: true
+            title: "Update brand list"
+            body: "New brand added"
+            commit-message: "Auto add brand workflow"
