@@ -17,7 +17,7 @@ jobs:
       - name: "Get brands now..."
         shell: sh
         run: |
-          ${GITHUB_ACTION_PATH}/meari.brand_search.sh          
+          ${GITHUB_WORKSPACE}/meari.brand_search.sh          
 
       - name: "Create Pull Request to plugin..."
         uses: peter-evans/create-pull-request@v6
