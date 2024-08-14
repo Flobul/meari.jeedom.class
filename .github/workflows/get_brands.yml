@@ -19,6 +19,7 @@ jobs:
           echo "${BRANDS}" > ${GITHUB_WORKSPACE}/src/new_brands.json
 
       - name: Print brands
+        run: | 
           echo "${BRANDS}"
           echo "${{ env.BRANDS }}"
 
