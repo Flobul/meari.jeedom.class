@@ -9,6 +9,8 @@ is_excluded() {
   echo "$array" | grep -w -q "$num"
 }
 
+json_result="{"
+
 # Fonction pour traiter une URL
 process_url() {
   local url="$1"
@@ -20,8 +22,14 @@ process_url() {
 
   if (( "$result" == "200" )); then
     if ! is_excluded "$num"; then
-      echo "FOUND $label ===> $num: code $result"
-      curl "$url" | grep "$grep_pattern"
+      if echo "$json_result" | grep -q "\"$num\""; then
+        json_result=$(echo "$json_result" | sed "s/\"$num\":{/\"$num\":{ \"$label\"/")
+      else
+        if [[ "$json_result" != "{" ]]; then
+          json_result+=", "
+        fi
+        json_result+="\"$num\": \"$label\""
+      fi
     fi
   fi
 }
@@ -32,3 +40,6 @@ for ((i=1; i<200; i++)); do
   process_url "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/userAgreement/$i/en/Agreement_en.html" "AGREEMENT" "$i" "Service Agreement of"
   process_url "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/$i/en/Privacy.html" "PRIVACY" "$i" "Service Agreement of"
 done
+
+json_result+="}"
+echo "$json_result"
