@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: "Get brands now..."
-        run: ${GITHUB_ACTION_PATH}/meari.brand_search.sh
+        run: ./meari.brand_search.sh
         shell: sh
 
       - name: "Create Pull Request to plugin..."
