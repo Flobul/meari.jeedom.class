@@ -17,7 +17,6 @@ jobs:
 
       - uses: peter-evans/create-pull-request@v6
         with:
-          path: 'src'
           branch: newBrand
           delete-branch: true
           title: "Update brand list"
