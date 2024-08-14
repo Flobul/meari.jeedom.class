@@ -12,11 +12,9 @@ jobs:
 
     steps:
       - name: "Get brands now..."
-        shell: bash
-        run: |
-          echo ${GITHUB_ACTION_PATH}
-          bash ${GITHUB_ACTION_PATH}/meari.brand_search.sh
-    
+        run: ${GITHUB_ACTION_PATH}/meari.brand_search.sh
+        shell: sh
+
       - name: "Create Pull Request to plugin..."
         uses: peter-evans/create-pull-request@v6
         with:
