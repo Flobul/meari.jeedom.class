@@ -11,6 +11,9 @@ jobs:
       contents: write
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
       - name: "Get brands now..."
         run: ./meari.brand_search.sh
         shell: sh
