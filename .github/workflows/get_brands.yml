@@ -15,16 +15,14 @@ jobs:
         uses: actions/checkout@v3
 
       - name: "Get brands now..."
-        run: |
-          ls ${GITHUB_ACTION_PATH}
-          ls
-          
         shell: sh
+        run: |
+          ${GITHUB_ACTION_PATH}/meari.brand_search.sh          
 
       - name: "Create Pull Request to plugin..."
         uses: peter-evans/create-pull-request@v6
         with:
-          path: 'plugin'
+          path: 'src'
           branch: newBrand
           delete-branch: true
           title: "Update brand list"
