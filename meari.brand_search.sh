@@ -43,3 +43,4 @@ done
 
 json_result+="}"
 echo "$json_result"
+echo "${json_result}" > src/new_brands.json
