@@ -15,7 +15,10 @@ jobs:
         uses: actions/checkout@v3
 
       - name: "Get brands now..."
-        run: ${GITHUB_ACTION_PATH}/meari.brand_search.sh
+        run: |
+          ls ${GITHUB_ACTION_PATH}
+          ls
+          
         shell: sh
 
       - name: "Create Pull Request to plugin..."
