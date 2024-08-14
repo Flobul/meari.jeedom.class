@@ -13,10 +13,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - run: echo "BRANDS=$(${GITHUB_WORKSPACE}/meari.brand_search.sh)" >> $GITHUB_ENV        
+      - name: Toto
+        run: | 
+          echo "BRANDS=$(${GITHUB_WORKSPACE}/meari.brand_search.sh)" >> $GITHUB_ENV
+          echo ${{ env.BRANDS }} > ${GITHUB_WORKSPACE}/src/new_brands.json
 
       - uses: peter-evans/create-pull-request@v6
         with:
+          add-paths: src/new_brands.json
           branch: newBrand
           delete-branch: true
           title: "Update brand list"
