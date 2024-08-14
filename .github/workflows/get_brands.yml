@@ -1,8 +1,7 @@
 name: Get brands
-Description: 'Action to get new brands'
 
 on:
-  workflow_dispatch:
+  workflow_dispatch
   
 jobs:
   build:
@@ -11,19 +10,18 @@ jobs:
     permissions:
       contents: write
 
-      steps:
-        # Checks-out plugin repository under $GITHUB_WORKSPACE
-        - name: "Get brands now..."
-          shell: bash
-          run: |
-            bash ${{ github.action_path }}/meari.brand_search.sh
+    steps:
+      - name: "Get brands now..."
+        shell: bash
+        run: |
+          bash ${{ github.action_path }}/meari.brand_search.sh
     
-        - name: "Create Pull Request to plugin..."
-          uses: peter-evans/create-pull-request@v6
-          with:
-            path: 'plugin'
-            branch: newBrand
-            delete-branch: true
-            title: "Update brand list"
-            body: "New brand added"
-            commit-message: "Auto add brand workflow"
+      - name: "Create Pull Request to plugin..."
+        uses: peter-evans/create-pull-request@v6
+        with:
+          path: 'plugin'
+          branch: newBrand
+          delete-branch: true
+          title: "Update brand list"
+          body: "New brand added"
+          commit-message: "Auto add brand workflow"
