@@ -22,6 +22,9 @@ jobs:
       - run: pip install -r ${GITHUB_WORKSPACE}/requirements.txt
         shell: bash
 
+      - name: Setup jq
+        run: sudo apt-get install jq
+
       - name: "Search brands"
         run: |
           echo "BRANDS<<EOF" >> $GITHUB_ENV
@@ -37,13 +40,22 @@ jobs:
         run: |
           cat ${GITHUB_WORKSPACE}/src/brands.json
 
+      - name: Generate Markdown from JSON
+        id: generate-markdown
+        run: |
+          echo "### New Brands Added" > brands.md
+          jq -r 'to_entries[] | "#### Brand ID: \(.key)\n" + (.value | to_entries[] | "- **\(.key):** \(.value)\n") + "\n"' src/brands.json >> brands.md
+          cat brands.md
+
       - uses: peter-evans/create-pull-request@v6
         with:
           add-paths: src/brands.json
           branch: newBrand
           delete-branch: true
-          title: "Update brand list with IDs: ${{ env.BRAND_IDS }}"
-          body: "New brands added: ${{ env.BRANDS }}"
+          title: "Update brand list"
+          body: |
+            "### New Brands Added:\n ${{ env.BRANDS_IDS }}\n\n"
+            $(cat brands.md)
           commit-message: "Auto add brand workflow"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
