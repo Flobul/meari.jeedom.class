@@ -8,6 +8,7 @@ jobs:
     name: "Build"
     runs-on: ubuntu-latest
     permissions:
+      pull-requests: write
       contents: write
 
     steps:
@@ -25,6 +26,11 @@ jobs:
         run: |
           echo "BRANDS=$(${GITHUB_WORKSPACE}/get_brands.sh)" >> $GITHUB_ENV
 
+      - name: "Extract brand IDs"
+        run: |
+          BRAND_IDS=$(echo $BRANDS | jq -r 'keys | join(", ")')
+          echo "BRAND_IDS=$BRAND_IDS" >> $GITHUB_ENV
+
       - name: "Print brands"
         run: |
           cat ${GITHUB_WORKSPACE}/src/new_brands.json
@@ -34,6 +40,8 @@ jobs:
           add-paths: src/new_brands.json
           branch: newBrand
           delete-branch: true
-          title: "Update brand list"
-          body: "New brand added: ${{ env.BRANDS }}"
+          title: "Update brand list with IDs: ${{ env.BRAND_IDS }}"
+          body: "New brands added: ${{ env.BRANDS }}"
           commit-message: "Auto add brand workflow"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
