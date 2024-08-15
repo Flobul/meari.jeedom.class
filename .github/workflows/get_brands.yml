@@ -2,7 +2,7 @@ name: "Get new brands"
 
 on:
   workflow_dispatch
-  
+
 jobs:
   build:
     name: "Build"
@@ -11,14 +11,22 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v3
+      - name: "Checkout files"
+         uses: actions/checkout@v3
+
+      - name: "Setup python 3.12"
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r ${GITHUB_WORKSPACE}/requirements.txt
+        shell: bash
 
       - name: "Search brands"
-        run: | 
-          echo "BRANDS=$(${GITHUB_WORKSPACE}/meari.brand_search.sh)" >> $GITHUB_ENV
+        run: |
+          echo "BRANDS=$(${GITHUB_WORKSPACE}/get_brands.sh)" >> $GITHUB_ENV
 
       - name: "Print brands"
-        run: | 
+        run: |
           cat ${GITHUB_WORKSPACE}/src/new_brands.json
 
       - uses: peter-evans/create-pull-request@v6
