@@ -43,11 +43,18 @@ jobs:
       - name: Generate Markdown from JSON
         id: generate-markdown
         run: |
-          echo "### New Brands Added:\n ${{ env.BRANDS_IDS }}\n\n" > brands.md
-          jq -r 'to_entries[] | "#### Brand ID: \(.key)\n" + (.value | to_entries[] | "- **\(.key):** \(.value)\n") + "\n"' src/brands.json >> brands.md
-          content=$(cat brands.md)
+          echo "### Brands ID: ${{ env.BRAND_IDS }}" > brands.md
+
+          # Utilisation de jq pour créer un seul titre par Brand ID avec ses informations
+          jq -r '
+            to_entries[] |
+            "#### Brand ID: \(.key)\n" +
+            (.value | to_entries[] | "- **\(.key):** \(.value)\n") + "\n"
+          ' src/brands.json >> brands.md
+
+          # Stocker dans la variable d'environnement
           echo "BRANDS_MARKDOWN<<EOF" >> $GITHUB_ENV
-          echo "$content" >> $GITHUB_ENV
+          echo $(cat brands.md) >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
       - uses: peter-evans/create-pull-request@v6
