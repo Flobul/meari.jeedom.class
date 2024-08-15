@@ -45,11 +45,11 @@ jobs:
         run: |
           echo "### Brands ID: ${{ env.BRAND_IDS }}" > brands.md
 
-          # Utilisation de jq pour créer un seul titre par Brand ID avec ses informations
+          # Utilisation de jq pour regrouper les informations sous un seul titre par Brand ID
           jq -r '
             to_entries[] |
             "#### Brand ID: \(.key)\n" +
-            (.value | to_entries[] | "- **\(.key):** \(.value)\n") + "\n"
+            (.value | to_entries[] | "- **\(.key)**: \(.value)\n") + "\n"
           ' src/brands.json >> brands.md
 
           # Stocker dans la variable d'environnement
