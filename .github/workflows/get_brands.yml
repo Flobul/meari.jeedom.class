@@ -24,7 +24,9 @@ jobs:
 
       - name: "Search brands"
         run: |
-          echo "BRANDS=$(python ${GITHUB_WORKSPACE}/get_brands.py)" >> $GITHUB_ENV
+          echo "BRANDS<<EOF" >> $GITHUB_ENV
+          echo $(python ${GITHUB_WORKSPACE}/get_brands.py) >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
 
       - name: "Extract brand IDs"
         run: |
