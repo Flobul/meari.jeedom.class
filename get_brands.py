@@ -49,7 +49,7 @@ def process_url(url, label, num):
         pass
 
 # Boucle principale
-for i in range(100, 110):
+for i in range(1, 200):
     urls_labels = [
         (f"https://apis-eu-frankfurt.cloudedge360.com/img/{i}/en/Google_Assistant.html", "GOOGLE ASSISTANT"),
         (f"https://static-eus.s3.eu-central-1.amazonaws.com/common/app/userAgreement/{i}/en/Agreement_en.html", "AGREEMENT"),
