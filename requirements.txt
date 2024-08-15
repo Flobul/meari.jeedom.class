@@ -1,4 +1,4 @@
 re
-requests
+requests=2.32.2
 json
 urllib3=2.2.2
