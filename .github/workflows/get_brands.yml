@@ -35,11 +35,11 @@ jobs:
 
       - name: "Print brands"
         run: |
-          cat ${GITHUB_WORKSPACE}/src/new_brands.json
+          cat ${GITHUB_WORKSPACE}/src/brands.json
 
       - uses: peter-evans/create-pull-request@v6
         with:
-          add-paths: src/new_brands.json
+          add-paths: src/brands.json
           branch: newBrand
           delete-branch: true
           title: "Update brand list with IDs: ${{ env.BRAND_IDS }}"
