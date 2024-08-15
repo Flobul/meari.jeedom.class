@@ -43,9 +43,12 @@ jobs:
       - name: Generate Markdown from JSON
         id: generate-markdown
         run: |
-          echo "### New Brands Added" > brands.md
+          echo "### New Brands Added:\n ${{ env.BRANDS_IDS }}\n\n" > brands.md
           jq -r 'to_entries[] | "#### Brand ID: \(.key)\n" + (.value | to_entries[] | "- **\(.key):** \(.value)\n") + "\n"' src/brands.json >> brands.md
-          cat brands.md
+          content=$(cat brands.md)
+          echo "BRANDS_MARKDOWN<<EOF" >> $GITHUB_ENV
+          echo "$content" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
 
       - uses: peter-evans/create-pull-request@v6
         with:
@@ -54,8 +57,7 @@ jobs:
           delete-branch: true
           title: "Update brand list"
           body: |
-            "### New Brands Added:\n ${{ env.BRANDS_IDS }}\n\n"
-            $(cat brands.md)
+            ${{ env.BRANDS_MARKDOWN }}
           commit-message: "Auto add brand workflow"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
