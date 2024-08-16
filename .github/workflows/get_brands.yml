@@ -3,7 +3,7 @@ name: "Get new brands"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 12 * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   build:
