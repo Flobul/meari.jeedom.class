@@ -6,8 +6,8 @@ on:
     - cron: '03 */24 * * *'
 
 jobs:
-  build:
-    name: "Build"
+  find_new_brands:
+    name: "Find new brands"
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
@@ -51,7 +51,8 @@ jobs:
           echo $(cat brands.md) >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
-      - uses: peter-evans/create-pull-request@v6
+      - name: "Release"
+        uses: peter-evans/create-pull-request@v6
         with:
           add-paths: src/brands.json
           branch: newBrand
@@ -60,5 +61,35 @@ jobs:
           body: |
             ${{ env.BRANDS_MARKDOWN }}
           commit-message: "Auto add brand workflow"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  update_existing_brands:
+    name: "Update existing brands"
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: write
+
+    steps:
+      - name: "Checkout files"
+        uses: actions/checkout@v3
+
+      - name: Setup jq
+        run: sudo apt-get install jq
+
+      - name: "Update brands file"
+        run: |
+          ./update_brands_from_stores.sh -d
+
+      - name: "Print brands"
+        run: cat ${GITHUB_WORKSPACE}/brands_infos.json
+
+      - name: "Release"
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: brands_infos.json
+          branch: brandFromStores
+          delete-branch: true
+          title: "Update brands infos from stores"
+          body: |
+            ${{ env.BRANDS_MARKDOWN }}
+          commit-message: "Auto add brand workflow"
