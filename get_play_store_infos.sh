@@ -72,7 +72,7 @@ function fetch_app_json() {
         exit 1
     fi
 
-    return $result
+    echo "$result"
 }
 
 ## Fonction pour transformer la date au format YYYY-MM-DD
