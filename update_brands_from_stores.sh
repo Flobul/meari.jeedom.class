@@ -25,7 +25,7 @@ input_file=""
 function display_help() {
     echo "This script catches version, releaseNote, releaseDate of apps on App Store and Play Store, and display it or store it in a file."
     echo
-    echo "Usage: $(basename "$0") [-a|--appstore] [-d|--debug] [-h|--help] [-p|--playstore] [-s|--show] [-v|--version] [-i|--input <file>] [-q|--quiet]"
+    echo "usage: $(basename "$0") [-a|--appstore] [-d|--debug] [-h|--help] [-p|--playstore] [-s|--show] [-v|--version] [-i|--input <file>] [-q|--quiet]"
     echo "  options:"
     echo "  [-a|--appstore]        Print only app infos from App Store."
     echo "  [-d|--debug]           Print additionnal log for debug."
