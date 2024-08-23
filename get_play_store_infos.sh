@@ -58,7 +58,8 @@ function log_message() {
 function fetch_app_json() {
     local app_id="$1"
     local result=$(curl -sL "https://play.google.com/store/apps/details?id=$app_id" |
-        tr -d '\n' | sed -e 's:.*<script class="ds\:5" nonce="[^"]*">::' -e 's:</script>.*::' |
+        tr -d '\n' |
+        sed -e 's:.*<script class="ds\:5" nonce="[^"]*">::' -e 's:</script>.*::' |
         sed -e 's:.*data\:::' -e 's:, sideChannel.*::')
 
     if [[ $? -ne 0 || -z "$result" ]]; then
