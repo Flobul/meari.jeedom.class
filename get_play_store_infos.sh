@@ -5,7 +5,7 @@
 #############################
 # DECLARATION DES VARIABLES #
 #############################
-SCRIPT_VERSION="0.1.0"
+SCRIPT_VERSION="0.1.1"
 quiet=false
 
 #############################
@@ -72,6 +72,7 @@ function fetch_app_json() {
         exit 1
     fi
 
+    return $result
 }
 
 ## Fonction pour transformer la date au format YYYY-MM-DD
