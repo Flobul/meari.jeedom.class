@@ -6,7 +6,7 @@
 # DECLARATION DES VARIABLES #
 #############################
 SCRIPT_VERSION="0.1.0"
-default_json_file="brands_infos.json"
+default_json_file="src/brands_infos.json"
 command_playstore="./get_play_store_infos.sh"
 command_appstore="./get_app_store_infos.sh"
 show_all=true
@@ -34,7 +34,7 @@ function display_help() {
     echo "  [-q|--quiet]           Run the script in quiet mode. Only version updates will be shown."
     echo "  [-s|--show]            Print only updated apps."
     echo "  [-v|--version]         Print script version."
-    echo "  [-i|--input <file>]    Specify the input JSON file. Default is brands_infos.json."
+    echo "  [-i|--input <file>]    Specify the input JSON file. Default is $default_json_file."
 }
 
 # Fonction d'affichge de la version du script'
