@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: "Checkout files"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: "Setup python 3.12"
         uses: actions/setup-python@v5
@@ -71,10 +71,10 @@ jobs:
 
     steps:
       - name: "Checkout files"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Setup jq
-        run: sudo apt-get install jq
+      - name: Setup php and jq
+        run: sudo apt-get install jq php php-cli
 
       - name: "Update brands file"
         run: |
@@ -83,13 +83,17 @@ jobs:
       - name: "Print brands"
         run: cat ${GITHUB_WORKSPACE}/src/brands_infos.json
 
+      - name: "Update Capabilities.php"
+        run: php ./check_versions.php appstore
+
       - name: "Release"
         uses: peter-evans/create-pull-request@v6
         with:
-          add-paths: brands_infos.json
+          add-paths: |
+            src/brands_infos.json
+            src/Capabilities.php
           branch: brandFromStores
           delete-branch: true
-          title: "Update brands infos from stores"
-          body: |
-            ${{ env.BRANDS_MARKDOWN }}
+          title: "Update brands infos from stores and modify php file"
+          body: "Update"
           commit-message: "Auto add brand workflow"
