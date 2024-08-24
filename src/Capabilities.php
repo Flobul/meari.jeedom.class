@@ -4,7 +4,7 @@ namespace Flobul\Meari;
 
 class Capabilities
 {
-    public static $version = "1.008";
+    public static $version = "1.009";
     public $enums;
     public $apps;
     public $errors;
