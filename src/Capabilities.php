@@ -2948,6 +2948,7 @@ class Capabilities
             ),
             "CloudTop" => array(
                 "BRAND"            => "109",
+                "APP_VERSION"      => "5.4.1",
                 "APP_VERSION_CODE" => "2",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
                 "USERAGENT"        => "Top/5.2.0 (iPhone; iOS 17.5.1; Scale/2.00)"
