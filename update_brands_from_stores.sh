@@ -5,7 +5,7 @@
 #############################
 # DECLARATION DES VARIABLES #
 #############################
-SCRIPT_VERSION="0.1.0"
+SCRIPT_VERSION="0.1.1"
 default_json_file="src/brands_infos.json"
 command_playstore="./get_play_store_infos.sh"
 command_appstore="./get_app_store_infos.sh"
@@ -109,13 +109,13 @@ function main() {
     else
         json_file="$default_json_file"
     fi
-
+    updated_json_file=$(echo $json_file | sed 's/.json/_updated.json/g')
     check_input_file
 
     # Créer une copie du fichier original
-    cp "$json_file" "updated_$json_file"
+    cp "$json_file" "$updated_json_file"
     if [[ $debug = true ]]; then
-        log_message "DEBUG" "File copied $json_file in updated_$json_file"
+        log_message "DEBUG" "File copied $json_file in $updated_json_file"
     fi
 
     # Parcourir chaque entrée dans le fichier JSON
@@ -161,7 +161,7 @@ function main() {
                        --arg releaseNote "$release_note" --arg releaseDate "$release_date" \
                        '(.[] | select(.bundleId==$bundleId) | .playstoreVersion) = $version |
                         (.[] | select(.bundleId==$bundleId) | .playstoreReleaseNote) = $releaseNote |
-                        (.[] | select(.bundleId==$bundleId) | .playstoreReleaseDate) = $releaseDate' "updated_$json_file" > temp.json && mv temp.json "updated_$json_file"
+                        (.[] | select(.bundleId==$bundleId) | .playstoreReleaseDate) = $releaseDate' "$updated_json_file" > temp.json && mv temp.json "$updated_json_file"
                 else
                     # Afficher seulement les mises à jour si l'option est active
                     if [[ $show_all = false && $updated = false ]]; then
@@ -201,7 +201,7 @@ function main() {
                        --arg releaseNote "$release_note" --arg releaseDate "$release_date" \
                        '(.[] | select(.id==$id) | .appstoreVersion) = $version |
                         (.[] | select(.id==$id) | .appstoreReleaseNote) = $releaseNote |
-                        (.[] | select(.id==$id) | .appstoreReleaseDate) = $releaseDate' "updated_$json_file" > temp.json && mv temp.json "updated_$json_file"
+                        (.[] | select(.id==$id) | .appstoreReleaseDate) = $releaseDate' "$updated_json_file" > temp.json && mv temp.json "$updated_json_file"
                 else
                     # Afficher seulement les mises à jour si l'option est active
                     if [[ $show_all = false && $updated = false ]]; then
@@ -213,8 +213,8 @@ function main() {
         fi
     done
 
-    log_message "SUCCESS" "Brands list updated in updated_$json_file."
-    mv "updated_$json_file" "$json_file"
+    log_message "SUCCESS" "Brands list updated in $updated_json_file."
+    mv "$updated_json_file" "$json_file"
 }
 
 function parse_cli {
