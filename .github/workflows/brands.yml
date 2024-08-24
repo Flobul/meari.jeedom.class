@@ -81,7 +81,7 @@ jobs:
           ./update_brands_from_stores.sh -d
 
       - name: "Print brands"
-        run: cat ${GITHUB_WORKSPACE}/brands_infos.json
+        run: cat ${GITHUB_WORKSPACE}/src/brands_infos.json
 
       - name: "Release"
         uses: peter-evans/create-pull-request@v6
