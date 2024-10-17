@@ -2773,7 +2773,7 @@ class Capabilities
             ),
             "CloudEdge" => array(
                 "BRAND"            => "8",
-                "APP_VERSION"      => "5.5.3",
+                "APP_VERSION"      => "5.6.1",
                 "APP_VERSION_CODE" => "185",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "Meari/5.5.3 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2787,14 +2787,14 @@ class Capabilities
             ),
             "Arenti" => array(
                 "BRAND"            => "39",
-                "APP_VERSION"      => "4.3.1",
+                "APP_VERSION"      => "4.4.2",
                 "APP_VERSION_CODE" => "202",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "Arenti/4.3.1 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "ISIWI" => array(
                 "BRAND"            => "51",
-                "APP_VERSION"      => "5.4.1",
+                "APP_VERSION"      => "5.5.3",
                 "APP_VERSION_CODE" => "2024061817",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "IS/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2864,7 +2864,7 @@ class Capabilities
             ),
             "ANRAN" => array(
                 "BRAND"            => "84",
-                "APP_VERSION"      => "5.4.1",
+                "APP_VERSION"      => "5.5.3",
                 "APP_VERSION_CODE" => "2024071610",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "An/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2934,7 +2934,7 @@ class Capabilities
             ),
             "Safeview" => array(
                 "BRAND"            => "107",
-                "APP_VERSION"      => "5.4.1",
+                "APP_VERSION"      => "5.5.2",
                 "APP_VERSION_CODE" => "2024062616",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "SVC/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2976,7 +2976,7 @@ class Capabilities
             ),
             "Yes iHome" => array(
                 "BRAND"            => "119",
-                "APP_VERSION"      => "5.4.1",
+                "APP_VERSION"      => "5.5.2",
                 "APP_VERSION_CODE" => "2024071016",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "YH/5.1.1 (iPhone; iOS 17.5.1; Scale/2.00)"

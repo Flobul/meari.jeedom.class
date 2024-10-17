@@ -14,12 +14,12 @@
     "name": "CloudEdge",
     "id": "1294635090",
     "bundleId": "com.cloudedge.smarteye",
-    "playstoreVersion": "5.5.3",
+    "playstoreVersion": "5.6.1",
     "playstoreReleaseNote": "1.Fix some konwn issues.<br>2.Improving UI experience.",
-    "playstoreReleaseDate": "2024-08-13",
-    "appstoreVersion": "5.5.3",
+    "playstoreReleaseDate": "2024-09-25",
+    "appstoreVersion": "5.6.1",
     "appstoreReleaseNote": "fix some bugs",
-    "appstoreReleaseDate": "2024-08-14"
+    "appstoreReleaseDate": "2024-09-23"
   },
   {
     "name": "Beaba Zen Connect",
@@ -36,31 +36,31 @@
     "name": "Arenti",
     "id": "1495605136",
     "bundleId": "com.arenti.smartlife",
-    "playstoreVersion": "4.3.1",
+    "playstoreVersion": "4.4.2",
     "playstoreReleaseNote": "Fix some known bugs.",
-    "playstoreReleaseDate": "2024-07-29",
-    "appstoreVersion": "4.3.1",
+    "playstoreReleaseDate": "2024-10-08",
+    "appstoreVersion": "4.4.2",
     "appstoreReleaseNote": "- Fix some bugs.",
-    "appstoreReleaseDate": "2024-07-27"
+    "appstoreReleaseDate": "2024-10-16"
   },
   {
     "name": "ISIWI",
     "id": "1515116175",
     "bundleId": "com.giuliano.smarthome",
-    "playstoreVersion": "5.4.1",
-    "playstoreReleaseNote": "correggere alcuni bug",
-    "playstoreReleaseDate": "2024-06-23",
-    "appstoreVersion": "5.4.1",
-    "appstoreReleaseNote": "riparare alcuni bug",
-    "appstoreReleaseDate": "2024-06-24"
+    "playstoreVersion": "5.5.1",
+    "playstoreReleaseNote": "Ottimizzazione funzionalità<br>Aggiunti nuovi servizi cloud<br>Correzione bug<br>Migliorata compatibilità",
+    "playstoreReleaseDate": "2024-10-15",
+    "appstoreVersion": "5.5.3",
+    "appstoreReleaseNote": "Ottimizzazione funzionalità\nAggiunti nuovi servizi cloud\nCorrezione bug\nMigliorata compatibilità",
+    "appstoreReleaseDate": "2024-10-16"
   },
   {
     "name": "ZUMIMALL",
     "id": "1515849509",
     "bundleId": "com.zumimall.protecthome",
-    "playstoreVersion": "5.4.1",
+    "playstoreVersion": "5.5.0",
     "playstoreReleaseNote": "New Function<br>Fix App Crash Bug",
-    "playstoreReleaseDate": "2024-06-19",
+    "playstoreReleaseDate": "2024-09-13",
     "appstoreVersion": "5.5.2",
     "appstoreReleaseNote": "New Function\nFix App Crash Bug\nG1 addition process optimization\nWhen there is no package on the dual-camera or multi-camera product event preview page, all pictures are displayed directly.\n﻿G1 UI Experience Optimization",
     "appstoreReleaseDate": "2024-08-20"
@@ -105,17 +105,17 @@
     "playstoreVersion": "2.0.3",
     "playstoreReleaseNote": "null",
     "playstoreReleaseDate": "2023-09-22",
-    "appstoreVersion": "5.4.2",
-    "appstoreReleaseNote": "Improve functionality \nEnhance security features",
-    "appstoreReleaseDate": "2024-07-18"
+    "appstoreVersion": "5.5.2",
+    "appstoreReleaseNote": "improve functions \nfix bugs",
+    "appstoreReleaseDate": "2024-09-02"
   },
   {
     "name": "CloudPlus",
     "bundleId": "com.langshixing.cloudhome",
     "id": "1599423184",
-    "playstoreVersion": "5.5.1",
-    "playstoreReleaseNote": "UI beautification",
-    "playstoreReleaseDate": "2024-08-12",
+    "playstoreVersion": "5.5.3",
+    "playstoreReleaseNote": "Add Google Payment function",
+    "playstoreReleaseDate": "2024-10-10",
     "appstoreVersion": "5.5.4",
     "appstoreReleaseNote": "Add new features",
     "appstoreReleaseDate": "2024-08-22"
@@ -124,9 +124,9 @@
     "name": "Cloudot",
     "bundleId": "com.joystek.cloudot",
     "id": "1600200945",
-    "playstoreVersion": "5.2.3",
+    "playstoreVersion": "5.5.0",
     "playstoreReleaseNote": "Cloudot is a user-friendly monitoring surveillance app, easy-to-use meanwhile multi-functional:<br>1. Real video playing<br>2. Playback image checking<br>3. Time &amp; message reminding<br>4. Share the video image ",
-    "playstoreReleaseDate": "2024-03-12",
+    "playstoreReleaseDate": "2024-10-14",
     "appstoreVersion": "5.2.1",
     "appstoreReleaseNote": "fix some bugs",
     "appstoreReleaseDate": "2023-11-16"
@@ -135,9 +135,9 @@
     "name": "ieGeek Cam",
     "bundleId": "com.iegeekCam.cam",
     "id": "1601747664",
-    "playstoreVersion": "5.5.0",
+    "playstoreVersion": "5.5.2",
     "playstoreReleaseNote": "Fix some bugs",
-    "playstoreReleaseDate": "2024-08-08",
+    "playstoreReleaseDate": "2024-09-03",
     "appstoreVersion": "5.5.2",
     "appstoreReleaseNote": "Fix some bugs",
     "appstoreReleaseDate": "2024-08-10"
@@ -146,9 +146,9 @@
     "name": "Cococam",
     "bundleId": "com.cococam.cam",
     "id": "1609380588",
-    "playstoreVersion": "5.4.2",
+    "playstoreVersion": "5.5.0",
     "playstoreReleaseNote": "null",
-    "playstoreReleaseDate": "2024-07-16",
+    "playstoreReleaseDate": "2024-08-22",
     "appstoreVersion": "5.5.2",
     "appstoreReleaseNote": "Added Apple in-app purchase packages and subscription packages",
     "appstoreReleaseDate": "2024-08-21"
@@ -157,12 +157,12 @@
     "name": "ANRAN",
     "bundleId": "com.anran.arcloud",
     "id": "1611278380",
-    "playstoreVersion": "5.4.2",
+    "playstoreVersion": "5.5.0",
     "playstoreReleaseNote": "null",
-    "playstoreReleaseDate": "2024-07-31",
-    "appstoreVersion": "5.4.1",
+    "playstoreReleaseDate": "2024-09-01",
+    "appstoreVersion": "5.5.3",
     "appstoreReleaseNote": "fix some bugs!",
-    "appstoreReleaseDate": "2024-07-19"
+    "appstoreReleaseDate": "2024-10-11"
   },
   {
     "name": "K&F Cam",
@@ -263,12 +263,12 @@
     "name": "Safeview",
     "bundleId": "com.ctvzn.safeview",
     "id": "6451462082",
-    "playstoreVersion": "5.4.1",
-    "playstoreReleaseNote": "1. 4G camera now supports cloud storage<br>2. Cloud storage/AI/ Data now support credit card payments<br>3. Optimized interaction",
-    "playstoreReleaseDate": "2024-07-04",
-    "appstoreVersion": "5.4.1",
-    "appstoreReleaseNote": "1. 4G camera now supports cloud storage\n2. Cloud storage/AI/ Data now support credit card payments\n3. Optimized interaction",
-    "appstoreReleaseDate": "2024-07-04"
+    "playstoreVersion": "5.5.2",
+    "playstoreReleaseNote": "1. Optimize the display effect <br>2.Fix some bugs",
+    "playstoreReleaseDate": "2024-09-25",
+    "appstoreVersion": "5.5.2",
+    "appstoreReleaseNote": "1. Optimize the display effect \n2.Fix some bugs",
+    "appstoreReleaseDate": "2024-09-25"
   },
   {
     "name": "DingLink",
@@ -325,12 +325,12 @@
     "name": "Yes iHome",
     "bundleId": "com.yesihome.smartlife",
     "id": "6459700579",
-    "playstoreVersion": "5.4.1",
+    "playstoreVersion": "5.5.3",
     "playstoreReleaseNote": "Yes iHome is a security camera app that connects to your cameras, offering features such as 24/7 home monitoring, alarms, and video playback. Simplifying home security for your peace of mind.",
-    "playstoreReleaseDate": "2024-07-25",
-    "appstoreVersion": "5.4.1",
-    "appstoreReleaseNote": "Added event cloud storage and continuous monthly subscription",
-    "appstoreReleaseDate": "2024-07-12"
+    "playstoreReleaseDate": "2024-09-09",
+    "appstoreVersion": "5.5.2",
+    "appstoreReleaseNote": "Fix known bugs\r",
+    "appstoreReleaseDate": "2024-09-19"
   },
   {
     "name": "VIZIUUY",
@@ -357,9 +357,9 @@
     "name": "Buzzai Pro",
     "bundleId": "com.buzziai.camera",
     "id": "6502924661",
-    "playstoreVersion": "",
-    "playstoreReleaseNote": "",
-    "playstoreReleaseDate": "",
+    "playstoreVersion": "5.3.2",
+    "playstoreReleaseNote": "Connecting with a more secured world is our mission and you can get it here, the free video app that allows you to be available anywhere, which supports the full line of Sunell products that support standard H.264 video codec.",
+    "playstoreReleaseDate": "2024-05-24",
     "appstoreVersion": "1.0",
     "appstoreReleaseNote": "null",
     "appstoreReleaseDate": "2024-05-27"
