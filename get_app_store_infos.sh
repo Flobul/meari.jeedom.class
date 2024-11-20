@@ -64,7 +64,7 @@ function fetch_app_json() {
         sed -e 's:.*<script type="fastboot/shoebox" id="shoebox-media-api-cache-apps">::' -e 's:</script>.*::' |
         jq -r 'to_entries | .[0].value | fromjson? // empty')
 
-    if [[ $? -ne 0 || -z "$response" ]]; then
+    if [[ $? -ne 0 || -z "$result" ]]; then
         log_message "ERROR" "Failed to fetch data for app ID $app_id"
         exit 1
     fi
