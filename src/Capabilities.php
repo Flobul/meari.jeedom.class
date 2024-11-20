@@ -2827,6 +2827,13 @@ class Capabilities
                 "SDK_VERSION"      => "3.1.0.2021.3.11",
                 "USERAGENT"        => "Bab/4.2.1 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
+            "SiecoSmart" => array(
+                "BRAND"            => "71",
+                "APP_VERSION"      => "5.2.3",
+                "APP_VERSION_CODE" => "20",
+                "SDK_VERSION"      => "4.4.0.2022.07.22",
+                "USERAGENT"        => "SiecoSmart/5.2.3 (iPhone; iOS 17.5.1; Scale/2.00)"
+            ),
             "My Uniden +" => array(
                 "BRAND"            => "75",
                 "APP_VERSION"      => "5.4.2",
@@ -3002,6 +3009,13 @@ class Capabilities
                 "SDK_VERSION"      => "5.3.0.2023.10.23",
                 "USERAGENT"        => "BZ/5.3.0 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
+            "OQO" => array(
+                "BRAND"            => "128",
+                "APP_VERSION"      => "5.5.2",
+                "APP_VERSION_CODE" => "2024090614",
+                "SDK_VERSION"      => "5.4.0.2024.02.26",
+                "USERAGENT"        => "Oqo/5.5.2 (iPhone; iOS 17.5.1; Scale/2.00)"
+            ),
             "GCLink" => array(
                 "BRAND"            => "129",
                 "APP_VERSION"      => "1.0.0",
@@ -3022,6 +3036,13 @@ class Capabilities
                 "APP_VERSION_CODE" => "2",
                 "SDK_VERSION"      => "5.3.0.2023.10.23",
                 "USERAGENT"        => "Jennov/5.3.0 (iPhone; iOS 17.5.1; Scale/2.00)"
+            ),
+            "CZEview" => array(
+                "BRAND"            => "141",
+                "APP_VERSION"      => "5.5.3",
+                "APP_VERSION_CODE" => "2024092515",
+                "SDK_VERSION"      => "5.4.0.2024.02.26",
+                "USERAGENT"        => "CZE/5.5.3 (iPhone; iOS 17.5.1; Scale/2.00)"
             )
         );
 

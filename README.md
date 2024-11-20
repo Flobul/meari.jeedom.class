@@ -9,6 +9,7 @@ A PHP class for jeedom using meari-like mobile applications :
 - VacosSmart,
 - COOAU,
 - Baby Watch Plus,
+- SiecoSmart,
 - My Uniden +,
 - CloudPlus,
 - Cloudot,
@@ -34,9 +35,11 @@ A PHP class for jeedom using meari-like mobile applications :
 - VIZIUUY,
 - TkenPro,
 - Buzzai Pro,
+- OQO,
 - GCLink,
 - PARINNOV,
-- Jennov.
+- Jennov,
+- CZEview.
 
 ## get_brands.sh | get_brands.py
 get_brands.sh obsolete, use python
