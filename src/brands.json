@@ -35,6 +35,9 @@
         "AGREEMENT": "Service Agreement of Uniden Smart Platform",
         "PRIVACY": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/67/en/Privacy.html"
     },
+    "71": {
+        "GOOGLE ASSISTANT": "Enter your SiecoSmart app account and password"
+    },
     "75": {
         "GOOGLE ASSISTANT": "Enter your My Uniden+ app account and password",
         "AGREEMENT": "Service Agreement of My Uniden+ Platform",
