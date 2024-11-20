@@ -2773,7 +2773,7 @@ class Capabilities
             ),
             "CloudEdge" => array(
                 "BRAND"            => "8",
-                "APP_VERSION"      => "5.6.1",
+                "APP_VERSION"      => "5.6.2",
                 "APP_VERSION_CODE" => "185",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "Meari/5.5.3 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2794,14 +2794,14 @@ class Capabilities
             ),
             "ISIWI" => array(
                 "BRAND"            => "51",
-                "APP_VERSION"      => "5.5.3",
+                "APP_VERSION"      => "5.5.4",
                 "APP_VERSION_CODE" => "2024061817",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "IS/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "ZUMIMALL" => array(
                 "BRAND"            => "55",
-                "APP_VERSION"      => "5.5.2",
+                "APP_VERSION"      => "5.6.2",
                 "APP_VERSION_CODE" => "2024081616",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "ZM/5.5.2 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2843,14 +2843,14 @@ class Capabilities
             ),
             "CloudPlus" => array(
                 "BRAND"            => "77",
-                "APP_VERSION"      => "5.5.4",
+                "APP_VERSION"      => "5.6.2",
                 "APP_VERSION_CODE" => "2024081311",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "Cln/5.5.4 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Cloudot" => array(
                 "BRAND"            => "80",
-                "APP_VERSION"      => "5.2.1",
+                "APP_VERSION"      => "5.5.2",
                 "APP_VERSION_CODE" => "13",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
                 "USERAGENT"        => "Cln/5.2.1 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2864,7 +2864,7 @@ class Capabilities
             ),
             "Cococam" => array(
                 "BRAND"            => "82",
-                "APP_VERSION"      => "5.5.2",
+                "APP_VERSION"      => "5.6.1",
                 "APP_VERSION_CODE" => "2024081311",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "Coc/5.5.2 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2885,7 +2885,7 @@ class Capabilities
             ),
             "Elemage Cam" => array(
                 "BRAND"            => "92",
-                "APP_VERSION"      => "5.3.0",
+                "APP_VERSION"      => "5.6.2",
                 "APP_VERSION_CODE" => "1",
                 "SDK_VERSION"      => "5.3.0.2023.10.23",
                 "USERAGENT"        => "ELE/5.3.0 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2913,7 +2913,7 @@ class Capabilities
             ),
             "Morecam" => array(
                 "BRAND"            => "98",
-                "APP_VERSION"      => "5.5.2",
+                "APP_VERSION"      => "5.6.1",
                 "APP_VERSION_CODE" => "2024080914",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "MC/5.5.2 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2941,7 +2941,7 @@ class Capabilities
             ),
             "Safeview" => array(
                 "BRAND"            => "107",
-                "APP_VERSION"      => "5.5.2",
+                "APP_VERSION"      => "5.6.1",
                 "APP_VERSION_CODE" => "2024062616",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "SVC/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2983,7 +2983,7 @@ class Capabilities
             ),
             "Yes iHome" => array(
                 "BRAND"            => "119",
-                "APP_VERSION"      => "5.5.2",
+                "APP_VERSION"      => "5.6",
                 "APP_VERSION_CODE" => "2024071016",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "YH/5.1.1 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -3032,7 +3032,7 @@ class Capabilities
             ),
             "Jennov" => array(
                 "BRAND"            => "135",
-                "APP_VERSION"      => "5.3.0",
+                "APP_VERSION"      => "5.4.1",
                 "APP_VERSION_CODE" => "2",
                 "SDK_VERSION"      => "5.3.0.2023.10.23",
                 "USERAGENT"        => "Jennov/5.3.0 (iPhone; iOS 17.5.1; Scale/2.00)"
