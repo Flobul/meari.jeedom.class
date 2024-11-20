@@ -17,9 +17,9 @@
     "playstoreVersion": "5.6.1",
     "playstoreReleaseNote": "1.Fix some konwn issues.<br>2.Improving UI experience.",
     "playstoreReleaseDate": "2024-09-25",
-    "appstoreVersion": "5.6.1",
+    "appstoreVersion": "5.6.2",
     "appstoreReleaseNote": "fix some bugs",
-    "appstoreReleaseDate": "2024-09-23"
+    "appstoreReleaseDate": "2024-10-30"
   },
   {
     "name": "Beaba Zen Connect",
@@ -50,9 +50,9 @@
     "playstoreVersion": "5.5.1",
     "playstoreReleaseNote": "Ottimizzazione funzionalità<br>Aggiunti nuovi servizi cloud<br>Correzione bug<br>Migliorata compatibilità",
     "playstoreReleaseDate": "2024-10-15",
-    "appstoreVersion": "5.5.3",
-    "appstoreReleaseNote": "Ottimizzazione funzionalità\nAggiunti nuovi servizi cloud\nCorrezione bug\nMigliorata compatibilità",
-    "appstoreReleaseDate": "2024-10-16"
+    "appstoreVersion": "5.5.4",
+    "appstoreReleaseNote": "Risolto crash su iOS 18\nOttimizzazione funzionalità\nAggiunti nuovi servizi cloud\nCorrezione bug\nMigliorata compatibilità",
+    "appstoreReleaseDate": "2024-10-17"
   },
   {
     "name": "ZUMIMALL",
@@ -61,9 +61,9 @@
     "playstoreVersion": "5.5.0",
     "playstoreReleaseNote": "New Function<br>Fix App Crash Bug",
     "playstoreReleaseDate": "2024-09-13",
-    "appstoreVersion": "5.5.2",
-    "appstoreReleaseNote": "New Function\nFix App Crash Bug\nG1 addition process optimization\nWhen there is no package on the dual-camera or multi-camera product event preview page, all pictures are displayed directly.\n﻿G1 UI Experience Optimization",
-    "appstoreReleaseDate": "2024-08-20"
+    "appstoreVersion": "5.6.2",
+    "appstoreReleaseNote": "-New Function\nFix App Crash Bug\n-UI optimization\n-Add AI function to Dual Lens Doorbell",
+    "appstoreReleaseDate": "2024-11-18"
   },
   {
     "name": "VacosSmart",
@@ -93,7 +93,10 @@
     "id": "6450364232",
     "playstoreVersion": "5.2.6",
     "playstoreReleaseNote": "Fix errors and improvements",
-    "playstoreReleaseDate": "2024-02-05"
+    "playstoreReleaseDate": "2024-02-05",
+    "appstoreVersion": "5.2.3",
+    "appstoreReleaseNote": "fix some bug",
+    "appstoreReleaseDate": "2024-02-04"
   },
   {
     "name": "Baby Watch Plus",
@@ -113,9 +116,9 @@
     "playstoreVersion": "2.0.5",
     "playstoreReleaseNote": "null",
     "playstoreReleaseDate": "2024-10-18",
-    "appstoreVersion": "5.5.2",
-    "appstoreReleaseNote": "improve functions \nfix bugs",
-    "appstoreReleaseDate": "2024-09-02"
+    "appstoreVersion": "5.6.0",
+    "appstoreReleaseNote": "-fix bugs\n-improve functions",
+    "appstoreReleaseDate": "2024-10-28"
   },
   {
     "name": "CloudPlus",
@@ -124,9 +127,9 @@
     "playstoreVersion": "5.5.3",
     "playstoreReleaseNote": "Add Google Payment function",
     "playstoreReleaseDate": "2024-10-10",
-    "appstoreVersion": "5.5.4",
-    "appstoreReleaseNote": "Add new features",
-    "appstoreReleaseDate": "2024-08-22"
+    "appstoreVersion": "5.6.2",
+    "appstoreReleaseNote": "fix some bugs",
+    "appstoreReleaseDate": "2024-11-20"
   },
   {
     "name": "Cloudot",
@@ -135,9 +138,9 @@
     "playstoreVersion": "5.5.0",
     "playstoreReleaseNote": "Cloudot is a user-friendly monitoring surveillance app, easy-to-use meanwhile multi-functional:<br>1. Real video playing<br>2. Playback image checking<br>3. Time &amp; message reminding<br>4. Share the video image ",
     "playstoreReleaseDate": "2024-10-14",
-    "appstoreVersion": "5.2.1",
-    "appstoreReleaseNote": "fix some bugs",
-    "appstoreReleaseDate": "2023-11-16"
+    "appstoreVersion": "5.5.2",
+    "appstoreReleaseNote": "fix some bugs.",
+    "appstoreReleaseDate": "2024-11-07"
   },
   {
     "name": "ieGeek Cam",
@@ -157,9 +160,9 @@
     "playstoreVersion": "5.6.0",
     "playstoreReleaseNote": "null",
     "playstoreReleaseDate": "2024-10-23",
-    "appstoreVersion": "5.5.2",
-    "appstoreReleaseNote": "Added Apple in-app purchase packages and subscription packages",
-    "appstoreReleaseDate": "2024-08-21"
+    "appstoreVersion": "5.6.1",
+    "appstoreReleaseNote": "Fixed the version bug",
+    "appstoreReleaseDate": "2024-10-30"
   },
   {
     "name": "ANRAN",
@@ -190,9 +193,9 @@
     "playstoreVersion": "5.3.3",
     "playstoreReleaseNote": "null",
     "playstoreReleaseDate": "2024-05-08",
-    "appstoreVersion": "5.3.0",
+    "appstoreVersion": "5.6.2",
     "appstoreReleaseNote": "Optimized UI and fixed some bugs",
-    "appstoreReleaseDate": "2024-04-03"
+    "appstoreReleaseDate": "2024-11-15"
   },
   {
     "name": "BabytimeHome",
@@ -230,9 +233,9 @@
     "playstoreVersion": "5.6.1",
     "playstoreReleaseNote": "null",
     "playstoreReleaseDate": "2024-11-13",
-    "appstoreVersion": "5.5.2",
-    "appstoreReleaseNote": "fix bugs",
-    "appstoreReleaseDate": "2024-08-19"
+    "appstoreVersion": "5.6.1",
+    "appstoreReleaseNote": "fix bug",
+    "appstoreReleaseDate": "2024-11-11"
   },
   {
     "name": "SV3C Cloud",
@@ -274,9 +277,9 @@
     "playstoreVersion": "5.5.2",
     "playstoreReleaseNote": "1. Optimize the display effect <br>2.Fix some bugs",
     "playstoreReleaseDate": "2024-09-25",
-    "appstoreVersion": "5.5.2",
-    "appstoreReleaseNote": "1. Optimize the display effect \n2.Fix some bugs",
-    "appstoreReleaseDate": "2024-09-25"
+    "appstoreVersion": "5.6.1",
+    "appstoreReleaseNote": "1. Optimize the display effect\n2.Fix some errors",
+    "appstoreReleaseDate": "2024-10-23"
   },
   {
     "name": "DingLink",
@@ -336,9 +339,9 @@
     "playstoreVersion": "5.6.0",
     "playstoreReleaseNote": "Yes iHome is a security camera app that connects to your cameras, offering features such as 24/7 home monitoring, alarms, and video playback. Simplifying home security for your peace of mind.",
     "playstoreReleaseDate": "2024-10-30",
-    "appstoreVersion": "5.5.2",
-    "appstoreReleaseNote": "Fix known bugs\r",
-    "appstoreReleaseDate": "2024-09-19"
+    "appstoreVersion": "5.6",
+    "appstoreReleaseNote": "Fix known bugs ",
+    "appstoreReleaseDate": "2024-10-29"
   },
   {
     "name": "VIZIUUY",
@@ -378,7 +381,10 @@
     "id": "6476133260",
     "playstoreVersion": "5.5.1",
     "playstoreReleaseNote": "Управляйте своим домом с помощью приложения oQo",
-    "playstoreReleaseDate": "2024-09-11"
+    "playstoreReleaseDate": "2024-09-11",
+    "appstoreVersion": "1.0.0",
+    "appstoreReleaseNote": "null",
+    "appstoreReleaseDate": "2024-09-09"
   },
   {
     "name": "GCLink",
@@ -405,9 +411,9 @@
     "playstoreVersion": "5.3.3",
     "playstoreReleaseNote": "null",
     "playstoreReleaseDate": "2024-06-06",
-    "appstoreVersion": "5.3.0",
-    "appstoreReleaseNote": "null",
-    "appstoreReleaseDate": "2024-05-15"
+    "appstoreVersion": "5.4.1",
+    "appstoreReleaseNote": "Optimize user experience",
+    "appstoreReleaseDate": "2024-10-30"
   },
   {
     "name": "CZEview",
@@ -415,6 +421,9 @@
     "id": "6618150629",
     "playstoreVersion": "5.5.1",
     "playstoreReleaseNote": "1. Optimize the display effect <br>2.Fix some bugs",
-    "playstoreReleaseDate": "2024-09-24"
+    "playstoreReleaseDate": "2024-09-24",
+    "appstoreVersion": "5.5.3",
+    "appstoreReleaseNote": "1. Optimize the display effect\n2.Fix some errors",
+    "appstoreReleaseDate": "2024-09-29"
   }
 ]
