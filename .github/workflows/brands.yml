@@ -84,7 +84,7 @@ jobs:
         run: cat ${GITHUB_WORKSPACE}/src/brands_infos.json
 
       - name: "Update Capabilities.php"
-        run: php ./check_versions.php appstore
+        run: php ./check_versions.php --appstore
 
       - name: "Release"
         uses: peter-evans/create-pull-request@v6

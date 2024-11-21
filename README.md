@@ -95,3 +95,16 @@ Usage: update_brands_from_stores.sh [-a|--appstore] [-d|--debug] [-h|--help] [-p
   [-v|--version]         Print script version.
   [-i|--input <file>]    Specify the input JSON file. Default is brands_infos.json.
 ```
+
+## check_versions.php
+This script reads brands from brands_infos.json file and update PHP file Capabilities.php.
+
+```
+Usage: php check_versions.php [-a|--appstore] [-p|--playstore] [-b|--both] [-d|--dry-run]
+  options:
+  [-a|--appstore]     Compare only App Store versions and update Capabilities.php file.
+  [-p|--playstore]    Compare only Playstore versions and update Capabilities.php file.
+  [-b|--both]         Compare both stores versions and update Capabilities.php file.
+  [-d|--dry-run]      Compare both stores versions and do not update Capabilities.php file.
+
+```
