@@ -16,28 +16,26 @@ $dryRun = false; // dry-run flag
 
 // Analyse des arguments
 if (isset($argv)) {
-    foreach ($argv as $arg) {
-        switch ($arg) {
-            case '-p':
-            case '--playstore':
-                $store = 1;
-                break;
-            case '-a':
-            case '--appstore':
-                $store = 2;
-                break;
-            case '-b':
-            case '--both':
-                $store = 0;
-                break;
-            case '-d':
-            case '--dry-run':
-                $dryRun = true;
-                break;
-            default:
-                echo "Aucun argument n'a été saisi.\n";
-                return;
-        }
+    switch ($argv[1]) {
+        case '-p':
+        case '--playstore':
+            $store = 1;
+            break;
+        case '-a':
+        case '--appstore':
+            $store = 2;
+            break;
+        case '-b':
+        case '--both':
+            $store = 0;
+            break;
+        case '-d':
+        case '--dry-run':
+            $dryRun = true;
+            break;
+        default:
+            echo "Aucun argument n'a été saisi.\n";
+            return;
     }
 }
 if ($dryRun) {
