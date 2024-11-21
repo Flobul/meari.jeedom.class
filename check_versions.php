@@ -55,11 +55,10 @@ if (is_array($array)) {
             }
 
             if ($version && version_compare($appsO[$appsN['name']]['APP_VERSION'], $version) < 0) {
-                echo "Mise à jour de " . $appsN['name'] . " vers la version " . $version . " > " . $appsO[$appsN['name']]['APP_VERSION'] . "\n";
+                echo "Mise à jour de \"" . $appsN['name'] . "\" de v" . $appsO[$appsN['name']]['APP_VERSION'] . " vers v" . $version . "\n";
 
-                $pattern = '/("'.$appsN['name'].'"\s*=>\s*array\s*\(\s*"BRAND"\s*=>\s*".*",\s*"APP_VERSION"\s*=>\s*")[^"]*(",\s*"APP_VERSION_CODE")/';
+                $pattern = '/("'.str_replace("+","\+",$appsN['name']).'"\s*=>\s*array\s*\(\s*"BRAND"\s*=>\s*".*",\s*"APP_VERSION"\s*=>\s*")[^"]*(",\s*"APP_VERSION_CODE")/';
                 $replacement = '${1}'.$version.'${2}';
-
                 if (!$dryRun) {
                     $file = preg_replace($pattern, $replacement, $file);
                 }
