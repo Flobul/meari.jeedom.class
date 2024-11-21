@@ -2836,7 +2836,7 @@ class Capabilities
             ),
             "My Uniden +" => array(
                 "BRAND"            => "75",
-                "APP_VERSION"      => "5.4.2",
+                "APP_VERSION"      => "5.6.0",
                 "APP_VERSION_CODE" => "2024071615",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "BF/5.4.2 (iPhone; iOS 17.5.1; Scale/2.00)"
