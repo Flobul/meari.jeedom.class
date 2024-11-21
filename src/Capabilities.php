@@ -3009,7 +3009,7 @@ class Capabilities
                 "SDK_VERSION"      => "5.3.0.2023.10.23",
                 "USERAGENT"        => "BZ/5.3.0 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
-            "OQO" => array(
+            "oQo" => array(
                 "BRAND"            => "128",
                 "APP_VERSION"      => "5.5.2",
                 "APP_VERSION_CODE" => "2024090614",
