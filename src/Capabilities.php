@@ -2829,7 +2829,7 @@ class Capabilities
             ),
             "SiecoSmart" => array(
                 "BRAND"            => "71",
-                "APP_VERSION"      => "5.2.3",
+                "APP_VERSION"      => "5.6.2",
                 "APP_VERSION_CODE" => "20",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
                 "USERAGENT"        => "SiecoSmart/5.2.3 (iPhone; iOS 17.5.1; Scale/2.00)"
