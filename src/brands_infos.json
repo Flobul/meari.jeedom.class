@@ -328,9 +328,9 @@
     "playstoreVersion": "5.6.1",
     "playstoreReleaseNote": "1: Optimize known problems;<br>2: Add device type",
     "playstoreReleaseDate": "2024-11-19",
-    "appstoreVersion": "",
-    "appstoreReleaseNote": "",
-    "appstoreReleaseDate": ""
+    "appstoreVersion": "5.1.1",
+    "appstoreReleaseNote": "1. Adding some features；\n2. Fix some bugs；\n3. App interface optimization；",
+    "appstoreReleaseDate": "2023-08-31"
   },
   {
     "name": "Yes iHome",
