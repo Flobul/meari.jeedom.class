@@ -127,9 +127,9 @@
     "playstoreVersion": "5.5.3",
     "playstoreReleaseNote": "Add Google Payment function",
     "playstoreReleaseDate": "2024-10-10",
-    "appstoreVersion": "5.6.2",
+    "appstoreVersion": "5.6.3",
     "appstoreReleaseNote": "fix some bugs",
-    "appstoreReleaseDate": "2024-11-20"
+    "appstoreReleaseDate": "2024-11-23"
   },
   {
     "name": "Cloudot",
