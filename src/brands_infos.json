@@ -6,9 +6,9 @@
     "playstoreVersion": "5.5.0",
     "playstoreReleaseNote": "Improving UI experience.",
     "playstoreReleaseDate": "2024-08-02",
-    "appstoreVersion": "5.5.2",
-    "appstoreReleaseNote": "1 Add support for multiple devices",
-    "appstoreReleaseDate": "2024-07-23"
+    "appstoreVersion": "5.6.2",
+    "appstoreReleaseNote": "fix some bugs",
+    "appstoreReleaseDate": "2024-11-25"
   },
   {
     "name": "CloudEdge",
