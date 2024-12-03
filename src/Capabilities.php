@@ -3039,7 +3039,7 @@ class Capabilities
             ),
             "CZEview" => array(
                 "BRAND"            => "141",
-                "APP_VERSION"      => "5.5.3",
+                "APP_VERSION"      => "5.6.2",
                 "APP_VERSION_CODE" => "2024092515",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "CZE/5.5.3 (iPhone; iOS 17.5.1; Scale/2.00)"
