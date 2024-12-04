@@ -422,8 +422,8 @@
     "playstoreVersion": "5.5.1",
     "playstoreReleaseNote": "1. Optimize the display effect <br>2.Fix some bugs",
     "playstoreReleaseDate": "2024-09-24",
-    "appstoreVersion": "5.5.3",
-    "appstoreReleaseNote": "1. Optimize the display effect\n2.Fix some errors",
-    "appstoreReleaseDate": "2024-09-29"
+    "appstoreVersion": "5.6.2",
+    "appstoreReleaseNote": "- Fix known issues",
+    "appstoreReleaseDate": "2024-12-02"
   }
 ]
