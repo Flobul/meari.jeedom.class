@@ -2941,7 +2941,7 @@ class Capabilities
             ),
             "Safeview" => array(
                 "BRAND"            => "107",
-                "APP_VERSION"      => "5.6.1",
+                "APP_VERSION"      => "5.6.2",
                 "APP_VERSION_CODE" => "2024062616",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "SVC/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
