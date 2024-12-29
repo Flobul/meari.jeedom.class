@@ -382,9 +382,9 @@
     "playstoreVersion": "5.5.1",
     "playstoreReleaseNote": "Управляйте своим домом с помощью приложения oQo",
     "playstoreReleaseDate": "2024-09-11",
-    "appstoreVersion": "1.0.0",
-    "appstoreReleaseNote": "null",
-    "appstoreReleaseDate": "2024-09-09"
+    "appstoreVersion": "1.1.0",
+    "appstoreReleaseNote": "В этом обновлении мы исправили ошибки и повысили производительность приложения.",
+    "appstoreReleaseDate": "2024-12-28"
   },
   {
     "name": "GCLink",
