@@ -2976,7 +2976,7 @@ class Capabilities
             ),
             "SecuPlus" => array(
                 "BRAND"            => "115",
-                "APP_VERSION"      => "5.5.0",
+                "APP_VERSION"      => "5.7.1",
                 "APP_VERSION_CODE" => "2",
                 "SDK_VERSION"      => "3.1.0.2021.3.11",
                 "USERAGENT"        => "SP/1.0.0 (iPhone; iOS 17.5.1; Scale/2.00)"
