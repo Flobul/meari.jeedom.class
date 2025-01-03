@@ -160,9 +160,9 @@
     "playstoreVersion": "5.6.0",
     "playstoreReleaseNote": "null",
     "playstoreReleaseDate": "2024-10-23",
-    "appstoreVersion": "5.6.1",
-    "appstoreReleaseNote": "Fixed the version bug",
-    "appstoreReleaseDate": "2024-10-30"
+    "appstoreVersion": "5.7.1",
+    "appstoreReleaseNote": "Fixed version bugs, added some new features, and increased subscription content.",
+    "appstoreReleaseDate": "2025-01-02"
   },
   {
     "name": "ANRAN",
@@ -422,8 +422,8 @@
     "playstoreVersion": "5.5.1",
     "playstoreReleaseNote": "1. Optimize the display effect <br>2.Fix some bugs",
     "playstoreReleaseDate": "2024-09-24",
-    "appstoreVersion": "5.6.2",
+    "appstoreVersion": "5.7.1",
     "appstoreReleaseNote": "- Fix known issues",
-    "appstoreReleaseDate": "2024-12-02"
+    "appstoreReleaseDate": "2025-01-02"
   }
 ]
