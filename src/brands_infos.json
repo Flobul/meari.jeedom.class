@@ -6,9 +6,9 @@
     "playstoreVersion": "5.5.0",
     "playstoreReleaseNote": "Improving UI experience.",
     "playstoreReleaseDate": "2024-08-02",
-    "appstoreVersion": "5.7.1",
+    "appstoreVersion": "5.7.2",
     "appstoreReleaseNote": "fix some bugs",
-    "appstoreReleaseDate": "2024-12-30"
+    "appstoreReleaseDate": "2025-01-10"
   },
   {
     "name": "CloudEdge",
@@ -50,9 +50,9 @@
     "playstoreVersion": "5.5.1",
     "playstoreReleaseNote": "Ottimizzazione funzionalità<br>Aggiunti nuovi servizi cloud<br>Correzione bug<br>Migliorata compatibilità",
     "playstoreReleaseDate": "2024-10-15",
-    "appstoreVersion": "5.5.4",
-    "appstoreReleaseNote": "Risolto crash su iOS 18\nOttimizzazione funzionalità\nAggiunti nuovi servizi cloud\nCorrezione bug\nMigliorata compatibilità",
-    "appstoreReleaseDate": "2024-10-17"
+    "appstoreVersion": "5.7.1",
+    "appstoreReleaseNote": "Ottimizzazione dell’interfaccia della fotocamera\nMiglioramenti per dispositivi a batteria, modalità a basso consumo.\nSupporto a nuove funzionalità per le telecamere per animali domestici.\n\nMiglioramenti generali all’app",
+    "appstoreReleaseDate": "2025-01-10"
   },
   {
     "name": "ZUMIMALL",
