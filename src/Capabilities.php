@@ -2766,7 +2766,7 @@ class Capabilities
         $this->apps = array(
             "Meari" => array(
                 "BRAND"            => "1",
-                "APP_VERSION"      => "5.7.1",
+                "APP_VERSION"      => "5.7.2",
                 "APP_VERSION_CODE" => "2",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
                 "USERAGENT"        => "Meari/1.0.0 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2794,7 +2794,7 @@ class Capabilities
             ),
             "ISIWI" => array(
                 "BRAND"            => "51",
-                "APP_VERSION"      => "5.5.4",
+                "APP_VERSION"      => "5.7.1",
                 "APP_VERSION_CODE" => "2024061817",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "IS/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
