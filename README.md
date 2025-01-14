@@ -4,7 +4,7 @@ A PHP class for jeedom using meari-like mobile applications :
 - CloudEdge,
 - Beaba Zen Connect,
 - Arenti, (*)
-- isiwi,
+- ISIWI,
 - ZUMIMALL,
 - VacosSmart,
 - COOAU,
@@ -35,7 +35,7 @@ A PHP class for jeedom using meari-like mobile applications :
 - VIZIUUY,
 - TkenPro,
 - Buzzai Pro,
-- OQO,
+- oQo,
 - GCLink,
 - PARINNOV,
 - Jennov,

@@ -1350,6 +1350,7 @@ class Capabilities
                 "subType" => "string",
                 "name" => __("Compte utilisateur", __FILE__),
                 "configuration" => array(
+                    "notCloudEdge" => true,
                     "calculation" => "base64_decode('%s')",
                     "calculationBack" => "base64_encode('%s')"
                 ),
