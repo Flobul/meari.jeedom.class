@@ -2844,7 +2844,7 @@ class Capabilities
             ),
             "CloudPlus" => array(
                 "BRAND"            => "77",
-                "APP_VERSION"      => "5.6.3",
+                "APP_VERSION"      => "5.7.1",
                 "APP_VERSION_CODE" => "2024081311",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "Cln/5.5.4 (iPhone; iOS 17.5.1; Scale/2.00)"

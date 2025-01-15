@@ -127,9 +127,9 @@
     "playstoreVersion": "5.5.3",
     "playstoreReleaseNote": "Add Google Payment function",
     "playstoreReleaseDate": "2024-10-10",
-    "appstoreVersion": "5.6.3",
-    "appstoreReleaseNote": "fix some bugs",
-    "appstoreReleaseDate": "2024-11-23"
+    "appstoreVersion": "5.7.1",
+    "appstoreReleaseNote": "Add Bluetooth binding radar scanning interface",
+    "appstoreReleaseDate": "2025-01-14"
   },
   {
     "name": "Cloudot",
