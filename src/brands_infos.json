@@ -17,9 +17,9 @@
     "playstoreVersion": "5.7.4",
     "playstoreReleaseNote": "Fix some konwn issues.",
     "playstoreReleaseDate": "2025-01-15",
-    "appstoreVersion": "5.7.4",
-    "appstoreReleaseNote": "fix some bugs",
-    "appstoreReleaseDate": "2025-01-06"
+    "appstoreVersion": "5.7.5",
+    "appstoreReleaseNote": "fix some bug",
+    "appstoreReleaseDate": "2025-01-17"
   },
   {
     "name": "Beaba Zen Connect",
@@ -350,9 +350,9 @@
     "playstoreVersion": "5.7.0",
     "playstoreReleaseNote": "更新迭代，优化客户体验使用",
     "playstoreReleaseDate": "2025-01-07",
-    "appstoreVersion": "5.2.3",
-    "appstoreReleaseNote": "null",
-    "appstoreReleaseDate": "2024-03-15"
+    "appstoreVersion": "5.7.1",
+    "appstoreReleaseNote": "The updates in this version are as follows \n1、Optimize interface operation to make the interface simpler and more convenient\n2、Fix known bugs",
+    "appstoreReleaseDate": "2025-01-18"
   },
   {
     "name": "TkenPro",
@@ -411,9 +411,9 @@
     "playstoreVersion": "5.5.3",
     "playstoreReleaseNote": "null",
     "playstoreReleaseDate": "2024-11-25",
-    "appstoreVersion": "5.4.1",
+    "appstoreVersion": "5.7.2",
     "appstoreReleaseNote": "Optimize user experience",
-    "appstoreReleaseDate": "2024-10-30"
+    "appstoreReleaseDate": "2025-01-17"
   },
   {
     "name": "CZEview",

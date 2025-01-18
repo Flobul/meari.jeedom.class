@@ -2774,7 +2774,7 @@ class Capabilities
             ),
             "CloudEdge" => array(
                 "BRAND"            => "8",
-                "APP_VERSION"      => "5.7.4",
+                "APP_VERSION"      => "5.7.5",
                 "APP_VERSION_CODE" => "185",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "Meari/5.5.3 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2991,7 +2991,7 @@ class Capabilities
             ),
             "VIZIUUY" => array(
                 "BRAND"            => "122",
-                "APP_VERSION"      => "5.2.3",
+                "APP_VERSION"      => "5.7.1",
                 "APP_VERSION_CODE" => "1",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
                 "USERAGENT"        => "viziuuy/5.2.3 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -3033,7 +3033,7 @@ class Capabilities
             ),
             "Jennov" => array(
                 "BRAND"            => "135",
-                "APP_VERSION"      => "5.4.1",
+                "APP_VERSION"      => "5.7.2",
                 "APP_VERSION_CODE" => "2",
                 "SDK_VERSION"      => "5.3.0.2023.10.23",
                 "USERAGENT"        => "Jennov/5.3.0 (iPhone; iOS 17.5.1; Scale/2.00)"
