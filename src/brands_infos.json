@@ -3,12 +3,12 @@
     "name": "Meari",
     "bundleId": "com.ppstrong.weeye",
     "id": "1104880537",
-    "playstoreVersion": "5.6.1",
+    "playstoreVersion": "5.7.6",
     "playstoreReleaseNote": "1.Improving UI experience.<br>2.Fix some known issues.",
-    "playstoreReleaseDate": "2024-11-24",
-    "appstoreVersion": "5.7.2",
-    "appstoreReleaseNote": "fix some bugs",
-    "appstoreReleaseDate": "2025-01-10"
+    "playstoreReleaseDate": "2025-01-19",
+    "appstoreVersion": "5.7.3",
+    "appstoreReleaseNote": "fix some bug",
+    "appstoreReleaseDate": "2025-01-20"
   },
   {
     "name": "CloudEdge",
