@@ -2816,7 +2816,7 @@ class Capabilities
             ),
             "COOAU" => array(
                 "BRAND"            => "65",
-                "APP_VERSION"      => "5.4.0",
+                "APP_VERSION"      => "5.6.2",
                 "APP_VERSION_CODE" => "158",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "COO/5.4.0 (iPhone; iOS 17.5.1; Scale/2.00)"
