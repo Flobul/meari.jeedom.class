@@ -2935,7 +2935,7 @@ class Capabilities
             ),
             "BoifunCam" => array(
                 "BRAND"            => "104",
-                "APP_VERSION"      => "5.4.0",
+                "APP_VERSION"      => "5.6.1",
                 "APP_VERSION_CODE" => "2024061112",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "BOI/5.4.0 (iPhone; iOS 17.5.1; Scale/2.00)"
