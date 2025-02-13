@@ -116,17 +116,17 @@
     "playstoreVersion": "2.0.5",
     "playstoreReleaseNote": "null",
     "playstoreReleaseDate": "2024-10-18",
-    "appstoreVersion": "5.6.0",
-    "appstoreReleaseNote": "-fix bugs\n-improve functions",
-    "appstoreReleaseDate": "2024-10-28"
+    "appstoreVersion": "5.7.1",
+    "appstoreReleaseNote": "fix bugs\noptimise 4G functions",
+    "appstoreReleaseDate": "2025-02-12"
   },
   {
     "name": "CloudPlus",
     "bundleId": "com.langshixing.cloudhome",
     "id": "1599423184",
-    "playstoreVersion": "5.5.3",
-    "playstoreReleaseNote": "Add Google Payment function",
-    "playstoreReleaseDate": "2024-10-10",
+    "playstoreVersion": "5.7.0",
+    "playstoreReleaseNote": "Add Bluetooth binding search interface",
+    "playstoreReleaseDate": "2025-01-09",
     "appstoreVersion": "5.7.1",
     "appstoreReleaseNote": "Add Bluetooth binding radar scanning interface",
     "appstoreReleaseDate": "2025-01-14"
