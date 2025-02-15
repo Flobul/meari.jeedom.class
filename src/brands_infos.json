@@ -61,9 +61,9 @@
     "playstoreVersion": "5.6.1",
     "playstoreReleaseNote": "New Function<br>Fix App Crash Bug",
     "playstoreReleaseDate": "2024-11-17",
-    "appstoreVersion": "5.6.2",
-    "appstoreReleaseNote": "-New Function\nFix App Crash Bug\n-UI optimization\n-Add AI function to Dual Lens Doorbell",
-    "appstoreReleaseDate": "2024-11-18"
+    "appstoreVersion": "5.7.0",
+    "appstoreReleaseNote": "-New Function\r\nFix App Crash Bug\n- Purchased orders will display a valid expiration date.\n- 4G devices can purchase cloud storage separately.\n- Support for purchasing bundled plans for multiple 4G devices.\n- Subscription plans can be transferred to other devices.\n- Advanced AI now includes intelligent bird and wildlife recognition.\n- Baby monitor with enhanced safety features, including face-down sleep detection.",
+    "appstoreReleaseDate": "2025-02-14"
   },
   {
     "name": "VacosSmart",
