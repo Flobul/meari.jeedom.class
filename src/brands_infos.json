@@ -244,9 +244,9 @@
     "playstoreVersion": "5.7.0",
     "playstoreReleaseNote": "fix some bugs~",
     "playstoreReleaseDate": "2025-01-14",
-    "appstoreVersion": "5.2.3",
+    "appstoreVersion": "5.7.1",
     "appstoreReleaseNote": "fix some bugs~",
-    "appstoreReleaseDate": "2024-03-02"
+    "appstoreReleaseDate": "2025-02-18"
   },
   {
     "name": "SIIOOE",
@@ -277,9 +277,9 @@
     "playstoreVersion": "5.7.1",
     "playstoreReleaseNote": "1. Optimize the display effect <br>2.Fix some bugs",
     "playstoreReleaseDate": "2025-01-15",
-    "appstoreVersion": "5.6.2",
-    "appstoreReleaseNote": "1. Optimize the display effect\n2.Fix some errors",
-    "appstoreReleaseDate": "2024-12-13"
+    "appstoreVersion": "5.7.3",
+    "appstoreReleaseNote": "1. Optimize the display effect\r\n2.Fix some errors",
+    "appstoreReleaseDate": "2025-02-17"
   },
   {
     "name": "DingLink",
