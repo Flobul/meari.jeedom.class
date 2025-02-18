@@ -2921,7 +2921,7 @@ class Capabilities
             ),
             "SV3C Cloud" => array(
                 "BRAND"            => "100",
-                "APP_VERSION"      => "5.2.3",
+                "APP_VERSION"      => "5.7.1",
                 "APP_VERSION_CODE" => "2",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
                 "USERAGENT"        => "SVC/5.2.3 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2942,7 +2942,7 @@ class Capabilities
             ),
             "Safeview" => array(
                 "BRAND"            => "107",
-                "APP_VERSION"      => "5.6.2",
+                "APP_VERSION"      => "5.7.3",
                 "APP_VERSION_CODE" => "2024062616",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "SVC/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
