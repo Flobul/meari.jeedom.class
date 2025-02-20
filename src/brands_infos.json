@@ -50,9 +50,9 @@
     "playstoreVersion": "5.7.0",
     "playstoreReleaseNote": "Ottimizzazione dell’interfaccia della fotocamera<br>Miglioramenti per dispositivi a batteria, modalità a basso consumo.<br>Supporto a nuove funzionalità per le telecamere per animali domestici.<br><br>Miglioramenti generali all’app",
     "playstoreReleaseDate": "2025-01-10",
-    "appstoreVersion": "5.7.1",
-    "appstoreReleaseNote": "Ottimizzazione dell’interfaccia della fotocamera\nMiglioramenti per dispositivi a batteria, modalità a basso consumo.\nSupporto a nuove funzionalità per le telecamere per animali domestici.\n\nMiglioramenti generali all’app",
-    "appstoreReleaseDate": "2025-01-10"
+    "appstoreVersion": "5.7.2",
+    "appstoreReleaseNote": "Migliorata aggiunta dispositivi\nMigliorati alcuni testi\nAggiornati prezzi cloud 4G+",
+    "appstoreReleaseDate": "2025-02-19"
   },
   {
     "name": "ZUMIMALL",
@@ -274,9 +274,9 @@
     "name": "Safeview",
     "bundleId": "com.ctvzn.safeview",
     "id": "6451462082",
-    "playstoreVersion": "5.7.1",
+    "playstoreVersion": "5.7.2",
     "playstoreReleaseNote": "1. Optimize the display effect <br>2.Fix some bugs",
-    "playstoreReleaseDate": "2025-01-15",
+    "playstoreReleaseDate": "2025-02-19",
     "appstoreVersion": "5.7.3",
     "appstoreReleaseNote": "1. Optimize the display effect\r\n2.Fix some errors",
     "appstoreReleaseDate": "2025-02-17"
