@@ -47,9 +47,9 @@
     "name": "ISIWI",
     "id": "1515116175",
     "bundleId": "com.giuliano.smarthome",
-    "playstoreVersion": "5.7.0",
-    "playstoreReleaseNote": "Ottimizzazione dell’interfaccia della fotocamera<br>Miglioramenti per dispositivi a batteria, modalità a basso consumo.<br>Supporto a nuove funzionalità per le telecamere per animali domestici.<br><br>Miglioramenti generali all’app",
-    "playstoreReleaseDate": "2025-01-10",
+    "playstoreVersion": "5.7.1",
+    "playstoreReleaseNote": "Migliorata aggiunta dispositivi<br>Migliorati alcuni testi<br>Aggiornati prezzi cloud 4G+",
+    "playstoreReleaseDate": "2025-02-19",
     "appstoreVersion": "5.7.2",
     "appstoreReleaseNote": "Migliorata aggiunta dispositivi\nMigliorati alcuni testi\nAggiornati prezzi cloud 4G+",
     "appstoreReleaseDate": "2025-02-19"
