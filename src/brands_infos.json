@@ -146,9 +146,9 @@
     "name": "ieGeek Cam",
     "bundleId": "com.iegeekCam.cam",
     "id": "1601747664",
-    "playstoreVersion": "5.5.2",
+    "playstoreVersion": "5.7.1",
     "playstoreReleaseNote": "Fix some bugs",
-    "playstoreReleaseDate": "2024-09-03",
+    "playstoreReleaseDate": "2025-02-24",
     "appstoreVersion": "5.5.2",
     "appstoreReleaseNote": "Fix some bugs",
     "appstoreReleaseDate": "2024-08-10"
@@ -171,9 +171,9 @@
     "playstoreVersion": "5.6.0",
     "playstoreReleaseNote": "null",
     "playstoreReleaseDate": "2024-10-21",
-    "appstoreVersion": "5.7.3",
-    "appstoreReleaseNote": "fix some bugs!",
-    "appstoreReleaseDate": "2025-02-21"
+    "appstoreVersion": "5.7.4",
+    "appstoreReleaseNote": "fix some bugs",
+    "appstoreReleaseDate": "2025-02-24"
   },
   {
     "name": "K&F Cam",
