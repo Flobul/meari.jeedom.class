@@ -2795,7 +2795,7 @@ class Capabilities
             ),
             "ISIWI" => array(
                 "BRAND"            => "51",
-                "APP_VERSION"      => "5.7.2",
+                "APP_VERSION"      => "5.7.3",
                 "APP_VERSION_CODE" => "2024061817",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "IS/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
