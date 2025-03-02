@@ -2851,7 +2851,7 @@ class Capabilities
             ),
             "Cloudot" => array(
                 "BRAND"            => "80",
-                "APP_VERSION"      => "5.7.1",
+                "APP_VERSION"      => "5.7.3",
                 "APP_VERSION_CODE" => "13",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
                 "USERAGENT"        => "Cln/5.2.1 (iPhone; iOS 17.5.1; Scale/2.00)"
