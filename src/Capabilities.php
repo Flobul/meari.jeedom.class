@@ -2872,7 +2872,7 @@ class Capabilities
             ),
             "ANRAN" => array(
                 "BRAND"            => "84",
-                "APP_VERSION"      => "5.7.4",
+                "APP_VERSION"      => "5.7.5",
                 "APP_VERSION_CODE" => "2024071610",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "An/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2935,7 +2935,7 @@ class Capabilities
             ),
             "BoifunCam" => array(
                 "BRAND"            => "104",
-                "APP_VERSION"      => "5.6.1",
+                "APP_VERSION"      => "5.7.3",
                 "APP_VERSION_CODE" => "2024061112",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "BOI/5.4.0 (iPhone; iOS 17.5.1; Scale/2.00)"
