@@ -2788,7 +2788,7 @@ class Capabilities
             ),
             "Arenti" => array(
                 "BRAND"            => "39",
-                "APP_VERSION"      => "4.5.1",
+                "APP_VERSION"      => "4.6.0",
                 "APP_VERSION_CODE" => "202",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "Arenti/4.3.1 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -3033,7 +3033,7 @@ class Capabilities
             ),
             "Jennov" => array(
                 "BRAND"            => "135",
-                "APP_VERSION"      => "5.7.2",
+                "APP_VERSION"      => "5.7.3",
                 "APP_VERSION_CODE" => "2",
                 "SDK_VERSION"      => "5.3.0.2023.10.23",
                 "USERAGENT"        => "Jennov/5.3.0 (iPhone; iOS 17.5.1; Scale/2.00)"
