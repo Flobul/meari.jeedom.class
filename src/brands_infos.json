@@ -39,9 +39,9 @@
     "playstoreVersion": "4.5.2",
     "playstoreReleaseNote": "Fix some known bugs.",
     "playstoreReleaseDate": "2025-01-07",
-    "appstoreVersion": "4.5.1",
+    "appstoreVersion": "4.6.0",
     "appstoreReleaseNote": "- Fix some bugs.",
-    "appstoreReleaseDate": "2025-01-04"
+    "appstoreReleaseDate": "2025-03-07"
   },
   {
     "name": "ISIWI",
@@ -124,9 +124,9 @@
     "name": "CloudPlus",
     "bundleId": "com.langshixing.cloudhome",
     "id": "1599423184",
-    "playstoreVersion": "5.7.0",
-    "playstoreReleaseNote": "Add Bluetooth binding search interface",
-    "playstoreReleaseDate": "2025-01-09",
+    "playstoreVersion": "5.7.1",
+    "playstoreReleaseNote": "Fix known issues",
+    "playstoreReleaseDate": "2025-02-27",
     "appstoreVersion": "5.7.1",
     "appstoreReleaseNote": "Add Bluetooth binding radar scanning interface",
     "appstoreReleaseDate": "2025-01-14"
@@ -411,9 +411,9 @@
     "playstoreVersion": "5.5.3",
     "playstoreReleaseNote": "null",
     "playstoreReleaseDate": "2024-11-25",
-    "appstoreVersion": "5.7.2",
-    "appstoreReleaseNote": "Optimize user experience",
-    "appstoreReleaseDate": "2025-01-17"
+    "appstoreVersion": "5.7.3",
+    "appstoreReleaseNote": "1 fix some bug",
+    "appstoreReleaseDate": "2025-03-06"
   },
   {
     "name": "CZEview",
