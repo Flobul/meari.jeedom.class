@@ -2774,7 +2774,7 @@ class Capabilities
             ),
             "CloudEdge" => array(
                 "BRAND"            => "8",
-                "APP_VERSION"      => "5.7.5",
+                "APP_VERSION"      => "5.8.0",
                 "APP_VERSION_CODE" => "185",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "Meari/5.5.3 (iPhone; iOS 17.5.1; Scale/2.00)"
