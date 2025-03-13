@@ -2774,7 +2774,7 @@ class Capabilities
             ),
             "CloudEdge" => array(
                 "BRAND"            => "8",
-                "APP_VERSION"      => "5.8.0",
+                "APP_VERSION"      => "5.8.1",
                 "APP_VERSION_CODE" => "185",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "Meari/5.5.3 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2914,7 +2914,7 @@ class Capabilities
             ),
             "Morecam" => array(
                 "BRAND"            => "98",
-                "APP_VERSION"      => "5.6.1",
+                "APP_VERSION"      => "5.7.4",
                 "APP_VERSION_CODE" => "2024080914",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "MC/5.5.2 (iPhone; iOS 17.5.1; Scale/2.00)"

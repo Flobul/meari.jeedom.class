@@ -17,9 +17,9 @@
     "playstoreVersion": "5.7.7",
     "playstoreReleaseNote": "Fix some konwn issues.",
     "playstoreReleaseDate": "2025-02-17",
-    "appstoreVersion": "5.8.0",
+    "appstoreVersion": "5.8.1",
     "appstoreReleaseNote": "fix some bugs",
-    "appstoreReleaseDate": "2025-03-11"
+    "appstoreReleaseDate": "2025-03-12"
   },
   {
     "name": "Beaba Zen Connect",
@@ -230,12 +230,12 @@
     "name": "Morecam",
     "bundleId": "com.morecam.smartlife",
     "id": "1645556025",
-    "playstoreVersion": "5.6.1",
+    "playstoreVersion": "5.7.1",
     "playstoreReleaseNote": "null",
-    "playstoreReleaseDate": "2024-11-13",
-    "appstoreVersion": "5.6.1",
-    "appstoreReleaseNote": "fix bug",
-    "appstoreReleaseDate": "2024-11-11"
+    "playstoreReleaseDate": "2025-03-12",
+    "appstoreVersion": "5.7.4",
+    "appstoreReleaseNote": "fix bugs",
+    "appstoreReleaseDate": "2025-03-12"
   },
   {
     "name": "SV3C Cloud",
