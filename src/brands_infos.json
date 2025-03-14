@@ -36,9 +36,9 @@
     "name": "Arenti",
     "id": "1495605136",
     "bundleId": "com.arenti.smartlife",
-    "playstoreVersion": "4.5.2",
-    "playstoreReleaseNote": "Fix some known bugs.",
-    "playstoreReleaseDate": "2025-01-07",
+    "playstoreVersion": "4.6.0",
+    "playstoreReleaseNote": "1.Improving user experience.<br>2.Fix some known bugs.",
+    "playstoreReleaseDate": "2025-03-04",
     "appstoreVersion": "4.6.0",
     "appstoreReleaseNote": "- Fix some bugs.",
     "appstoreReleaseDate": "2025-03-07"
@@ -58,12 +58,12 @@
     "name": "ZUMIMALL",
     "id": "1515849509",
     "bundleId": "com.zumimall.protecthome",
-    "playstoreVersion": "5.6.1",
+    "playstoreVersion": "5.7.0",
     "playstoreReleaseNote": "New Function<br>Fix App Crash Bug",
-    "playstoreReleaseDate": "2024-11-17",
-    "appstoreVersion": "5.7.2",
-    "appstoreReleaseNote": "1 fix some bugs",
-    "appstoreReleaseDate": "2025-02-22"
+    "playstoreReleaseDate": "2025-02-13",
+    "appstoreVersion": "5.7.3",
+    "appstoreReleaseNote": "-\n-fix some bugs",
+    "appstoreReleaseDate": "2025-03-13"
   },
   {
     "name": "VacosSmart",
