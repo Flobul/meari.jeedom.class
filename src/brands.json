@@ -135,6 +135,9 @@
         "AGREEMENT": "Service Agreement of </span></b><b><span style=\"mso-spacerun:'yes';font-family:\u00cb\u00ce\u00cc\u00e5;mso-ascii-font-family:Helvetica;\r\nmso-hansi-font-family:Helvetica;mso-bidi-font-family:Helvetica;color:rgb(0,0,0);\r\nletter-spacing:0.0000pt;font-weight:bold;text-transform:none;\r\nfont-style:normal;font-size:13.5000pt;mso-font-kerning:0.0000pt;\" ><font face=\"Helvetica\" >TkenPro</font></span></b><b><span style=\"mso-spacerun:'yes';font-family:Helvetica;color:rgb(0,0,0);\r\nletter-spacing:0.0000pt;font-weight:bold;text-transform:none;\r\nfont-style:normal;font-size:13.5000pt;mso-font-kerning:0.0000pt;\" > Smart Platform",
         "PRIVACY": "Service Agreement of TkenPro Smart Platform"
     },
+    "126": {
+        "GOOGLE ASSISTANT": "Enter your Aura Smart app account and password"
+    },
     "127": {
         "GOOGLE ASSISTANT": "Enter your Buzzai Pro app account and password"
     },
@@ -146,6 +149,7 @@
         "PRIVACY": "><h3 align=justify  style=\"margin-top:0.0000pt;margin-right:0.0000pt;margin-bottom:0.0000pt;\r\nmargin-left:0.0000pt;mso-pagination:widow-orphan;text-align:justify;\r\ntext-justify:inter-ideograph;\" ><i style=\"mso-bidi-font-style:normal\" ><span class=\"19\"  style=\"mso-spacerun:'yes';font-family:\u00cb\u00ce\u00cc\u00e5;mso-ascii-font-family:'Century Gothic';\r\nmso-hansi-font-family:'Century Gothic';mso-bidi-font-family:'Century Gothic';mso-ansi-font-style:italic;\r\nbackground:rgb(252,252,252);mso-shading:rgb(252,252,252);\" ><font face=\"Century Gothic\" >GCLink</font></span></i><i style=\"mso-bidi-font-style:normal\" ><span class=\"19\"  style=\"mso-spacerun:'yes';font-family:'Century Gothic';mso-ansi-font-style:italic;\r\nbackground:rgb(252,252,252);mso-shading:rgb(252,252,252);\" >"
     },
     "131": {
+        "GOOGLE ASSISTANT": "Enter your ParinnovCam app account and password",
         "AGREEMENT": "Service Agreement of PARINNOV Smart Platform",
         "PRIVACY": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/131/en/Privacy.html"
     },
