@@ -2984,7 +2984,7 @@ class Capabilities
             ),
             "Yes iHome" => array(
                 "BRAND"            => "119",
-                "APP_VERSION"      => "5.6",
+                "APP_VERSION"      => "5.7",
                 "APP_VERSION_CODE" => "2024071016",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "YH/5.1.1 (iPhone; iOS 17.5.1; Scale/2.00)"

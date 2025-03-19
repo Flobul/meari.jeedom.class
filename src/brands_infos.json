@@ -336,12 +336,12 @@
     "name": "Yes iHome",
     "bundleId": "com.yesihome.smartlife",
     "id": "6459700579",
-    "playstoreVersion": "5.6.0",
+    "playstoreVersion": "5.7.3",
     "playstoreReleaseNote": "Yes iHome is a security camera app that connects to your cameras, offering features such as 24/7 home monitoring, alarms, and video playback. Simplifying home security for your peace of mind.",
-    "playstoreReleaseDate": "2024-10-30",
-    "appstoreVersion": "5.6",
-    "appstoreReleaseNote": "Fix known bugs ",
-    "appstoreReleaseDate": "2024-10-29"
+    "playstoreReleaseDate": "2025-03-17",
+    "appstoreVersion": "5.7",
+    "appstoreReleaseNote": "Fix known bugs\r",
+    "appstoreReleaseDate": "2025-03-18"
   },
   {
     "name": "VIZIUUY",
