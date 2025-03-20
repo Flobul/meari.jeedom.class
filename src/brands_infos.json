@@ -277,9 +277,9 @@
     "playstoreVersion": "5.7.2",
     "playstoreReleaseNote": "1. Optimize the display effect <br>2.Fix some bugs",
     "playstoreReleaseDate": "2025-02-19",
-    "appstoreVersion": "5.7.3",
-    "appstoreReleaseNote": "1. Optimize the display effect\r\n2.Fix some errors",
-    "appstoreReleaseDate": "2025-02-17"
+    "appstoreVersion": "5.7.4",
+    "appstoreReleaseNote": "1. Optimize the display effect\n2.Fix some errors",
+    "appstoreReleaseDate": "2025-03-19"
   },
   {
     "name": "DingLink",
