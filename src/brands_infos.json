@@ -14,12 +14,12 @@
     "name": "CloudEdge",
     "id": "1294635090",
     "bundleId": "com.cloudedge.smarteye",
-    "playstoreVersion": "5.7.7",
-    "playstoreReleaseNote": "Fix some konwn issues.",
-    "playstoreReleaseDate": "2025-02-17",
-    "appstoreVersion": "5.8.1",
+    "playstoreVersion": "5.8.1",
+    "playstoreReleaseNote": "1.Fix some konwn issues.<br>2.Improving UI experience.",
+    "playstoreReleaseDate": "2025-03-20",
+    "appstoreVersion": "5.8.2",
     "appstoreReleaseNote": "fix some bugs",
-    "appstoreReleaseDate": "2025-03-12"
+    "appstoreReleaseDate": "2025-03-24"
   },
   {
     "name": "Beaba Zen Connect",
