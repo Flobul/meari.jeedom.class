@@ -113,9 +113,9 @@
     "name": "My Uniden +",
     "bundleId": "com.smarthome.myuniden",
     "id": "1588173257",
-    "playstoreVersion": "2.0.5",
-    "playstoreReleaseNote": "null",
-    "playstoreReleaseDate": "2024-10-18",
+    "playstoreVersion": "2.0.6",
+    "playstoreReleaseNote": "fix cloud bugs",
+    "playstoreReleaseDate": "2025-03-31",
     "appstoreVersion": "5.7.1",
     "appstoreReleaseNote": "fix bugs\noptimise 4G functions",
     "appstoreReleaseDate": "2025-02-12"
@@ -160,9 +160,9 @@
     "playstoreVersion": "5.7.1",
     "playstoreReleaseNote": "null",
     "playstoreReleaseDate": "2025-03-14",
-    "appstoreVersion": "5.7.1",
+    "appstoreVersion": "5.8.3",
     "appstoreReleaseNote": "Fixed version bugs, added some new features, and increased subscription content.",
-    "appstoreReleaseDate": "2025-01-02"
+    "appstoreReleaseDate": "2025-04-01"
   },
   {
     "name": "ANRAN",
