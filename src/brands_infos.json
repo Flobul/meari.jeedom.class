@@ -157,12 +157,12 @@
     "name": "Cococam",
     "bundleId": "com.cococam.cam",
     "id": "1609380588",
-    "playstoreVersion": "5.7.1",
+    "playstoreVersion": "5.8.0",
     "playstoreReleaseNote": "null",
-    "playstoreReleaseDate": "2025-03-14",
-    "appstoreVersion": "5.8.3",
-    "appstoreReleaseNote": "Fixed version bugs, added some new features, and increased subscription content.",
-    "appstoreReleaseDate": "2025-04-01"
+    "playstoreReleaseDate": "2025-04-02",
+    "appstoreVersion": "5.8.4",
+    "appstoreReleaseNote": "Fixed version bugs",
+    "appstoreReleaseDate": "2025-04-02"
   },
   {
     "name": "ANRAN",
