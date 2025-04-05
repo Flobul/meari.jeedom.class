@@ -365,6 +365,17 @@
     "playstoreReleaseDate": "2024-02-21"
   },
   {
+    "name": "Aura Smart",
+    "bundleId": "smart.home.ireland.security",
+    "id": "6474236997",
+    "version": "",
+    "releaseNote": "",
+    "releaseDate": "",
+    "playstoreVersion": "",
+    "playstoreReleaseNote": "",
+    "playstoreReleaseDate": ""
+  },
+  {
     "name": "Buzzai Pro",
     "bundleId": "com.buzziai.camera",
     "id": "6502924661",
@@ -425,5 +436,27 @@
     "appstoreVersion": "5.7.1",
     "appstoreReleaseNote": "- Fix known issues",
     "appstoreReleaseDate": "2025-01-02"
+  },
+  {
+    "name": "FanX Security",
+    "bundleId": "com.fanx.security",
+    "id": "6738333152",
+    "playstoreVersion": "",
+    "playstoreReleaseNote": "",
+    "playstoreReleaseDate": "",
+    "appstoreVersion": "",
+    "appstoreReleaseNote": "",
+    "appstoreReleaseDate": ""
+  },
+  {
+    "name": "Ediloca Security",
+    "bundleId": "com.ediloca.security",
+    "id": "6738342870",
+    "playstoreVersion": "",
+    "playstoreReleaseNote": "",
+    "playstoreReleaseDate": "",
+    "appstoreVersion": "",
+    "appstoreReleaseNote": "",
+    "appstoreReleaseDate": ""
   }
 ]
