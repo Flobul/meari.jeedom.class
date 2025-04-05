@@ -159,5 +159,11 @@
     },
     "141": {
         "GOOGLE ASSISTANT": "Enter your CZEview app account and password"
+    },
+    "144": {
+        "GOOGLE ASSISTANT": "Enter your FanX Security app account and password"
+    },
+    "146": {
+        "GOOGLE ASSISTANT": "Enter your Ediloca Security app account and password"
     }
 }
