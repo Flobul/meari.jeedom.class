@@ -371,9 +371,12 @@
     "version": "",
     "releaseNote": "",
     "releaseDate": "",
-    "playstoreVersion": "",
-    "playstoreReleaseNote": "",
-    "playstoreReleaseDate": ""
+    "playstoreVersion": "5.5.0",
+    "playstoreReleaseNote": "null",
+    "playstoreReleaseDate": "2024-08-08",
+    "appstoreVersion": "5.3.3",
+    "appstoreReleaseNote": "**What's New in This Version:**\n\nWe're excited to announce that Homz Security is now Aura Smart! This update includes a fresh new name and a revamped app logo to better reflect our commitment to smart, innovative security solutions. \n\n**Key Updates Include:**\n- **New App Logo:** A sleek, modern logo that aligns with our new branding.\n- **Seamless Transition:** All app functionalities remain the same, ensuring a smooth and familiar user experience.\n\nUpdate your app today to enjoy the new look with the same trusted functionality!",
+    "appstoreReleaseDate": "2024-08-09"
   },
   {
     "name": "Buzzai Pro",
@@ -441,22 +444,22 @@
     "name": "FanX Security",
     "bundleId": "com.fanx.security",
     "id": "6738333152",
-    "playstoreVersion": "",
-    "playstoreReleaseNote": "",
-    "playstoreReleaseDate": "",
-    "appstoreVersion": "",
-    "appstoreReleaseNote": "",
-    "appstoreReleaseDate": ""
+    "playstoreVersion": "5.7.3",
+    "playstoreReleaseNote": "Fix some known issues",
+    "playstoreReleaseDate": "2025-02-21",
+    "appstoreVersion": "5.7.3",
+    "appstoreReleaseNote": "Bug fixes and improvements.",
+    "appstoreReleaseDate": "2025-02-12"
   },
   {
     "name": "Ediloca Security",
     "bundleId": "com.ediloca.security",
     "id": "6738342870",
-    "playstoreVersion": "",
-    "playstoreReleaseNote": "",
-    "playstoreReleaseDate": "",
-    "appstoreVersion": "",
-    "appstoreReleaseNote": "",
-    "appstoreReleaseDate": ""
+    "playstoreVersion": "5.7.3",
+    "playstoreReleaseNote": "Fix some known issues",
+    "playstoreReleaseDate": "2025-02-23",
+    "appstoreVersion": "5.7.3",
+    "appstoreReleaseNote": "Fix some know issues",
+    "appstoreReleaseDate": "2025-02-26"
   }
 ]

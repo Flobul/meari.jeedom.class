@@ -3005,7 +3005,7 @@ class Capabilities
             ),
             "Aura Smart" => array(
                 "BRAND"            => "126",
-                "APP_VERSION"      => "5.2.6",
+                "APP_VERSION"      => "5.3.3",
                 "APP_VERSION_CODE" => "1",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
                 "USERAGENT"        => "AuS/5.2.3 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -3054,14 +3054,14 @@ class Capabilities
             ),
             "FanX Security" => array(
                 "BRAND"            => "144",
-                "APP_VERSION"      => "5.7.1",
+                "APP_VERSION"      => "5.7.3",
                 "APP_VERSION_CODE" => "2024092515",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "FXS/5.5.3 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Ediloca Security" => array(
                 "BRAND"            => "146",
-                "APP_VERSION"      => "5.7.1",
+                "APP_VERSION"      => "5.7.3",
                 "APP_VERSION_CODE" => "2024092515",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "EdS/5.5.3 (iPhone; iOS 17.5.1; Scale/2.00)"
