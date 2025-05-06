@@ -219,9 +219,9 @@
     "name": "Mubview",
     "bundleId": "com.mubview.smartlife",
     "id": "1641458647",
-    "playstoreVersion": "5.7.2",
+    "playstoreVersion": "5.8.0",
     "playstoreReleaseNote": "Fix known bugs",
-    "playstoreReleaseDate": "2025-04-06",
+    "playstoreReleaseDate": "2025-04-26",
     "appstoreVersion": "5.8.3",
     "appstoreReleaseNote": "Fix bugs",
     "appstoreReleaseDate": "2025-04-23"
