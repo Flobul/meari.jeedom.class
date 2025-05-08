@@ -17,9 +17,9 @@
     "playstoreVersion": "5.8.3",
     "playstoreReleaseNote": "Fix some konwn issues.",
     "playstoreReleaseDate": "2025-03-26",
-    "appstoreVersion": "5.8.3",
+    "appstoreVersion": "5.9.0",
     "appstoreReleaseNote": "fix some bugs",
-    "appstoreReleaseDate": "2025-03-27"
+    "appstoreReleaseDate": "2025-05-07"
   },
   {
     "name": "Beaba Zen Connect",
@@ -116,9 +116,9 @@
     "playstoreVersion": "2.0.6",
     "playstoreReleaseNote": "fix cloud bugs",
     "playstoreReleaseDate": "2025-03-31",
-    "appstoreVersion": "5.7.1",
-    "appstoreReleaseNote": "fix bugs\noptimise 4G functions",
-    "appstoreReleaseDate": "2025-02-12"
+    "appstoreVersion": "5.7.2",
+    "appstoreReleaseNote": "1. improve AOV functions\n2. fix bugs",
+    "appstoreReleaseDate": "2025-05-07"
   },
   {
     "name": "CloudPlus",
