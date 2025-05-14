@@ -360,9 +360,9 @@
     "version": "5.2.6",
     "releaseNote": "init",
     "releaseDate": "Feb 21, 2024",
-    "playstoreVersion": "5.2.6",
-    "playstoreReleaseNote": "init",
-    "playstoreReleaseDate": "2024-02-21"
+    "playstoreVersion": "5.8.1",
+    "playstoreReleaseNote": "fix bugs",
+    "playstoreReleaseDate": "2025-05-13"
   },
   {
     "name": "Aura Smart",
