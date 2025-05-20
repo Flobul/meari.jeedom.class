@@ -61,9 +61,9 @@
     "playstoreVersion": "5.7.3",
     "playstoreReleaseNote": "New Function<br>Fix App Crash Bug",
     "playstoreReleaseDate": "2025-03-13",
-    "appstoreVersion": "5.7.3",
-    "appstoreReleaseNote": "-\n-fix some bugs",
-    "appstoreReleaseDate": "2025-03-13"
+    "appstoreVersion": "5.8.0",
+    "appstoreReleaseNote": "1. 10-minute long preview reminder popup for low-power devices\n2.Device sharing moved to first level settings page.",
+    "appstoreReleaseDate": "2025-05-19"
   },
   {
     "name": "VacosSmart",
