@@ -2802,7 +2802,7 @@ class Capabilities
             ),
             "ZUMIMALL" => array(
                 "BRAND"            => "55",
-                "APP_VERSION"      => "5.7.3",
+                "APP_VERSION"      => "5.8.0",
                 "APP_VERSION_CODE" => "2024081616",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "ZM/5.5.2 (iPhone; iOS 17.5.1; Scale/2.00)"
