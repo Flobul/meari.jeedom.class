@@ -58,9 +58,9 @@
     "name": "ZUMIMALL",
     "id": "1515849509",
     "bundleId": "com.zumimall.protecthome",
-    "playstoreVersion": "5.7.3",
+    "playstoreVersion": "5.8.1",
     "playstoreReleaseNote": "New Function<br>Fix App Crash Bug",
-    "playstoreReleaseDate": "2025-03-13",
+    "playstoreReleaseDate": "2025-05-16",
     "appstoreVersion": "5.8.0",
     "appstoreReleaseNote": "1. 10-minute long preview reminder popup for low-power devices\n2.Device sharing moved to first level settings page.",
     "appstoreReleaseDate": "2025-05-19"
@@ -350,9 +350,9 @@
     "playstoreVersion": "5.8.0",
     "playstoreReleaseNote": "更新迭代，优化客户体验使用",
     "playstoreReleaseDate": "2025-05-13",
-    "appstoreVersion": "5.7.1",
+    "appstoreVersion": "5.8.0",
     "appstoreReleaseNote": "The updates in this version are as follows \n1、Optimize interface operation to make the interface simpler and more convenient\n2、Fix known bugs",
-    "appstoreReleaseDate": "2025-01-18"
+    "appstoreReleaseDate": "2025-05-24"
   },
   {
     "name": "TkenPro",
