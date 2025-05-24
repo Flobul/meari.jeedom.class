@@ -2991,7 +2991,7 @@ class Capabilities
             ),
             "VIZIUUY" => array(
                 "BRAND"            => "122",
-                "APP_VERSION"      => "5.7.1",
+                "APP_VERSION"      => "5.8.0",
                 "APP_VERSION_CODE" => "1",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
                 "USERAGENT"        => "viziuuy/5.2.3 (iPhone; iOS 17.5.1; Scale/2.00)"
