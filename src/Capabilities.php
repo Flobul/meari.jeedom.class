@@ -2795,7 +2795,7 @@ class Capabilities
             ),
             "ISIWI" => array(
                 "BRAND"            => "51",
-                "APP_VERSION"      => "5.7.3",
+                "APP_VERSION"      => "5.8.3",
                 "APP_VERSION_CODE" => "2024061817",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "IS/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2872,7 +2872,7 @@ class Capabilities
             ),
             "ANRAN" => array(
                 "BRAND"            => "84",
-                "APP_VERSION"      => "5.8.4",
+                "APP_VERSION"      => "5.8.5",
                 "APP_VERSION_CODE" => "2024071610",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "An/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
