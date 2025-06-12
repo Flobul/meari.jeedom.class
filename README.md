@@ -39,7 +39,9 @@ A PHP class for jeedom using meari-like mobile applications :
 - GCLink,
 - PARINNOV,
 - Jennov,
-- CZEview.
+- CZEview.,
+- FanX Security,
+- Ediloca Security.
 
 ## get_brands.sh | get_brands.py
 get_brands.sh obsolete, use python
