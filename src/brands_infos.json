@@ -306,9 +306,9 @@
     "playstoreVersion": "5.2.2",
     "playstoreReleaseNote": "Fix some system bugs.<br>Open up the purchase of Cloud Storage, Traffic packages(4G) and AI analytics packages.<br>Now you can purchase packages in the app according to your needs.",
     "playstoreReleaseDate": "2024-01-23",
-    "appstoreVersion": "5.2.0",
-    "appstoreReleaseNote": "Add Cloud Subscriptions",
-    "appstoreReleaseDate": "2024-06-27"
+    "appstoreVersion": "5.8.1",
+    "appstoreReleaseNote": "New released CodHome App! \nApplicable to all Codnida products.",
+    "appstoreReleaseDate": "2025-06-11"
   },
   {
     "name": "Topcony",
