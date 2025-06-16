@@ -2858,7 +2858,7 @@ class Capabilities
             ),
             "ieGeek Cam" => array(
                 "BRAND"            => "81",
-                "APP_VERSION"      => "5.5.2",
+                "APP_VERSION"      => "5.8.4",
                 "APP_VERSION_CODE" => "2024080811",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "ieG/5.5.2 (iPhone; iOS 17.5.1; Scale/2.00)"
