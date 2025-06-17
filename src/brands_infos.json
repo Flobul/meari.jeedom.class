@@ -146,9 +146,9 @@
     "name": "ieGeek Cam",
     "bundleId": "com.iegeekCam.cam",
     "id": "1601747664",
-    "playstoreVersion": "5.7.1",
+    "playstoreVersion": "5.8.0",
     "playstoreReleaseNote": "Fix some bugs",
-    "playstoreReleaseDate": "2025-02-24",
+    "playstoreReleaseDate": "2025-06-12",
     "appstoreVersion": "5.8.4",
     "appstoreReleaseNote": "Fix some bugs",
     "appstoreReleaseDate": "2025-06-16"
@@ -230,9 +230,9 @@
     "name": "Morecam",
     "bundleId": "com.morecam.smartlife",
     "id": "1645556025",
-    "playstoreVersion": "5.7.1",
+    "playstoreVersion": "5.9.0",
     "playstoreReleaseNote": "null",
-    "playstoreReleaseDate": "2025-03-12",
+    "playstoreReleaseDate": "2025-06-12",
     "appstoreVersion": "5.7.4",
     "appstoreReleaseNote": "fix bugs",
     "appstoreReleaseDate": "2025-03-12"
