@@ -14,9 +14,9 @@
     "name": "CloudEdge",
     "id": "1294635090",
     "bundleId": "com.cloudedge.smarteye",
-    "playstoreVersion": "5.9.0",
+    "playstoreVersion": "5.9.1",
     "playstoreReleaseNote": "1.Fix some konwn issues.<br>2.Improving UI experience.",
-    "playstoreReleaseDate": "2025-05-07",
+    "playstoreReleaseDate": "2025-06-10",
     "appstoreVersion": "5.9.2",
     "appstoreReleaseNote": "fix some bugs",
     "appstoreReleaseDate": "2025-06-11"
