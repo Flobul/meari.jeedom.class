@@ -171,9 +171,9 @@
     "playstoreVersion": "5.8.5",
     "playstoreReleaseNote": "null",
     "playstoreReleaseDate": "2025-06-04",
-    "appstoreVersion": "5.8.6",
-    "appstoreReleaseNote": "Fix some bugs!",
-    "appstoreReleaseDate": "2025-06-03"
+    "appstoreVersion": "5.9.2",
+    "appstoreReleaseNote": "fix some bus!",
+    "appstoreReleaseDate": "2025-06-20"
   },
   {
     "name": "K&F Cam",
@@ -274,12 +274,12 @@
     "name": "Safeview",
     "bundleId": "com.ctvzn.safeview",
     "id": "6451462082",
-    "playstoreVersion": "5.7.3",
+    "playstoreVersion": "5.9.0",
     "playstoreReleaseNote": "1. Optimize the display effect <br>2.Fix some bugs",
-    "playstoreReleaseDate": "2025-03-23",
-    "appstoreVersion": "5.7.4",
+    "playstoreReleaseDate": "2025-06-19",
+    "appstoreVersion": "5.9.0",
     "appstoreReleaseNote": "1. Optimize the display effect\n2.Fix some errors",
-    "appstoreReleaseDate": "2025-03-19"
+    "appstoreReleaseDate": "2025-06-20"
   },
   {
     "name": "DingLink",

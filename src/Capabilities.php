@@ -2872,7 +2872,7 @@ class Capabilities
             ),
             "ANRAN" => array(
                 "BRAND"            => "84",
-                "APP_VERSION"      => "5.8.6",
+                "APP_VERSION"      => "5.9.2",
                 "APP_VERSION_CODE" => "2024071610",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "An/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2942,7 +2942,7 @@ class Capabilities
             ),
             "Safeview" => array(
                 "BRAND"            => "107",
-                "APP_VERSION"      => "5.7.4",
+                "APP_VERSION"      => "5.9.0",
                 "APP_VERSION_CODE" => "2024062616",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "SVC/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
