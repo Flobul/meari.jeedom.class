@@ -2774,7 +2774,7 @@ class Capabilities
             ),
             "CloudEdge" => array(
                 "BRAND"            => "8",
-                "APP_VERSION"      => "5.9.3",
+                "APP_VERSION"      => "5.9.4",
                 "APP_VERSION_CODE" => "185",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "Meari/5.5.3 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -3047,7 +3047,7 @@ class Capabilities
             ),
             "CZEview" => array(
                 "BRAND"            => "141",
-                "APP_VERSION"      => "5.7.1",
+                "APP_VERSION"      => "5.9.0",
                 "APP_VERSION_CODE" => "2024092515",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "CZE/5.5.3 (iPhone; iOS 17.5.1; Scale/2.00)"
