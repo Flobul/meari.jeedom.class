@@ -39,9 +39,9 @@
     "playstoreVersion": "4.7.0",
     "playstoreReleaseNote": "1.Improving user experience.<br>2.Fix some known bugs.",
     "playstoreReleaseDate": "2025-05-07",
-    "appstoreVersion": "4.7.0",
+    "appstoreVersion": "4.8.0",
     "appstoreReleaseNote": "- Fix some bugs.",
-    "appstoreReleaseDate": "2025-05-06"
+    "appstoreReleaseDate": "2025-07-03"
   },
   {
     "name": "ISIWI",
@@ -222,9 +222,9 @@
     "playstoreVersion": "5.8.0",
     "playstoreReleaseNote": "Fix known bugs",
     "playstoreReleaseDate": "2025-04-26",
-    "appstoreVersion": "5.8.3",
+    "appstoreVersion": "5.9.2",
     "appstoreReleaseNote": "Fix bugs",
-    "appstoreReleaseDate": "2025-04-23"
+    "appstoreReleaseDate": "2025-07-02"
   },
   {
     "name": "Morecam",
@@ -360,9 +360,9 @@
     "version": "5.2.6",
     "releaseNote": "init",
     "releaseDate": "Feb 21, 2024",
-    "playstoreVersion": "5.8.5",
-    "playstoreReleaseNote": "bug fix",
-    "playstoreReleaseDate": "2025-06-02"
+    "playstoreVersion": "5.9.0",
+    "playstoreReleaseNote": "Bug fixes and performance improvements.",
+    "playstoreReleaseDate": "2025-06-27"
   },
   {
     "name": "Aura Smart",
