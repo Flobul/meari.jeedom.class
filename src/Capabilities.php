@@ -2788,7 +2788,7 @@ class Capabilities
             ),
             "Arenti" => array(
                 "BRAND"            => "39",
-                "APP_VERSION"      => "4.7.0",
+                "APP_VERSION"      => "4.8.0",
                 "APP_VERSION_CODE" => "202",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "Arenti/4.3.1 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2907,7 +2907,7 @@ class Capabilities
             ),
             "Mubview" => array(
                 "BRAND"            => "97",
-                "APP_VERSION"      => "5.8.3",
+                "APP_VERSION"      => "5.9.2",
                 "APP_VERSION_CODE" => "2024080115",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "MV/5.5.2 (iPhone; iOS 17.5.1; Scale/2.00)"
