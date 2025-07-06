@@ -466,11 +466,11 @@
     "name": "Camstro",
     "bundleId": "com.camstro.app",
     "id": "6743885230",
-    "playstoreVersion": "",
-    "playstoreReleaseNote": "",
-    "playstoreReleaseDate": "",
-    "appstoreVersion": "",
-    "appstoreReleaseNote": "",
-    "appstoreReleaseDate": ""
+    "playstoreVersion": "1.0.0",
+    "playstoreReleaseNote": "null",
+    "playstoreReleaseDate": "2025-04-29",
+    "appstoreVersion": "1.1.0",
+    "appstoreReleaseNote": "1 fix bugs",
+    "appstoreReleaseDate": "2025-06-19"
   }
 ]
