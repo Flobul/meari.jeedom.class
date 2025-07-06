@@ -461,5 +461,16 @@
     "appstoreVersion": "5.7.3",
     "appstoreReleaseNote": "Fix some know issues",
     "appstoreReleaseDate": "2025-02-26"
+  },
+  {
+    "name": "Camstro",
+    "bundleId": "com.camstro.app",
+    "id": "6743885230",
+    "playstoreVersion": "",
+    "playstoreReleaseNote": "",
+    "playstoreReleaseDate": "",
+    "appstoreVersion": "",
+    "appstoreReleaseNote": "",
+    "appstoreReleaseDate": ""
   }
 ]
