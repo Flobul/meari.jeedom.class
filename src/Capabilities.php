@@ -4,7 +4,7 @@ namespace Flobul\Meari;
 
 class Capabilities
 {
-    public static $version = "1.013";
+    public static $version = "1.014";
     public $enums;
     public $apps;
     public $errors;
@@ -2768,16 +2768,16 @@ class Capabilities
             "Meari" => array(
                 "BRAND"            => "1",
                 "APP_VERSION"      => "5.8.5",
-                "APP_VERSION_CODE" => "2",
-                "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "Meari/1.0.0 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2025061011",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "MRI/5.8.5 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "CloudEdge" => array(
                 "BRAND"            => "8",
                 "APP_VERSION"      => "5.9.4",
-                "APP_VERSION_CODE" => "185",
-                "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "Meari/5.5.3 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "280",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "Meari/5.9.4 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Beaba Zen Connect" => array(
                 "BRAND"            => "36",
@@ -2802,10 +2802,10 @@ class Capabilities
             ),
             "ZUMIMALL" => array(
                 "BRAND"            => "55",
-                "APP_VERSION"      => "5.8.0",
-                "APP_VERSION_CODE" => "2024081616",
-                "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "ZM/5.5.2 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION"      => "5.8.4",
+                "APP_VERSION_CODE" => "2025051612",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "ZM/5.8.4 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "VacosSmart" => array(
                 "BRAND"            => "62",
@@ -2817,9 +2817,9 @@ class Capabilities
             "COOAU" => array(
                 "BRAND"            => "65",
                 "APP_VERSION"      => "5.6.2",
-                "APP_VERSION_CODE" => "158",
-                "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "COO/5.4.0 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2024110420",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "COO/5.6.2 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Baby Watch Plus" => array(
                 "BRAND"            => "67",
@@ -2831,51 +2831,51 @@ class Capabilities
             "SiecoSmart" => array(
                 "BRAND"            => "71",
                 "APP_VERSION"      => "5.6.2",
-                "APP_VERSION_CODE" => "20",
-                "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "SiecoSmart/5.2.3 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2024103111",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "SiecoSmart/5.6.2 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "My Uniden +" => array(
                 "BRAND"            => "75",
                 "APP_VERSION"      => "5.7.2",
-                "APP_VERSION_CODE" => "2024071615",
-                "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "BF/5.4.2 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2025022009",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "BF/5.7.2 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "CloudPlus" => array(
                 "BRAND"            => "77",
                 "APP_VERSION"      => "5.7.1",
-                "APP_VERSION_CODE" => "2024081311",
-                "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "Cln/5.5.4 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2024122617",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "Cln/5.7.1 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Cloudot" => array(
                 "BRAND"            => "80",
                 "APP_VERSION"      => "5.7.3",
-                "APP_VERSION_CODE" => "13",
-                "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "Cln/5.2.1 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2025021416",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "Cln/5.7.3 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "ieGeek Cam" => array(
                 "BRAND"            => "81",
                 "APP_VERSION"      => "5.8.4",
-                "APP_VERSION_CODE" => "2024080811",
-                "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "ieG/5.5.2 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2025052014",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "ieG/5.8.4 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Cococam" => array(
                 "BRAND"            => "82",
                 "APP_VERSION"      => "5.8.4",
-                "APP_VERSION_CODE" => "2024081311",
-                "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "Coc/5.5.2 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2025040216",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "Coc/5.8.4 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "ANRAN" => array(
                 "BRAND"            => "84",
                 "APP_VERSION"      => "5.9.2",
-                "APP_VERSION_CODE" => "2024071610",
-                "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "An/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2025061919",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "An/5.9.2 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "K&F Cam" => array(
                 "BRAND"            => "86",
@@ -2887,9 +2887,9 @@ class Capabilities
             "Elemage Cam" => array(
                 "BRAND"            => "92",
                 "APP_VERSION"      => "5.6.2",
-                "APP_VERSION_CODE" => "1",
-                "SDK_VERSION"      => "5.3.0.2023.10.23",
-                "USERAGENT"        => "ELE/5.3.0 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2024111316",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "ELE/5.6.2 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "BabytimeHome" => array(
                 "BRAND"            => "93",
@@ -2908,23 +2908,23 @@ class Capabilities
             "Mubview" => array(
                 "BRAND"            => "97",
                 "APP_VERSION"      => "5.9.2",
-                "APP_VERSION_CODE" => "2024080115",
-                "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "MV/5.5.2 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2025062711",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "MV/5.9.2 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Morecam" => array(
                 "BRAND"            => "98",
                 "APP_VERSION"      => "5.7.4",
-                "APP_VERSION_CODE" => "2024080914",
-                "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "MC/5.5.2 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2025031014",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "MC/5.7.4 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "SV3C Cloud" => array(
                 "BRAND"            => "100",
                 "APP_VERSION"      => "5.7.1",
-                "APP_VERSION_CODE" => "2",
-                "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "SVC/5.2.3 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2024121220",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "SVC/5.7.1 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "SIIOOE" => array(
                 "BRAND"            => "102",
@@ -2936,16 +2936,16 @@ class Capabilities
             "BoifunCam" => array(
                 "BRAND"            => "104",
                 "APP_VERSION"      => "5.7.3",
-                "APP_VERSION_CODE" => "2024061112",
-                "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "BOI/5.4.0 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2025020814",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "BOI/5.7.3 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Safeview" => array(
                 "BRAND"            => "107",
                 "APP_VERSION"      => "5.9.0",
-                "APP_VERSION_CODE" => "2024062616",
-                "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "SVC/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2025060913",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "SVC/5.9.0 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "DingLink" => array(
                 "BRAND"            => "108",
@@ -2956,21 +2956,21 @@ class Capabilities
             ),
             "CloudTop" => array(
                 "BRAND"            => "109",
-                "APP_VERSION"      => "5.4.1",
+                "APP_VERSION"      => "5.2.0",
                 "APP_VERSION_CODE" => "2",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
                 "USERAGENT"        => "Top/5.2.0 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
-            "DEATTI" => array(
+            "CodHome" => array(
                 "BRAND"            => "112",
-                "APP_VERSION"      => "5.8.1",
-                "APP_VERSION_CODE" => "2",
-                "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "DET/5.2.3 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION"      => "5.8.2",
+                "APP_VERSION_CODE" => "2025052610",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "CodHome/5.8.2 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Topcony" => array(
                 "BRAND"            => "114",
-                "APP_VERSION"      => "5.2.6",
+                "APP_VERSION"      => "1.0.0",
                 "APP_VERSION_CODE" => "2",
                 "SDK_VERSION"      => "4.4.0.2022.07.22",
                 "USERAGENT"        => "TC/1.0.0 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2978,23 +2978,23 @@ class Capabilities
             "SecuPlus" => array(
                 "BRAND"            => "115",
                 "APP_VERSION"      => "5.7.1",
-                "APP_VERSION_CODE" => "2",
-                "SDK_VERSION"      => "3.1.0.2021.3.11",
-                "USERAGENT"        => "SP/1.0.0 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2024121117",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "SP/5.7.1 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Yes iHome" => array(
                 "BRAND"            => "119",
-                "APP_VERSION"      => "5.7",
-                "APP_VERSION_CODE" => "2024071016",
-                "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "YH/5.1.1 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION"      => "5.7.3",
+                "APP_VERSION_CODE" => "2025030515",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "vsFAFlaf/5.7.3 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "VIZIUUY" => array(
                 "BRAND"            => "122",
                 "APP_VERSION"      => "5.8.0",
-                "APP_VERSION_CODE" => "1",
-                "SDK_VERSION"      => "4.4.0.2022.07.22",
-                "USERAGENT"        => "viziuuy/5.2.3 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2025052015",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "VIZIUUY/5.8.0 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "TkenPro" => array(
                 "BRAND"            => "124",
@@ -3019,10 +3019,10 @@ class Capabilities
             ),
             "oQo" => array(
                 "BRAND"            => "128",
-                "APP_VERSION"      => "5.5.2",
-                "APP_VERSION_CODE" => "2024090614",
+                "APP_VERSION"      => "5.5.3",
+                "APP_VERSION_CODE" => "2024111217",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "Oqo/5.5.2 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "USERAGENT"        => "Oqo/5.5.3 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "GCLink" => array(
                 "BRAND"            => "129",
@@ -3033,24 +3033,24 @@ class Capabilities
             ),
             "PARINNOV" => array(
                 "BRAND"            => "131",
-                "APP_VERSION"      => "5.4.1",
-                "APP_VERSION_CODE" => "2024061316",
-                "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "Parinnov/5.4.1 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION"      => "5.6.2",
+                "APP_VERSION_CODE" => "2024122410",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "ParinnovCam/5.6.2 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Jennov" => array(
                 "BRAND"            => "135",
                 "APP_VERSION"      => "5.7.4",
-                "APP_VERSION_CODE" => "2",
-                "SDK_VERSION"      => "5.3.0.2023.10.23",
-                "USERAGENT"        => "Jennov/5.3.0 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2025030809",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "Jennov/5.7.4 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "CZEview" => array(
                 "BRAND"            => "141",
                 "APP_VERSION"      => "5.9.0",
-                "APP_VERSION_CODE" => "2024092515",
-                "SDK_VERSION"      => "5.4.0.2024.02.26",
-                "USERAGENT"        => "CZE/5.5.3 (iPhone; iOS 17.5.1; Scale/2.00)"
+                "APP_VERSION_CODE" => "2025060919",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "CZE/5.9.0 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "FanX Security" => array(
                 "BRAND"            => "144",
@@ -3065,6 +3065,13 @@ class Capabilities
                 "APP_VERSION_CODE" => "2024092515",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "EdS/5.5.3 (iPhone; iOS 17.5.1; Scale/2.00)"
+            ),
+            "Camstro" => array(
+                "BRAND"            => "153",
+                "APP_VERSION"      => "1.1.0",
+                "APP_VERSION_CODE" => "2025051215",
+                "SDK_VERSION"      => "5.6.0.2024.09.10",
+                "USERAGENT"        => "Camstro/1.1.0 (iPhone; iOS 17.5.1; Scale/2.00)"
             )
         );
 
