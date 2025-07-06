@@ -1,5 +1,6 @@
 {
     "1": {
+        "GOOGLE ASSISTANT": "Enter your Meari app account and password",
         "AGREEMENT": "Service Agreement of Meari Smart Platform",
         "PRIVACY": "Service Agreement of <span class=\"SpellE\">Meari</span>\nSmart Platform"
     },
@@ -128,6 +129,7 @@
         "GOOGLE ASSISTANT": "Enter your Yes iHome app account and password"
     },
     "122": {
+        "GOOGLE ASSISTANT": "Enter your VIZIUUY app account and password",
         "AGREEMENT": "Service Agreement of </span></b><b><span style=\"mso-spacerun:'yes';font-family:\u00cb\u00ce\u00cc\u00e5;mso-ascii-font-family:Helvetica;\r\nmso-hansi-font-family:Helvetica;mso-bidi-font-family:Helvetica;color:rgb(0,0,0);\r\nletter-spacing:0.0000pt;font-weight:bold;text-transform:none;\r\nfont-style:normal;font-size:10.5000pt;mso-font-kerning:0.0000pt;\" ><font face=\"Helvetica\" >VIZIUUY</font></span></b><b><span style=\"mso-spacerun:'yes';font-family:Helvetica;color:rgb(0,0,0);\r\nletter-spacing:0.0000pt;font-weight:bold;text-transform:none;\r\nfont-style:normal;font-size:10.5000pt;mso-font-kerning:0.0000pt;\" > Smart Platform",
         "PRIVACY": "Service Agreement of VIZIUUY Smart Platform"
     },
@@ -165,5 +167,8 @@
     },
     "146": {
         "GOOGLE ASSISTANT": "Enter your Ediloca Security app account and password"
+    },
+    "153": {
+        "GOOGLE ASSISTANT": "Enter your Camstro app account and password"
     }
 }
