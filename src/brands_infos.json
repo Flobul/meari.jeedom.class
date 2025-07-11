@@ -233,9 +233,9 @@
     "playstoreVersion": "5.9.1",
     "playstoreReleaseNote": "null",
     "playstoreReleaseDate": "2025-07-03",
-    "appstoreVersion": "5.7.4",
+    "appstoreVersion": "5.9.2",
     "appstoreReleaseNote": "fix bugs",
-    "appstoreReleaseDate": "2025-03-12"
+    "appstoreReleaseDate": "2025-07-10"
   },
   {
     "name": "SV3C Cloud",
@@ -339,9 +339,9 @@
     "playstoreVersion": "5.9.0",
     "playstoreReleaseNote": "Yes iHome is a security camera app that connects to your cameras, offering features such as 24/7 home monitoring, alarms, and video playback. Simplifying home security for your peace of mind.",
     "playstoreReleaseDate": "2025-06-25",
-    "appstoreVersion": "5.7",
-    "appstoreReleaseNote": "Fix known bugs\r",
-    "appstoreReleaseDate": "2025-03-18"
+    "appstoreVersion": "5.9",
+    "appstoreReleaseNote": "fix some bugs",
+    "appstoreReleaseDate": "2025-07-10"
   },
   {
     "name": "VIZIUUY",

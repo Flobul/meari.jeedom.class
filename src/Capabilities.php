@@ -2914,7 +2914,7 @@ class Capabilities
             ),
             "Morecam" => array(
                 "BRAND"            => "98",
-                "APP_VERSION"      => "5.7.4",
+                "APP_VERSION"      => "5.9.2",
                 "APP_VERSION_CODE" => "2025031014",
                 "SDK_VERSION"      => "5.6.0.2024.09.10",
                 "USERAGENT"        => "MC/5.7.4 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2984,7 +2984,7 @@ class Capabilities
             ),
             "Yes iHome" => array(
                 "BRAND"            => "119",
-                "APP_VERSION"      => "5.7.3",
+                "APP_VERSION"      => "5.9",
                 "APP_VERSION_CODE" => "2025030515",
                 "SDK_VERSION"      => "5.6.0.2024.09.10",
                 "USERAGENT"        => "vsFAFlaf/5.7.3 (iPhone; iOS 17.5.1; Scale/2.00)"
