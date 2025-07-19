@@ -17,9 +17,9 @@
     "playstoreVersion": "5.9.3",
     "playstoreReleaseNote": "1.Fix some konwn issues.<br>2.Improving UI experience.",
     "playstoreReleaseDate": "2025-06-20",
-    "appstoreVersion": "5.9.4",
+    "appstoreVersion": "5.9.5",
     "appstoreReleaseNote": "fix some bugs",
-    "appstoreReleaseDate": "2025-07-01"
+    "appstoreReleaseDate": "2025-07-18"
   },
   {
     "name": "Beaba Zen Connect",
@@ -36,9 +36,9 @@
     "name": "Arenti",
     "id": "1495605136",
     "bundleId": "com.arenti.smartlife",
-    "playstoreVersion": "4.7.0",
+    "playstoreVersion": "4.8.1",
     "playstoreReleaseNote": "1.Improving user experience.<br>2.Fix some known bugs.",
-    "playstoreReleaseDate": "2025-05-07",
+    "playstoreReleaseDate": "2025-07-06",
     "appstoreVersion": "4.8.0",
     "appstoreReleaseNote": "- Fix some bugs.",
     "appstoreReleaseDate": "2025-07-03"
@@ -219,9 +219,9 @@
     "name": "Mubview",
     "bundleId": "com.mubview.smartlife",
     "id": "1641458647",
-    "playstoreVersion": "5.8.0",
+    "playstoreVersion": "5.9.3",
     "playstoreReleaseNote": "Fix known bugs",
-    "playstoreReleaseDate": "2025-04-26",
+    "playstoreReleaseDate": "2025-07-06",
     "appstoreVersion": "5.9.2",
     "appstoreReleaseNote": "Fix bugs",
     "appstoreReleaseDate": "2025-07-02"
@@ -233,9 +233,9 @@
     "playstoreVersion": "5.9.1",
     "playstoreReleaseNote": "null",
     "playstoreReleaseDate": "2025-07-03",
-    "appstoreVersion": "5.7.4",
+    "appstoreVersion": "5.9.2",
     "appstoreReleaseNote": "fix bugs",
-    "appstoreReleaseDate": "2025-03-12"
+    "appstoreReleaseDate": "2025-07-10"
   },
   {
     "name": "SV3C Cloud",
@@ -339,9 +339,9 @@
     "playstoreVersion": "5.9.0",
     "playstoreReleaseNote": "Yes iHome is a security camera app that connects to your cameras, offering features such as 24/7 home monitoring, alarms, and video playback. Simplifying home security for your peace of mind.",
     "playstoreReleaseDate": "2025-06-25",
-    "appstoreVersion": "5.7",
-    "appstoreReleaseNote": "Fix known bugs\r",
-    "appstoreReleaseDate": "2025-03-18"
+    "appstoreVersion": "5.9",
+    "appstoreReleaseNote": "fix some bugs",
+    "appstoreReleaseDate": "2025-07-10"
   },
   {
     "name": "VIZIUUY",
