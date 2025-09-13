@@ -126,7 +126,8 @@
         "PRIVACY": "style=\"layout-grid:15.6000pt;\" ><h3 align=justify  style=\"margin-top:0.0000pt;margin-right:0.0000pt;margin-bottom:0.0000pt;\r\nmargin-left:0.0000pt;mso-pagination:widow-orphan;text-align:justify;\r\ntext-justify:inter-ideograph;\" ><i style=\"mso-bidi-font-style:normal\" ><span class=\"15\"  style=\"mso-spacerun:'yes';font-family:\u00cb\u00ce\u00cc\u00e5;mso-ascii-font-family:sans-serif;\r\nmso-hansi-font-family:sans-serif;mso-bidi-font-family:sans-serif;color:rgb(255,0,0);\r\nmso-ansi-font-style:italic;background:rgb(252,252,252);mso-shading:rgb(252,252,252);\" ><font face=\"sans-serif\" >secuPlus</font></span></i><i style=\"mso-bidi-font-style:normal\" ><span class=\"15\"  style=\"mso-spacerun:'yes';font-family:sans-serif;mso-ansi-font-style:italic;\r\nbackground:rgb(252,252,252);mso-shading:rgb(252,252,252);\" >"
     },
     "119": {
-        "GOOGLE ASSISTANT": "Enter your Yes iHome app account and password"
+        "GOOGLE ASSISTANT": "Enter your Yes iHome app account and password",
+        "AGREEMENT": "Service Agreement of Yes iHome Smart Platform"
     },
     "122": {
         "GOOGLE ASSISTANT": "Enter your VIZIUUY app account and password",
