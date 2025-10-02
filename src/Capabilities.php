@@ -2767,14 +2767,14 @@ class Capabilities
         $this->apps = array(
             "Meari" => array(
                 "BRAND"            => "1",
-                "APP_VERSION"      => "5.8.5",
+                "APP_VERSION"      => "5.9.3",
                 "APP_VERSION_CODE" => "2025061011",
                 "SDK_VERSION"      => "5.6.0.2024.09.10",
                 "USERAGENT"        => "MRI/5.8.5 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "CloudEdge" => array(
                 "BRAND"            => "8",
-                "APP_VERSION"      => "5.9.4",
+                "APP_VERSION"      => "5.10.6",
                 "APP_VERSION_CODE" => "280",
                 "SDK_VERSION"      => "5.6.0.2024.09.10",
                 "USERAGENT"        => "Meari/5.9.4 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2788,7 +2788,7 @@ class Capabilities
             ),
             "Arenti" => array(
                 "BRAND"            => "39",
-                "APP_VERSION"      => "4.8.0",
+                "APP_VERSION"      => "4.8.2",
                 "APP_VERSION_CODE" => "202",
                 "SDK_VERSION"      => "5.4.0.2024.02.26",
                 "USERAGENT"        => "Arenti/4.3.1 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2837,42 +2837,42 @@ class Capabilities
             ),
             "My Uniden +" => array(
                 "BRAND"            => "75",
-                "APP_VERSION"      => "5.7.2",
+                "APP_VERSION"      => "5.9.2",
                 "APP_VERSION_CODE" => "2025022009",
                 "SDK_VERSION"      => "5.6.0.2024.09.10",
                 "USERAGENT"        => "BF/5.7.2 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "CloudPlus" => array(
                 "BRAND"            => "77",
-                "APP_VERSION"      => "5.7.1",
+                "APP_VERSION"      => "5.9.1",
                 "APP_VERSION_CODE" => "2024122617",
                 "SDK_VERSION"      => "5.6.0.2024.09.10",
                 "USERAGENT"        => "Cln/5.7.1 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Cloudot" => array(
                 "BRAND"            => "80",
-                "APP_VERSION"      => "5.7.3",
+                "APP_VERSION"      => "5.9.1",
                 "APP_VERSION_CODE" => "2025021416",
                 "SDK_VERSION"      => "5.6.0.2024.09.10",
                 "USERAGENT"        => "Cln/5.7.3 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "ieGeek Cam" => array(
                 "BRAND"            => "81",
-                "APP_VERSION"      => "5.8.4",
+                "APP_VERSION"      => "5.9.0",
                 "APP_VERSION_CODE" => "2025052014",
                 "SDK_VERSION"      => "5.6.0.2024.09.10",
                 "USERAGENT"        => "ieG/5.8.4 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Cococam" => array(
                 "BRAND"            => "82",
-                "APP_VERSION"      => "5.8.4",
+                "APP_VERSION"      => "5.9.1",
                 "APP_VERSION_CODE" => "2025040216",
                 "SDK_VERSION"      => "5.6.0.2024.09.10",
                 "USERAGENT"        => "Coc/5.8.4 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "ANRAN" => array(
                 "BRAND"            => "84",
-                "APP_VERSION"      => "5.9.2",
+                "APP_VERSION"      => "5.9.5",
                 "APP_VERSION_CODE" => "2025061919",
                 "SDK_VERSION"      => "5.6.0.2024.09.10",
                 "USERAGENT"        => "An/5.9.2 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2907,14 +2907,14 @@ class Capabilities
             ),
             "Mubview" => array(
                 "BRAND"            => "97",
-                "APP_VERSION"      => "5.9.2",
+                "APP_VERSION"      => "5.10.1",
                 "APP_VERSION_CODE" => "2025062711",
                 "SDK_VERSION"      => "5.6.0.2024.09.10",
                 "USERAGENT"        => "MV/5.9.2 (iPhone; iOS 17.5.1; Scale/2.00)"
             ),
             "Morecam" => array(
                 "BRAND"            => "98",
-                "APP_VERSION"      => "5.7.4",
+                "APP_VERSION"      => "5.9.4",
                 "APP_VERSION_CODE" => "2025031014",
                 "SDK_VERSION"      => "5.6.0.2024.09.10",
                 "USERAGENT"        => "MC/5.7.4 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2935,7 +2935,7 @@ class Capabilities
             ),
             "BoifunCam" => array(
                 "BRAND"            => "104",
-                "APP_VERSION"      => "5.7.3",
+                "APP_VERSION"      => "5.9.0",
                 "APP_VERSION_CODE" => "2025020814",
                 "SDK_VERSION"      => "5.6.0.2024.09.10",
                 "USERAGENT"        => "BOI/5.7.3 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -2984,7 +2984,7 @@ class Capabilities
             ),
             "Yes iHome" => array(
                 "BRAND"            => "119",
-                "APP_VERSION"      => "5.7.3",
+                "APP_VERSION"      => "5.9.1",
                 "APP_VERSION_CODE" => "2025030515",
                 "SDK_VERSION"      => "5.6.0.2024.09.10",
                 "USERAGENT"        => "vsFAFlaf/5.7.3 (iPhone; iOS 17.5.1; Scale/2.00)"
@@ -3068,7 +3068,7 @@ class Capabilities
             ),
             "Camstro" => array(
                 "BRAND"            => "153",
-                "APP_VERSION"      => "1.1.0",
+                "APP_VERSION"      => "1.2.0",
                 "APP_VERSION_CODE" => "2025051215",
                 "SDK_VERSION"      => "5.6.0.2024.09.10",
                 "USERAGENT"        => "Camstro/1.1.0 (iPhone; iOS 17.5.1; Scale/2.00)"
