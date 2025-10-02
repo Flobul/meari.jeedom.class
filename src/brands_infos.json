@@ -3,23 +3,23 @@
     "name": "Meari",
     "bundleId": "com.ppstrong.weeye",
     "id": "1104880537",
-    "playstoreVersion": "5.8.6",
+    "playstoreVersion": "5.9.4",
     "playstoreReleaseNote": "Fix some known issues.",
-    "playstoreReleaseDate": "2025-06-09",
-    "appstoreVersion": "5.8.5",
+    "playstoreReleaseDate": "2025-09-25",
+    "appstoreVersion": "5.9.3",
     "appstoreReleaseNote": "fix some bugs",
-    "appstoreReleaseDate": "2025-06-12"
+    "appstoreReleaseDate": "2025-09-01"
   },
   {
     "name": "CloudEdge",
     "id": "1294635090",
     "bundleId": "com.cloudedge.smarteye",
-    "playstoreVersion": "5.9.3",
+    "playstoreVersion": "5.10.2",
     "playstoreReleaseNote": "1.Fix some konwn issues.<br>2.Improving UI experience.",
-    "playstoreReleaseDate": "2025-06-20",
-    "appstoreVersion": "5.9.4",
+    "playstoreReleaseDate": "2025-09-26",
+    "appstoreVersion": "5.10.6",
     "appstoreReleaseNote": "fix some bugs",
-    "appstoreReleaseDate": "2025-07-01"
+    "appstoreReleaseDate": "2025-09-29"
   },
   {
     "name": "Beaba Zen Connect",
@@ -36,12 +36,12 @@
     "name": "Arenti",
     "id": "1495605136",
     "bundleId": "com.arenti.smartlife",
-    "playstoreVersion": "4.7.0",
+    "playstoreVersion": "4.8.4",
     "playstoreReleaseNote": "1.Improving user experience.<br>2.Fix some known bugs.",
-    "playstoreReleaseDate": "2025-05-07",
-    "appstoreVersion": "4.8.0",
+    "playstoreReleaseDate": "2025-09-23",
+    "appstoreVersion": "4.8.2",
     "appstoreReleaseNote": "- Fix some bugs.",
-    "appstoreReleaseDate": "2025-07-03"
+    "appstoreReleaseDate": "2025-09-17"
   },
   {
     "name": "ISIWI",
@@ -116,64 +116,64 @@
     "playstoreVersion": "2.0.6",
     "playstoreReleaseNote": "fix cloud bugs",
     "playstoreReleaseDate": "2025-03-31",
-    "appstoreVersion": "5.7.2",
-    "appstoreReleaseNote": "1. improve AOV functions\n2. fix bugs",
-    "appstoreReleaseDate": "2025-05-07"
+    "appstoreVersion": "5.9.2",
+    "appstoreReleaseNote": "1. improve functions\n2. fix bugs",
+    "appstoreReleaseDate": "2025-10-01"
   },
   {
     "name": "CloudPlus",
     "bundleId": "com.langshixing.cloudhome",
     "id": "1599423184",
-    "playstoreVersion": "5.7.1",
-    "playstoreReleaseNote": "Fix known issues",
-    "playstoreReleaseDate": "2025-02-27",
-    "appstoreVersion": "5.7.1",
-    "appstoreReleaseNote": "Add Bluetooth binding radar scanning interface",
-    "appstoreReleaseDate": "2025-01-14"
+    "playstoreVersion": "5.9.1",
+    "playstoreReleaseNote": "Optimize the &quot;Cloud Storage Subscription&quot; interface.",
+    "playstoreReleaseDate": "2025-09-08",
+    "appstoreVersion": "5.9.1",
+    "appstoreReleaseNote": "Optimize the \"Cloud Storage Subscription\" interface and fix some known bugs.",
+    "appstoreReleaseDate": "2025-09-10"
   },
   {
     "name": "Cloudot",
     "bundleId": "com.joystek.cloudot",
     "id": "1600200945",
-    "playstoreVersion": "5.7.1",
+    "playstoreVersion": "5.9.0",
     "playstoreReleaseNote": "Upgrade some content",
-    "playstoreReleaseDate": "2025-03-01",
-    "appstoreVersion": "5.7.3",
-    "appstoreReleaseNote": "Update some content",
-    "appstoreReleaseDate": "2025-03-01"
+    "playstoreReleaseDate": "2025-08-26",
+    "appstoreVersion": "5.9.1",
+    "appstoreReleaseNote": "Updated with some new features.",
+    "appstoreReleaseDate": "2025-09-29"
   },
   {
     "name": "ieGeek Cam",
     "bundleId": "com.iegeekCam.cam",
     "id": "1601747664",
-    "playstoreVersion": "5.8.0",
+    "playstoreVersion": "5.9.1",
     "playstoreReleaseNote": "Fix some bugs",
-    "playstoreReleaseDate": "2025-06-12",
-    "appstoreVersion": "5.8.4",
+    "playstoreReleaseDate": "2025-09-18",
+    "appstoreVersion": "5.9.0",
     "appstoreReleaseNote": "Fix some bugs",
-    "appstoreReleaseDate": "2025-06-16"
+    "appstoreReleaseDate": "2025-09-24"
   },
   {
     "name": "Cococam",
     "bundleId": "com.cococam.cam",
     "id": "1609380588",
-    "playstoreVersion": "5.8.1",
+    "playstoreVersion": "5.9.3",
     "playstoreReleaseNote": "null",
-    "playstoreReleaseDate": "2025-04-08",
-    "appstoreVersion": "5.8.4",
-    "appstoreReleaseNote": "Fixed version bugs",
-    "appstoreReleaseDate": "2025-04-02"
+    "playstoreReleaseDate": "2025-09-15",
+    "appstoreVersion": "5.9.1",
+    "appstoreReleaseNote": "Some new features have been added",
+    "appstoreReleaseDate": "2025-08-18"
   },
   {
     "name": "ANRAN",
     "bundleId": "com.anran.arcloud",
     "id": "1611278380",
-    "playstoreVersion": "5.9.0",
+    "playstoreVersion": "5.9.4",
     "playstoreReleaseNote": "null",
-    "playstoreReleaseDate": "2025-06-20",
-    "appstoreVersion": "5.9.2",
-    "appstoreReleaseNote": "fix some bus!",
-    "appstoreReleaseDate": "2025-06-20"
+    "playstoreReleaseDate": "2025-08-28",
+    "appstoreVersion": "5.9.5",
+    "appstoreReleaseNote": "fix some bugs!",
+    "appstoreReleaseDate": "2025-09-01"
   },
   {
     "name": "K&F Cam",
@@ -219,23 +219,23 @@
     "name": "Mubview",
     "bundleId": "com.mubview.smartlife",
     "id": "1641458647",
-    "playstoreVersion": "5.8.0",
+    "playstoreVersion": "5.10.2",
     "playstoreReleaseNote": "Fix known bugs",
-    "playstoreReleaseDate": "2025-04-26",
-    "appstoreVersion": "5.9.2",
+    "playstoreReleaseDate": "2025-09-24",
+    "appstoreVersion": "5.10.1",
     "appstoreReleaseNote": "Fix bugs",
-    "appstoreReleaseDate": "2025-07-02"
+    "appstoreReleaseDate": "2025-09-08"
   },
   {
     "name": "Morecam",
     "bundleId": "com.morecam.smartlife",
     "id": "1645556025",
-    "playstoreVersion": "5.9.1",
+    "playstoreVersion": "5.9.5",
     "playstoreReleaseNote": "null",
-    "playstoreReleaseDate": "2025-07-03",
-    "appstoreVersion": "5.7.4",
+    "playstoreReleaseDate": "2025-09-26",
+    "appstoreVersion": "5.9.4",
     "appstoreReleaseNote": "fix bugs",
-    "appstoreReleaseDate": "2025-03-12"
+    "appstoreReleaseDate": "2025-09-28"
   },
   {
     "name": "SV3C Cloud",
@@ -263,12 +263,12 @@
     "name": "BoifunCam",
     "bundleId": "com.boifun.smartlife",
     "id": "1659819888",
-    "playstoreVersion": "5.7.1",
+    "playstoreVersion": "5.9.0",
     "playstoreReleaseNote": "Fix some bugs",
-    "playstoreReleaseDate": "2025-03-03",
-    "appstoreVersion": "5.7.3",
-    "appstoreReleaseNote": "Fix some bugs",
-    "appstoreReleaseDate": "2025-03-04"
+    "playstoreReleaseDate": "2025-08-26",
+    "appstoreVersion": "5.9.0",
+    "appstoreReleaseNote": "1. Fixed the 4G data plan icon display.\r\n2. Fixed the solar panel installation guide display.",
+    "appstoreReleaseDate": "2025-08-28"
   },
   {
     "name": "Safeview",
@@ -336,12 +336,12 @@
     "name": "Yes iHome",
     "bundleId": "com.yesihome.smartlife",
     "id": "6459700579",
-    "playstoreVersion": "5.9.0",
+    "playstoreVersion": "5.9.1",
     "playstoreReleaseNote": "Yes iHome is a security camera app that connects to your cameras, offering features such as 24/7 home monitoring, alarms, and video playback. Simplifying home security for your peace of mind.",
-    "playstoreReleaseDate": "2025-06-25",
-    "appstoreVersion": "5.7",
-    "appstoreReleaseNote": "Fix known bugs\r",
-    "appstoreReleaseDate": "2025-03-18"
+    "playstoreReleaseDate": "2025-09-02",
+    "appstoreVersion": "5.9.1",
+    "appstoreReleaseNote": "fix some bugs",
+    "appstoreReleaseDate": "2025-08-08"
   },
   {
     "name": "VIZIUUY",
@@ -360,9 +360,9 @@
     "version": "5.2.6",
     "releaseNote": "init",
     "releaseDate": "Feb 21, 2024",
-    "playstoreVersion": "5.9.0",
-    "playstoreReleaseNote": "Bug fixes and performance improvements.",
-    "playstoreReleaseDate": "2025-06-27"
+    "playstoreVersion": "5.9.3",
+    "playstoreReleaseNote": "Fixed issues and improved UI experience.",
+    "playstoreReleaseDate": "2025-09-14"
   },
   {
     "name": "Aura Smart",
@@ -382,9 +382,9 @@
     "name": "Buzzai Pro",
     "bundleId": "com.buzziai.camera",
     "id": "6502924661",
-    "playstoreVersion": "5.6.0",
+    "playstoreVersion": "5.9.0",
     "playstoreReleaseNote": "Connecting with a more secured world is our mission and you can get it here, the free video app that allows you to be available anywhere, which supports the full line of Sunell products that support standard H.264 video codec.",
-    "playstoreReleaseDate": "2024-10-30",
+    "playstoreReleaseDate": "2025-07-18",
     "appstoreVersion": "1.0",
     "appstoreReleaseNote": "null",
     "appstoreReleaseDate": "2024-05-27"
@@ -466,11 +466,11 @@
     "name": "Camstro",
     "bundleId": "com.camstro.app",
     "id": "6743885230",
-    "playstoreVersion": "1.0.0",
-    "playstoreReleaseNote": "null",
-    "playstoreReleaseDate": "2025-04-29",
-    "appstoreVersion": "1.1.0",
-    "appstoreReleaseNote": "1 fix bugs",
-    "appstoreReleaseDate": "2025-06-19"
+    "playstoreVersion": "1.2.0",
+    "playstoreReleaseNote": "fix some bugs",
+    "playstoreReleaseDate": "2025-09-03",
+    "appstoreVersion": "1.2.0",
+    "appstoreReleaseNote": "fix some bugs",
+    "appstoreReleaseDate": "2025-09-04"
   }
 ]
