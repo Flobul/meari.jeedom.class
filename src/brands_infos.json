@@ -463,6 +463,17 @@
     "appstoreReleaseDate": "2025-02-26"
   },
   {
+    "name": "Protect by STRONG",
+    "bundleId": "com.strong.protect",
+    "id": "1530528914",
+    "playstoreVersion": "",
+    "playstoreReleaseNote": "",
+    "playstoreReleaseDate": "",
+    "appstoreVersion": "",
+    "appstoreReleaseNote": "",
+    "appstoreReleaseDate": ""
+  },
+  {
     "name": "Camstro",
     "bundleId": "com.camstro.app",
     "id": "6743885230",
