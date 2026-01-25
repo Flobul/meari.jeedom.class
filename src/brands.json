@@ -32,7 +32,7 @@
         "PRIVACY": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/65/en/Privacy.html"
     },
     "67": {
-        "GOOGLE ASSISTANT": "Enter your CloudEdge app account and password",
+        "GOOGLE ASSISTANT": "https://apis-eu-frankfurt.cloudedge360.com/img/67/en/Google_Assistant.html",
         "AGREEMENT": "Service Agreement of Uniden Smart Platform",
         "PRIVACY": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/67/en/Privacy.html"
     },
