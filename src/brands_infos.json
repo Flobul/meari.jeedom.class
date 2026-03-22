@@ -483,5 +483,27 @@
     "appstoreVersion": "1.1.0",
     "appstoreReleaseNote": "1 fix bugs",
     "appstoreReleaseDate": "2025-06-19"
+  },
+  {
+    "name": "FONDAIL",
+    "bundleId": "com.universal.fondail",
+    "id": "6740188639",
+    "playstoreVersion": "",
+    "playstoreReleaseNote": "",
+    "playstoreReleaseDate": "",
+    "appstoreVersion": "",
+    "appstoreReleaseNote": "",
+    "appstoreReleaseDate": ""
+  },
+  {
+    "name": "Fortvue",
+    "bundleId": "com.fortvue.fortvue",
+    "id": "6756561569",
+    "playstoreVersion": "",
+    "playstoreReleaseNote": "",
+    "playstoreReleaseDate": "",
+    "appstoreVersion": "",
+    "appstoreReleaseNote": "",
+    "appstoreReleaseDate": ""
   }
 ]

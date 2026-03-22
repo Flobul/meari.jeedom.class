@@ -1859,8 +1859,8 @@ class Capabilities
             "235" => array(
                 "logicalId"  => "uploadVideo",
                 "type" => "info",
-                "subType" => "numeric",
-                "name" => __("uploadVideo", __FILE__)
+                "subType" => "binary",
+                "name" => __("Stockage cloud de base", __FILE__)
             ),
             "235" => array(
                 "logicalId"  => "petThrowWarning",
