@@ -118,8 +118,13 @@ function main() {
         log_message "DEBUG" "File copied $json_file in $updated_json_file"
     fi
 
+    # Fichier temporaire pour suivre les apps en échec (compatible avec la boucle)
+    local failed_file
+    failed_file=$(mktemp)
+
     # Parcourir chaque entrée dans le fichier JSON
-    jq -c '.[]' "$json_file" | while read -r entry; do
+    # Utilisation de la substitution de processus pour permettre le suivi des variables
+    while read -r entry; do
         # Extraire le nom, bundleId et id de chaque entrée
         local name=$(echo "$entry" | jq -r '.name?')
         local bundle_id=$(echo "$entry" | jq -r '.bundleId?')
@@ -139,10 +144,12 @@ function main() {
                 local result=$($command_playstore "$option" "$bundle_id" 2>/dev/null)
 
                 if [[ $? -ne 0 ]]; then
-                    log_message "ERROR" "Failed to fetch Play Store info for $bundle_id"
+                    log_message "ERROR" "Failed to fetch Play Store info for $bundle_id (app peut-être retirée du store)"
+                    echo "Play Store: $name ($bundle_id)" >> "$failed_file"
                     continue
                 elif ! echo "$result" | jq . > /dev/null 2>&1; then
-                    log_message "ERROR" "Invalid JSON received from Play Store for $app_id"
+                    log_message "ERROR" "Invalid JSON received from Play Store for $bundle_id"
+                    echo "Play Store: $name ($bundle_id)" >> "$failed_file"
                     continue
                 fi
 
@@ -157,11 +164,13 @@ function main() {
                     updated=true
 
                     # Mettre à jour le fichier JSON avec les nouvelles informations
+                    local tmp_file
+                    tmp_file=$(mktemp)
                     jq --arg bundleId "$bundle_id" --arg version "$version" \
                        --arg releaseNote "$release_note" --arg releaseDate "$release_date" \
                        '(.[] | select(.bundleId==$bundleId) | .playstoreVersion) = $version |
                         (.[] | select(.bundleId==$bundleId) | .playstoreReleaseNote) = $releaseNote |
-                        (.[] | select(.bundleId==$bundleId) | .playstoreReleaseDate) = $releaseDate' "$updated_json_file" > temp.json && mv temp.json "$updated_json_file"
+                        (.[] | select(.bundleId==$bundleId) | .playstoreReleaseDate) = $releaseDate' "$updated_json_file" > "$tmp_file" && mv "$tmp_file" "$updated_json_file"
                 else
                     # Afficher seulement les mises à jour si l'option est active
                     if [[ $show_all = false && $updated = false ]]; then
@@ -179,10 +188,12 @@ function main() {
                 local result=$($command_appstore "$option" "$app_id" 2>/dev/null)
 
                 if [[ $? -ne 0 ]]; then
-                    log_message "ERROR" "Failed to fetch App Store info for $app_id"
+                    log_message "ERROR" "Failed to fetch App Store info for $app_id (app peut-être retirée du store)"
+                    echo "App Store: $name ($app_id)" >> "$failed_file"
                     continue
                 elif ! echo "$result" | jq . > /dev/null 2>&1; then
                     log_message "ERROR" "Invalid JSON received from App Store for $app_id"
+                    echo "App Store: $name ($app_id)" >> "$failed_file"
                     continue
                 fi
 
@@ -197,11 +208,13 @@ function main() {
                     updated=true
 
                     # Mettre à jour le fichier JSON avec les nouvelles informations
+                    local tmp_file
+                    tmp_file=$(mktemp)
                     jq --arg id "$app_id" --arg version "$version" \
                        --arg releaseNote "$release_note" --arg releaseDate "$release_date" \
                        '(.[] | select(.id==$id) | .appstoreVersion) = $version |
                         (.[] | select(.id==$id) | .appstoreReleaseNote) = $releaseNote |
-                        (.[] | select(.id==$id) | .appstoreReleaseDate) = $releaseDate' "$updated_json_file" > temp.json && mv temp.json "$updated_json_file"
+                        (.[] | select(.id==$id) | .appstoreReleaseDate) = $releaseDate' "$updated_json_file" > "$tmp_file" && mv "$tmp_file" "$updated_json_file"
                 else
                     # Afficher seulement les mises à jour si l'option est active
                     if [[ $show_all = false && $updated = false ]]; then
@@ -211,10 +224,19 @@ function main() {
                 fi
             fi
         fi
-    done
+    done < <(jq -c '.[]' "$json_file")
 
     log_message "SUCCESS" "Brands list updated in $updated_json_file."
     mv "$updated_json_file" "$json_file"
+
+    # Rapport des apps en échec
+    if [[ -s "$failed_file" ]]; then
+        log_message "ERROR" "Les apps suivantes n'ont pas pu être récupérées (retirées du store ?):"
+        while IFS= read -r line; do
+            log_message "ERROR" "  - $line"
+        done < "$failed_file"
+    fi
+    rm -f "$failed_file"
 }
 
 function parse_cli {

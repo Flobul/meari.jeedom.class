@@ -45,10 +45,11 @@ jobs:
       - name: Generate Markdown from JSON
         id: generate-markdown
         run: |
-          echo "### Brands found: ${{ env.BRANDS_IDS }}\n\n" > brands.md
+          echo "### Brands found: ${{ env.BRAND_IDS }}" > brands.md
+          echo "" >> brands.md
           jq -r 'to_entries[] | "#### Brand ID: \(.key)\n" + (.value | to_entries[] | "- **\(.key):** \(.value)\n") + "\n"' src/brands.json >> brands.md
           echo "BRANDS_MARKDOWN<<EOF" >> $GITHUB_ENV
-          echo $(cat brands.md) >> $GITHUB_ENV
+          cat brands.md >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
       - name: "Release"
@@ -84,7 +85,16 @@ jobs:
         run: cat ${GITHUB_WORKSPACE}/src/brands_infos.json
 
       - name: "Update Capabilities.php"
-        run: php ./check_versions.php --appstore
+        id: update_php
+        run: |
+          PHP_UPDATES=$(php ./check_versions.php --appstore 2>&1)
+          echo "$PHP_UPDATES"
+          echo "PHP_UPDATES<<EOF" >> $GITHUB_ENV
+          echo "$PHP_UPDATES" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: "Validate PHP syntax"
+        run: php -l src/Capabilities.php
 
       - name: "Release"
         uses: peter-evans/create-pull-request@v6
@@ -95,5 +105,8 @@ jobs:
           branch: brandFromStores
           delete-branch: true
           title: "Update brands infos from stores and modify php file"
-          body: "Update"
-          commit-message: "Auto add brand workflow"
+          body: |
+            ## Mises à jour des versions d'applications
+
+            ${{ env.PHP_UPDATES }}
+          commit-message: "Auto update brands from stores"
