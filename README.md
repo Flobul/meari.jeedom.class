@@ -43,7 +43,9 @@ A PHP class for jeedom using meari-like mobile applications :
 - FanX Security,
 - Ediloca Security,
 - Protect by STRONG,
-- Camstro.
+- Camstro,
+- FONDAIL,
+- Fortvue.
 
 ## get_brands.sh | get_brands.py
 get_brands.sh obsolete, use python
