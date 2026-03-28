@@ -3,8 +3,8 @@ name: Release
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
+    paths:
+      - 'src/Capabilities.php'
 
 jobs:
   release:
@@ -20,10 +20,25 @@ jobs:
       - name: Get Versions
         id: versions
         run: |
-          VERSION_NUMBER=$(grep -oP '(?<=public static \$version = ").*(?=")'  src/Capabilities.php)
+          VERSION_NUMBER=$(grep -oP '(?<=public static \$version = ").*(?=")' src/Capabilities.php)
+          if [[ -z "$VERSION_NUMBER" ]]; then
+            echo "Impossible d'extraire le numéro de version depuis Capabilities.php"
+            exit 1
+          fi
           echo "VERSION_NUMBER=${VERSION_NUMBER}" >> $GITHUB_ENV
 
+      - name: Check if tag already exists
+        id: check_tag
+        run: |
+          if git ls-remote --tags origin "refs/tags/v${{ env.VERSION_NUMBER }}" | grep -q .; then
+            echo "TAG_EXISTS=true" >> $GITHUB_ENV
+            echo "Le tag v${{ env.VERSION_NUMBER }} existe déjà, release ignorée."
+          else
+            echo "TAG_EXISTS=false" >> $GITHUB_ENV
+          fi
+
       - name: Release
+        if: env.TAG_EXISTS == 'false'
         uses: softprops/action-gh-release@v1
         with:
           files: src/Capabilities.php

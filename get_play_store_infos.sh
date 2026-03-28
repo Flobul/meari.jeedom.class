@@ -54,26 +54,32 @@ function log_message() {
     esac
 }
 
-# Fonction pour récupérer les informations JSON de l'application
+# Fonction pour récupérer les informations JSON de l'application (avec retry)
 function fetch_app_json() {
     local app_id="$1"
-    local result=$(curl -sL "https://play.google.com/store/apps/details?id=$app_id" |
-        tr -d '\n' |
-        sed -e 's:.*<script class="ds\:5" nonce="[^"]*">::' -e 's:</script>.*::' |
-        sed -e 's:.*data\:::' -e 's:, sideChannel.*::')
+    local max_retries=3
+    local retry_delay=5
+    local result=""
 
-    if [[ $? -ne 0 || -z "$result" ]]; then
-        log_message "ERROR" "Failed to fetch data for app ID $app_id"
-        exit 1
-    fi
+    for i in $(seq 1 $max_retries); do
+        result=$(curl -sL "https://play.google.com/store/apps/details?id=$app_id" |
+            tr -d '\n' |
+            sed -e 's:.*<script class="ds\:5" nonce="[^"]*">::' -e 's:</script>.*::' |
+            sed -e 's:.*data\:::' -e 's:, sideChannel.*::')
 
-    # Vérifier si la sortie est du JSON valide
-    if ! echo "$result" | jq . > /dev/null 2>&1; then
-        log_message "ERROR" "Invalid JSON received for app ID $app_id"
-        exit 1
-    fi
+        if [[ -n "$result" ]] && echo "$result" | jq . > /dev/null 2>&1; then
+            echo "$result"
+            return 0
+        fi
 
-    echo "$result"
+        if [[ $i -lt $max_retries ]]; then
+            log_message "INFO" "Retry $i/$max_retries for app ID $app_id (waiting ${retry_delay}s)..."
+            sleep $retry_delay
+        fi
+    done
+
+    log_message "ERROR" "Failed to fetch data for app ID $app_id after $max_retries attempts"
+    exit 1
 }
 
 ## Fonction pour transformer la date au format YYYY-MM-DD
