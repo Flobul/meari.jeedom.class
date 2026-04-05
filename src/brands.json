@@ -1,106 +1,66 @@
 {
     "1": {
-        "GOOGLE ASSISTANT": "Enter your Meari app account and password",
         "AGREEMENT": "Service Agreement of Meari Smart Platform",
         "PRIVACY": "Service Agreement of <span class=\"SpellE\">Meari</span>\nSmart Platform"
-    },
-    "8": {
-        "GOOGLE ASSISTANT": "Enter your CloudEdge app account and password"
     },
     "36": {
         "AGREEMENT": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/userAgreement/36/en/Agreement_en.html",
         "PRIVACY": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/36/en/Privacy.html"
     },
-    "39": {
-        "GOOGLE ASSISTANT": "Enter your Arenti app account and password"
-    },
     "51": {
-        "GOOGLE ASSISTANT": "applicazione ISIWI,",
         "AGREEMENT": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/userAgreement/51/en/Agreement_en.html",
         "PRIVACY": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/51/en/Privacy.html"
     },
     "55": {
-        "GOOGLE ASSISTANT": "Enter your zumimall app account and password",
         "AGREEMENT": "Service Agreement of ZUMIMALL Smart Platform"
     },
-    "62": {
-        "GOOGLE ASSISTANT": "Enter your Vacos app account and password"
-    },
     "65": {
-        "GOOGLE ASSISTANT": "Enter your COOAU Cam app account and password",
         "AGREEMENT": "Service Agreement of COOAU Cam Smart Platform",
         "PRIVACY": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/65/en/Privacy.html"
     },
     "67": {
-        "GOOGLE ASSISTANT": "https://apis-eu-frankfurt.cloudedge360.com/img/67/en/Google_Assistant.html",
         "AGREEMENT": "Service Agreement of Uniden Smart Platform",
         "PRIVACY": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/67/en/Privacy.html"
     },
-    "71": {
-        "GOOGLE ASSISTANT": "Enter your SiecoSmart app account and password"
-    },
     "75": {
-        "GOOGLE ASSISTANT": "Enter your My Uniden+ app account and password",
         "AGREEMENT": "Service Agreement of My Uniden+ Platform",
         "PRIVACY": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/75/en/Privacy.html"
     },
     "77": {
-        "GOOGLE ASSISTANT": "Enter your CloudPlus app account and password",
         "AGREEMENT": "Service Agreement of CloudPlus Smart Platform",
         "PRIVACY": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/77/en/Privacy.html"
     },
-    "80": {
-        "GOOGLE ASSISTANT": "Enter your Cloudot app account and password"
-    },
-    "81": {
-        "GOOGLE ASSISTANT": "Enter your ieGeek Cam app account and password"
-    },
     "82": {
-        "GOOGLE ASSISTANT": "Enter your Cococam app account and password",
         "AGREEMENT": "Service Agreement of Cococam Smart Platform",
         "PRIVACY": "Service Agreement of COCOCAM Smart Platform"
     },
-    "84": {
-        "GOOGLE ASSISTANT": "Enter your ANRAN app account and password"
-    },
     "86": {
         "PRIVACY": "Service Agreement of </font></span></b><b style=\"mso-bidi-font-weight:normal\" ><span style=\"mso-spacerun:'yes';font-family:\u00b5\u00c8\u00cf\u00df;mso-bidi-font-family:'Times New Roman';\r\nmso-ansi-font-weight:bold;mso-bidi-font-weight:normal;font-size:15.0000pt;\r\nmso-font-kerning:1.0000pt;\" ><font face=\"\u00b5\u00c8\u00cf\u00df\" >K&F Cam</font></span></b><b style=\"mso-bidi-font-weight:normal\" ><span style=\"mso-spacerun:'yes';font-family:\u00b5\u00c8\u00cf\u00df;mso-bidi-font-family:'Times New Roman';\r\nmso-ansi-font-weight:bold;mso-bidi-font-weight:normal;font-size:15.0000pt;\r\nmso-font-kerning:1.0000pt;\" > <font face=\"\u00b5\u00c8\u00cf\u00df\" >Smart Platform"
-    },
-    "92": {
-        "GOOGLE ASSISTANT": "Enter your Elemage Cam app account and password"
     },
     "93": {
         "AGREEMENT": "Service Agreement of BabytimeHome Smart Platform",
         "PRIVACY": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/93/en/Privacy.html"
     },
     "96": {
-        "GOOGLE ASSISTANT": "Enter your WGV app account and password",
         "AGREEMENT": "Service Agreement of </span><span lang=EN-US style='font-family:\r\n\"Helvetica\",sans-serif;color:black'>WGV</span><span lang=EN-US\r\nstyle='font-family:\"Helvetica\",sans-serif;mso-fareast-font-family:Helvetica;\r\ncolor:black'> Smart Platform",
         "PRIVACY": "Service Agreement of WGV Smart Platform"
     },
     "97": {
-        "GOOGLE ASSISTANT": "Enter your Mubview app account and password",
         "AGREEMENT": "Service Agreement of MubView Smart Platform",
         "PRIVACY": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/97/en/Privacy.html"
     },
     "98": {
-        "GOOGLE ASSISTANT": "Enter your Morecam app account and password",
         "AGREEMENT": "Service Agreement of </font></span></b><b><span style=\"mso-spacerun:'yes';font-family:\u00cb\u00ce\u00cc\u00e5;font-weight:bold;\r\nfont-size:13.5000pt;mso-font-kerning:0.0000pt;\" ><font face=\"\u00cb\u00ce\u00cc\u00e5\" >Morecam</font></span></b><b><span style=\"mso-spacerun:'yes';font-family:\u00cb\u00ce\u00cc\u00e5;font-weight:bold;\r\nfont-size:13.5000pt;mso-font-kerning:0.0000pt;\" > <font face=\"\u00cb\u00ce\u00cc\u00e5\" >Smart Platform"
-    },
-    "100": {
-        "GOOGLE ASSISTANT": "Enter your SV3C Cloud app account and password"
     },
     "102": {
         "AGREEMENT": "Service Agreement of </span></b><b><span style=\"mso-spacerun:'yes';font-family:\u00cb\u00ce\u00cc\u00e5;mso-ascii-font-family:Helvetica;\r\nmso-hansi-font-family:Helvetica;mso-bidi-font-family:Helvetica;color:rgb(0,0,0);\r\nletter-spacing:0.0000pt;font-weight:bold;text-transform:none;\r\nfont-style:normal;font-size:9.0000pt;mso-font-kerning:0.0000pt;\" ><font face=\"Helvetica\" >SIIOOE</font></span></b><b><span style=\"mso-spacerun:'yes';font-family:Helvetica;color:rgb(0,0,0);\r\nletter-spacing:0.0000pt;font-weight:bold;text-transform:none;\r\nfont-style:normal;font-size:9.0000pt;mso-font-kerning:0.0000pt;\" > Smart Platform",
         "PRIVACY": "style=\"layout-grid:15.6000pt;\" ><h3 align=justify  style=\"margin-left:0.0000pt;text-indent:0.0000pt;mso-pagination:widow-orphan;\r\ntext-align:justify;text-justify:inter-ideograph;\" ><span class=\"17\"  style=\"mso-spacerun:'yes';font-family:\u00cb\u00ce\u00cc\u00e5;mso-ascii-font-family:'Century Gothic';\r\nmso-hansi-font-family:'Century Gothic';mso-bidi-font-family:'Century Gothic';color:rgb(17,17,17);\r\nletter-spacing:0.0000pt;text-transform:none;font-style:normal;\" ><font face=\"Century Gothic\" >SIIOOE</font></span><span class=\"17\"  style=\"mso-spacerun:'yes';font-family:'Century Gothic';color:rgb(17,17,17);\r\nletter-spacing:0.0000pt;text-transform:none;font-style:normal;\" >"
     },
     "104": {
-        "GOOGLE ASSISTANT": "Enter your BoifunCam app account and password",
         "AGREEMENT": "Service Agreement of BoifunCam Smart Platform",
         "PRIVACY": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/104/en/Privacy.html"
     },
     "107": {
-        "GOOGLE ASSISTANT": "Enter your Safeview app account and password",
         "AGREEMENT": "Service Agreement of Safeview Smart Platform",
         "PRIVACY": "Service Agreement of Safeview Smart Platform"
     },
@@ -117,7 +77,6 @@
         "PRIVACY": "Service Agreement of DEATTI Smart Platform"
     },
     "114": {
-        "GOOGLE ASSISTANT": "Enter your Topcony Cam app account and password",
         "AGREEMENT": "Service Agreement of Topcony Cam Smart Platform",
         "PRIVACY": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/114/en/Privacy.html"
     },
@@ -126,24 +85,15 @@
         "PRIVACY": "style=\"layout-grid:15.6000pt;\" ><h3 align=justify  style=\"margin-top:0.0000pt;margin-right:0.0000pt;margin-bottom:0.0000pt;\r\nmargin-left:0.0000pt;mso-pagination:widow-orphan;text-align:justify;\r\ntext-justify:inter-ideograph;\" ><i style=\"mso-bidi-font-style:normal\" ><span class=\"15\"  style=\"mso-spacerun:'yes';font-family:\u00cb\u00ce\u00cc\u00e5;mso-ascii-font-family:sans-serif;\r\nmso-hansi-font-family:sans-serif;mso-bidi-font-family:sans-serif;color:rgb(255,0,0);\r\nmso-ansi-font-style:italic;background:rgb(252,252,252);mso-shading:rgb(252,252,252);\" ><font face=\"sans-serif\" >secuPlus</font></span></i><i style=\"mso-bidi-font-style:normal\" ><span class=\"15\"  style=\"mso-spacerun:'yes';font-family:sans-serif;mso-ansi-font-style:italic;\r\nbackground:rgb(252,252,252);mso-shading:rgb(252,252,252);\" >"
     },
     "119": {
-        "GOOGLE ASSISTANT": "Enter your Yes iHome app account and password",
         "AGREEMENT": "Service Agreement of Yes iHome Smart Platform"
     },
     "122": {
-        "GOOGLE ASSISTANT": "Enter your VIZIUUY app account and password",
         "AGREEMENT": "Service Agreement of </span></b><b><span style=\"mso-spacerun:'yes';font-family:\u00cb\u00ce\u00cc\u00e5;mso-ascii-font-family:Helvetica;\r\nmso-hansi-font-family:Helvetica;mso-bidi-font-family:Helvetica;color:rgb(0,0,0);\r\nletter-spacing:0.0000pt;font-weight:bold;text-transform:none;\r\nfont-style:normal;font-size:10.5000pt;mso-font-kerning:0.0000pt;\" ><font face=\"Helvetica\" >VIZIUUY</font></span></b><b><span style=\"mso-spacerun:'yes';font-family:Helvetica;color:rgb(0,0,0);\r\nletter-spacing:0.0000pt;font-weight:bold;text-transform:none;\r\nfont-style:normal;font-size:10.5000pt;mso-font-kerning:0.0000pt;\" > Smart Platform",
         "PRIVACY": "Service Agreement of VIZIUUY Smart Platform"
     },
     "124": {
-        "GOOGLE ASSISTANT": "Enter your TkenPro app account and password",
         "AGREEMENT": "Service Agreement of </span></b><b><span style=\"mso-spacerun:'yes';font-family:\u00cb\u00ce\u00cc\u00e5;mso-ascii-font-family:Helvetica;\r\nmso-hansi-font-family:Helvetica;mso-bidi-font-family:Helvetica;color:rgb(0,0,0);\r\nletter-spacing:0.0000pt;font-weight:bold;text-transform:none;\r\nfont-style:normal;font-size:13.5000pt;mso-font-kerning:0.0000pt;\" ><font face=\"Helvetica\" >TkenPro</font></span></b><b><span style=\"mso-spacerun:'yes';font-family:Helvetica;color:rgb(0,0,0);\r\nletter-spacing:0.0000pt;font-weight:bold;text-transform:none;\r\nfont-style:normal;font-size:13.5000pt;mso-font-kerning:0.0000pt;\" > Smart Platform",
         "PRIVACY": "Service Agreement of TkenPro Smart Platform"
-    },
-    "126": {
-        "GOOGLE ASSISTANT": "Enter your Aura Smart app account and password"
-    },
-    "127": {
-        "GOOGLE ASSISTANT": "Enter your Buzzai Pro app account and password"
     },
     "128": {
         "AGREEMENT": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/userAgreement/128/en/Agreement_en.html"
@@ -153,33 +103,11 @@
         "PRIVACY": "><h3 align=justify  style=\"margin-top:0.0000pt;margin-right:0.0000pt;margin-bottom:0.0000pt;\r\nmargin-left:0.0000pt;mso-pagination:widow-orphan;text-align:justify;\r\ntext-justify:inter-ideograph;\" ><i style=\"mso-bidi-font-style:normal\" ><span class=\"19\"  style=\"mso-spacerun:'yes';font-family:\u00cb\u00ce\u00cc\u00e5;mso-ascii-font-family:'Century Gothic';\r\nmso-hansi-font-family:'Century Gothic';mso-bidi-font-family:'Century Gothic';mso-ansi-font-style:italic;\r\nbackground:rgb(252,252,252);mso-shading:rgb(252,252,252);\" ><font face=\"Century Gothic\" >GCLink</font></span></i><i style=\"mso-bidi-font-style:normal\" ><span class=\"19\"  style=\"mso-spacerun:'yes';font-family:'Century Gothic';mso-ansi-font-style:italic;\r\nbackground:rgb(252,252,252);mso-shading:rgb(252,252,252);\" >"
     },
     "131": {
-        "GOOGLE ASSISTANT": "Enter your ParinnovCam app account and password",
         "AGREEMENT": "Service Agreement of PARINNOV Smart Platform",
         "PRIVACY": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/131/en/Privacy.html"
     },
     "135": {
         "AGREEMENT": "Service Agreement of </font></span></b><b><span style=\"mso-spacerun:'yes';font-family:\u00cb\u00ce\u00cc\u00e5;font-weight:bold;\r\nfont-size:13.5000pt;mso-font-kerning:0.0000pt;\" ><font face=\"\u00cb\u00ce\u00cc\u00e5\" >Jennov</font></span></b><b><span style=\"mso-spacerun:'yes';font-family:\u00cb\u00ce\u00cc\u00e5;font-weight:bold;\r\nfont-size:13.5000pt;mso-font-kerning:0.0000pt;\" > <font face=\"\u00cb\u00ce\u00cc\u00e5\" >Smart Platform",
         "PRIVACY": "Service Agreement of Jennov Smart Platform"
-    },
-    "141": {
-        "GOOGLE ASSISTANT": "Enter your CZEview app account and password"
-    },
-    "144": {
-        "GOOGLE ASSISTANT": "Enter your FanX Security app account and password"
-    },
-    "146": {
-        "GOOGLE ASSISTANT": "Enter your Ediloca Security app account and password"
-    },
-    "147": {
-        "GOOGLE ASSISTANT": "Enter your FONDAIL app account and password"
-    },
-    "148": {
-        "GOOGLE ASSISTANT": "Enter your Protect by STRONG app account and password"
-    },
-    "153": {
-        "GOOGLE ASSISTANT": "Enter your Camstro app account and password"
-    },
-    "168": {
-        "GOOGLE ASSISTANT": "Enter your Fortvue app account and password"
     }
 }
