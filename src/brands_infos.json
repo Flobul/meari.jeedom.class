@@ -14,9 +14,9 @@
     "name": "CloudEdge",
     "id": "1294635090",
     "bundleId": "com.cloudedge.smarteye",
-    "playstoreVersion": "6.1.4",
+    "playstoreVersion": "6.1.9",
     "playstoreReleaseNote": "Fix some konwn issues.",
-    "playstoreReleaseDate": "2026-03-15",
+    "playstoreReleaseDate": "2026-04-26",
     "appstoreVersion": "5.9.4",
     "appstoreReleaseNote": "fix some bugs",
     "appstoreReleaseDate": "2025-07-01"
@@ -360,9 +360,9 @@
     "version": "5.2.6",
     "releaseNote": "init",
     "releaseDate": "Feb 21, 2024",
-    "playstoreVersion": "5.9.3",
-    "playstoreReleaseNote": "Fixed issues and improved UI experience.",
-    "playstoreReleaseDate": "2025-09-14"
+    "playstoreVersion": "6.0.1",
+    "playstoreReleaseNote": "Optimize user experience",
+    "playstoreReleaseDate": "2026-04-27"
   },
   {
     "name": "Aura Smart",
@@ -455,9 +455,9 @@
     "name": "Ediloca Security",
     "bundleId": "com.ediloca.security",
     "id": "6738342870",
-    "playstoreVersion": "5.7.3",
-    "playstoreReleaseNote": "Fix some known issues",
-    "playstoreReleaseDate": "2025-02-23",
+    "playstoreVersion": "5.9.1",
+    "playstoreReleaseNote": "Fix some known issues.",
+    "playstoreReleaseDate": "2025-12-10",
     "appstoreVersion": "5.7.3",
     "appstoreReleaseNote": "Fix some know issues",
     "appstoreReleaseDate": "2025-02-26"
