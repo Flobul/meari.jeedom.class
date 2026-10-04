@@ -109,8 +109,7 @@
         "PRIVACY": "https://static-eus.s3.eu-central-1.amazonaws.com/common/app/privacyAgreement/108/en/Privacy.html"
     },
     "109": {
-        "AGREEMENT": "Service Agreement of Cloud Top Smart Platform",
-        "PRIVACY": "style=\"layout-grid:15.6000pt;\" ><p class=MsoNormal  style=\"margin-top:5.0000pt;margin-bottom:5.0000pt;mso-margin-top-alt:auto;\r\nmso-margin-bottom-alt:auto;mso-pagination:widow-orphan;mso-outline-level:3;\" ><b><i><span style=\"mso-spacerun:'yes';font-family:'Century Gothic';mso-fareast-font-family:\u00cb\u00ce\u00cc\u00e5;\r\nmso-bidi-font-family:\u00cb\u00ce\u00cc\u00e5;color:rgb(17,17,17);font-weight:bold;\r\nfont-style:italic;font-size:13.5000pt;mso-font-kerning:0.0000pt;\" >Cloud Top"
+        "AGREEMENT": "Service Agreement of Cloud Top Smart Platform"
     },
     "112": {
         "AGREEMENT": "Service Agreement of Deatti Smart Platform",
